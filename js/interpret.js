@@ -4,7 +4,7 @@
    ============================================================ */
 'use strict';
 
-const INTERPRET_API = 'http://localhost:8000';
+const INTERPRET_API = 'https://dreamward-production.up.railway.app';
 
 // ─── Main View Router ───────────────────────────────────────────
 

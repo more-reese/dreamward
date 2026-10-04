@@ -16,7 +16,7 @@ const COMPARE_ROWS = [
   { key: 'region',                label: 'Region'        },
 ];
 
-const COMPARE_API = 'http://localhost:8000';
+const COMPARE_API = 'https://dreamward-production.up.railway.app';
 
 function renderComparator() {
   const list       = window.AppState.comparatorList;
