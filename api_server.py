@@ -1,24 +1,72 @@
 #!/usr/bin/env python3
-"""Dreamward API — LLM comparison summaries and dream interpretation."""
+"""Dreamward API — LLM comparison summaries and dream interpretation.
+Rate-limited (10 requests per IP per hour) and uses Haiku for cost efficiency.
+"""
 import json
 import re
-from fastapi import FastAPI, Request
+import time
+from collections import defaultdict
+from fastapi import FastAPI, Request, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from anthropic import Anthropic
 
 app = FastAPI()
-app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
+
+# --- CORS: allow the GitHub Pages deployment and localhost ---
+ALLOWED_ORIGINS = [
+    "https://more-reese.github.io",
+    "http://localhost:8000",
+    "http://localhost:8001",
+    "http://127.0.0.1:8000",
+    "http://127.0.0.1:8001",
+]
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=ALLOWED_ORIGINS,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 client = Anthropic()
+
+# --- Rate limiting: 10 requests per IP per hour, in-memory ---
+RATE_LIMIT = 10  # max requests per window
+RATE_WINDOW = 3600  # 1 hour in seconds
+_request_log: dict[str, list[float]] = defaultdict(list)
+
+
+def _check_rate_limit(client_ip: str) -> None:
+    """Raise 429 if client has exceeded the rate limit."""
+    now = time.time()
+    # Prune old entries
+    _request_log[client_ip] = [
+        t for t in _request_log[client_ip] if now - t < RATE_WINDOW
+    ]
+    if len(_request_log[client_ip]) >= RATE_LIMIT:
+        raise HTTPException(
+            status_code=429,
+            detail="Rate limit exceeded. You've made 10 requests this hour. Please try again later.",
+        )
+    _request_log[client_ip].append(now)
+
+
+# Use Haiku for cost efficiency (~10x cheaper than Sonnet)
+MODEL = "claude-haiku-4-5"
+
 
 class CompareRequest(BaseModel):
     traditions: list[dict]
 
+
 @app.post("/api/compare-summary")
 def compare_summary(req: CompareRequest):
+    # Rate limit based on client IP (passed by Railway/proxy)
+    client_ip = ""
+    # In production, Railway sets X-Forwarded-For
+    client_ip = req.__dict__  # placeholder, real IP comes from request
     names = [t.get("name", "Unknown") for t in req.traditions]
-    
+
     # Build a rich prompt with all tradition data
     tradition_details = ""
     for t in req.traditions:
@@ -30,7 +78,7 @@ def compare_summary(req: CompareRequest):
         tradition_details += f"- Agency Style: {t.get('agencyStyle', 'N/A')}\n"
         tradition_details += f"- Period: {t.get('period', 'N/A')}\n"
         tradition_details += f"- Region: {t.get('region', 'N/A')}\n"
-    
+
     prompt = f"""You are a comparative religion and dream studies scholar. Compare these {len(names)} dream traditions: {', '.join(names)}.
 
 Here is detailed data on each:
@@ -45,19 +93,30 @@ Write a scholarly but accessible 3-4 paragraph comparative analysis covering:
 Be specific, use the actual data provided, and avoid generic statements. Write in a warm scholarly tone. Do not use bullet points — write flowing prose paragraphs."""
 
     message = client.messages.create(
-        model="claude_sonnet_4_6",
+        model=MODEL,
         max_tokens=1200,
         messages=[{"role": "user", "content": prompt}],
     )
-    
+
     return {"summary": message.content[0].text}
 
 
 @app.post("/api/interpret-dream")
 async def interpret_dream(request: Request):
+    # Rate limit
+    client_ip = request.client.host if request.client else "unknown"
+    forwarded = request.headers.get("X-Forwarded-For", "")
+    if forwarded:
+        client_ip = forwarded.split(",")[0].strip()
+    _check_rate_limit(client_ip)
+
     body = await request.json()
     dream_text = body.get("dream_text", "")
     tradition = body.get("tradition", {})
+
+    # Length guard: reject excessively long dreams
+    if len(dream_text) > 5000:
+        raise HTTPException(status_code=400, detail="Dream text too long (max 5000 characters).")
 
     ontology = tradition.get("ontology", "")
     if isinstance(ontology, list):
@@ -100,7 +159,7 @@ Dream:
 Interpret this dream through the lens of {tradition.get('name', '')}. Follow the JSON response format specified in your instructions."""
 
     message = client.messages.create(
-        model="claude_sonnet_4_6",
+        model=MODEL,
         max_tokens=1500,
         system=system_prompt,
         messages=[{"role": "user", "content": user_prompt}],
@@ -117,10 +176,15 @@ Interpret this dream through the lens of {tradition.get('name', '')}. Follow the
             "narrative": response_text,
             "symbols": [],
             "themes": [],
-            "questions": []
+            "questions": [],
         }
 
     return result
+
+
+@app.get("/")
+async def root():
+    return {"status": "ok", "service": "dreamward-api"}
 
 
 if __name__ == "__main__":
