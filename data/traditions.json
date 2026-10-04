@@ -1,0 +1,1303 @@
+[
+  {
+    "id": "tibetan-dream-yoga-wangyal-rinpoche",
+    "entryType": "Tradition",
+    "cluster": "Eastern Philosophical & Contemplative",
+    "name": "Tibetan Dream Yoga (Wangyal Rinpoche)",
+    "epistemologyPrimary": "Phenomenological-contemplative",
+    "epistemologySecondary": "Revelatory",
+    "ontology": [
+      "State of consciousness",
+      "Alternate world/journey"
+    ],
+    "functions": [
+      "Moral/spiritual instruction & liberation",
+      "Healing",
+      "Emotional regulation/processing"
+    ],
+    "institutionalHome": "Monastery/ashram (Bon/Tibetan Buddhist lineage)",
+    "agencyStyle": "Shape",
+    "agencyNotes": "",
+    "period": "Classical–Contemporary",
+    "region": "Tibet; Global",
+    "keyFigures": [
+      "Tenzin Wangyal Rinpoche — The Tibetan Yogas of Dream and Sleep",
+      "Namkhai Norbu — Dream Yoga and the Practice of Natural Light"
+    ],
+    "sourceNotes": "Primary: Wangyal's own texts (lineage holder, Indigenous voice). Secondary: Western Buddhist studies commentaries. Flag: modernized/globalized presentation may soften traditional esoteric framing.",
+    "restAnalyzed": true,
+    "dreamKeywords": [
+      "lucidity",
+      "awareness",
+      "emptiness",
+      "bardo",
+      "sleep",
+      "liberation",
+      "yoga",
+      "Tibet",
+      "consciousness",
+      "illusory",
+      "meditation",
+      "luminosity"
+    ]
+  },
+  {
+    "id": "jungian-dream-tradition",
+    "entryType": "Tradition",
+    "cluster": "Depth & Clinical Psychology",
+    "name": "Jungian Dream Tradition",
+    "epistemologyPrimary": "Hermeneutic-clinical",
+    "epistemologySecondary": "Phenomenological-contemplative",
+    "ontology": [
+      "Symbolic text",
+      "Message (from unconscious)",
+      "State of consciousness"
+    ],
+    "functions": [
+      "Moral/spiritual instruction (individuation)",
+      "Emotional regulation/processing",
+      "Creativity/problem-solving"
+    ],
+    "institutionalHome": "Clinic; Analytic training institutes",
+    "agencyStyle": "Decode (primarily); Shape (active imagination)",
+    "agencyNotes": "",
+    "period": "Early–Mid 20th c. → ongoing",
+    "region": "Europe; Global",
+    "keyFigures": [
+      "Carl Jung — Dreams (CW vol. 4, 8, 12, 16)",
+      "Man and His Symbols",
+      "James Hall — Jungian Dream Interpretation"
+    ],
+    "sourceNotes": "Primary: Jung's Collected Works. Secondary: post-Jungian analysts. Flag: Jung's own theoretical framework is both the object of study and the interpretive lens — circular risk.",
+    "restAnalyzed": true,
+    "dreamKeywords": [
+      "archetype",
+      "shadow",
+      "anima",
+      "animus",
+      "symbol",
+      "unconscious",
+      "individuation",
+      "mandala",
+      "persona",
+      "collective",
+      "amplification",
+      "compensation"
+    ]
+  },
+  {
+    "id": "neurocognitive-theory-of-dreams-domhoff",
+    "entryType": "Tradition",
+    "cluster": "Cognitive & Quantitative Psychology",
+    "name": "Neurocognitive Theory of Dreams (Domhoff)",
+    "epistemologyPrimary": "Empirical-experimental",
+    "epistemologySecondary": "(none)",
+    "ontology": [
+      "Simulation (embodied",
+      "default network)",
+      "Brain process"
+    ],
+    "functions": [
+      "Minimal/byproduct — expresses personal concerns & social networks",
+      "no strong adaptive function claimed"
+    ],
+    "institutionalHome": "Academic psychology/neuroscience; sleep labs",
+    "agencyStyle": "Neither (Describe/Measure)",
+    "agencyNotes": "",
+    "period": "Late 20th c.–present",
+    "region": "North America",
+    "keyFigures": [
+      "G. William Domhoff — The Scientific Study of Dreams",
+      "Finding Meaning in Dreams",
+      "dreams.ucsc.edu",
+      "Hall & Van de Castle coding system"
+    ],
+    "sourceNotes": "Primary: Domhoff's peer-reviewed publications and UCSC website (publicly accessible data). Flag: content-analysis method assumes dream reports accurately reflect dream experience — validity of self-report.",
+    "restAnalyzed": true,
+    "dreamKeywords": [
+      "default network",
+      "cognition",
+      "waking concerns",
+      "continuity",
+      "simulation",
+      "neural",
+      "personal concerns",
+      "content analysis",
+      "brain",
+      "statistical"
+    ]
+  },
+  {
+    "id": "activation-synthesis-hypothesis-hobson-mccarley",
+    "entryType": "Tradition",
+    "cluster": "Neurobiological & Evolutionary",
+    "name": "Activation-Synthesis Hypothesis (Hobson & McCarley)",
+    "epistemologyPrimary": "Empirical-experimental",
+    "epistemologySecondary": "(none)",
+    "ontology": [
+      "Brain process",
+      "Simulation (weak — narrative imposed on random activation)"
+    ],
+    "functions": [
+      "Originally none (epiphenomenal byproduct of REM)",
+      "Later AIM revisions add weak functional nuance"
+    ],
+    "institutionalHome": "Neuroscience/sleep medicine labs",
+    "agencyStyle": "Neither",
+    "agencyNotes": "",
+    "period": "1977–present",
+    "region": "USA",
+    "keyFigures": [
+      "Hobson & McCarley (1977) — The brain as a dream state generator (Am. J. Psychiatry)",
+      "Hobson — The Dreaming Brain",
+      "Dreaming: An Introduction to the Science of Sleep"
+    ],
+    "sourceNotes": "Primary: original 1977 paper + Hobson's subsequent books. Flag: strong reductionist stance — meaning and interpretation deliberately excluded. AIM model (2000) partially softens but still minimizes psychological function.",
+    "restAnalyzed": true,
+    "dreamKeywords": [
+      "brainstem",
+      "REM",
+      "random activation",
+      "synthesis",
+      "neural firing",
+      "AIM model",
+      "sleep cycle",
+      "pontine",
+      "hallucination",
+      "epiphenomenal"
+    ]
+  },
+  {
+    "id": "anishinaabeojibwe-dreaming",
+    "entryType": "Tradition",
+    "cluster": "Indigenous & Shamanic Traditions",
+    "name": "Anishinaabe/Ojibwe Dreaming",
+    "epistemologyPrimary": "Pragmatic-participatory",
+    "epistemologySecondary": "Revelatory",
+    "ontology": [
+      "Message (spirits/ancestors/animals)",
+      "Alternate world/journey",
+      "State of consciousness (equally real as waking)"
+    ],
+    "functions": [
+      "Moral/spiritual instruction",
+      "Divination/decision",
+      "Healing (physical & psychological)",
+      "Social/collective meaning-making"
+    ],
+    "institutionalHome": "Village/kin network; Ceremonial societies; Contemporary Indigenous scholarship",
+    "agencyStyle": "Both (Decode + Shape)",
+    "agencyNotes": "",
+    "period": "Pre-contact–present",
+    "region": "Great Lakes; Subarctic; North America",
+    "keyFigures": [
+      "A. Irving Hallowell — Ojibwa Ontology, Behavior, and World View",
+      "Kim TallBear & Vine Deloria Jr. — Indigenous methodologies",
+      "Leanne Betasamosake Simpson — As We Have Always Done"
+    ],
+    "sourceNotes": "CRITICAL FLAGS: (1) Hallowell = non-Indigenous anthropologist (1930s–50s). (2) No single unified written canon — oral tradition. (3) Anishinaabe-authored sources (Simpson, TallBear) = treat as primary Indigenous theoretical voices. (4) Do not generalize across Anishinaabe communities.",
+    "restAnalyzed": true,
+    "dreamKeywords": [
+      "vision quest",
+      "spirit",
+      "ancestor",
+      "animal",
+      "medicine",
+      "ceremony",
+      "sacred",
+      "teaching",
+      "guardian",
+      "tobacco",
+      "offering",
+      "community"
+    ]
+  },
+  {
+    "id": "dream-engineering-tmr-dormio",
+    "entryType": "Tradition",
+    "cluster": "Contemporary, Frontier, & Esoteric",
+    "name": "Dream Engineering (TMR / Dormio)",
+    "epistemologyPrimary": "Empirical-experimental",
+    "epistemologySecondary": "(none)",
+    "ontology": [
+      "Brain process"
+    ],
+    "functions": [
+      "Biological/neurological",
+      "Creativity/problem-solving",
+      "Healing (experimental)"
+    ],
+    "institutionalHome": "Lab (neuroscience / engineering)",
+    "agencyStyle": "Shape (external; dreamer is substrate)",
+    "agencyNotes": "",
+    "period": "Contemporary (2010s–present)",
+    "region": "USA; Europe",
+    "keyFigures": [
+      "Adam Haar Horowitz (Dormio)",
+      "Ken Paller (TMR)",
+      "Robert Stickgold. Key texts: peer-reviewed papers",
+      "MIT Media Lab publications."
+    ],
+    "sourceNotes": "Flag: very new field; most results are proof-of-concept not replicated at scale. Flag: no established ontology; purely interventionist. Flag: ethics literature underdeveloped.",
+    "restAnalyzed": true,
+    "dreamKeywords": [
+      "targeted memory",
+      "incubation",
+      "hypnagogia",
+      "technology",
+      "sensor",
+      "sleep onset",
+      "creativity",
+      "intervention",
+      "device",
+      "stimulation"
+    ]
+  },
+  {
+    "id": "gestalt-dreamwork",
+    "entryType": "Tradition",
+    "cluster": "Depth & Clinical Psychology",
+    "name": "Gestalt Dreamwork",
+    "epistemologyPrimary": "Phenomenological-contemplative",
+    "epistemologySecondary": "Pragmatic-participatory",
+    "ontology": [
+      "Symbolic text (but all symbols = self)",
+      "State of consciousness"
+    ],
+    "functions": [
+      "Emotional regulation/processing",
+      "Creativity/problem-solving"
+    ],
+    "institutionalHome": "Clinic (therapeutic practice)",
+    "agencyStyle": "Neither Decode nor Shape; Re-identification (becoming the content)",
+    "agencyNotes": "",
+    "period": "Modern (1950s–present)",
+    "region": "Germany; USA; Global",
+    "keyFigures": [
+      "Fritz Perls",
+      "Erving Polster. Key texts: Gestalt Therapy Verbatim (Perls)",
+      "Creative Process in Gestalt Therapy (Zinker)."
+    ],
+    "sourceNotes": "Flag: Perls's demonstrations are performative not systematic; limited empirical validation. Flag: often conflated with other experiential therapies. Flag: the tradition explicitly rejects external interpretation.",
+    "restAnalyzed": true,
+    "dreamKeywords": [
+      "projection",
+      "identification",
+      "empty chair",
+      "hot seat",
+      "existential",
+      "here and now",
+      "unfinished",
+      "fragmentation",
+      "re-owning",
+      "embodiment"
+    ]
+  },
+  {
+    "id": "islamic-oneirocriticism",
+    "entryType": "Tradition",
+    "cluster": "Western Religious & Mystical",
+    "name": "Islamic Oneirocriticism",
+    "epistemologyPrimary": "Revelatory",
+    "epistemologySecondary": "Omen/manual",
+    "ontology": [
+      "Message (from God or Shaytan)",
+      "Symbolic text"
+    ],
+    "functions": [
+      "Divination/decision/legitimation",
+      "Moral/spiritual instruction",
+      "Healing"
+    ],
+    "institutionalHome": "Scholarly/theological community; Court (historical)",
+    "agencyStyle": "Decode (with theological constraints); dreamer depends on interpreter",
+    "agencyNotes": "",
+    "period": "Classical (7th c.–present)",
+    "region": "Middle East; Global Islamic",
+    "keyFigures": [
+      "Ibn Sirin",
+      "al-Nabulusi",
+      "Prophet Muhammad (hadith). Key texts: Tafsir al-Ahlam (Ibn Sirin)",
+      "various hadith collections."
+    ],
+    "sourceNotes": "Flag: many dream manuals attributed to Ibn Sirin are likely pseudepigraphic. Flag: Western scholarship often reduces Islamic oneirocriticism to superstition. Flag: theological regulatory edges are very heavy.",
+    "restAnalyzed": true,
+    "dreamKeywords": [
+      "prophet",
+      "revelation",
+      "interpretation",
+      "piety",
+      "divine",
+      "demonic",
+      "soul",
+      "hadith",
+      "vision",
+      "faith",
+      "night",
+      "warning"
+    ]
+  },
+  {
+    "id": "ot-biblical-prophetic-dreaming",
+    "entryType": "Tradition",
+    "cluster": "Western Religious & Mystical",
+    "name": "OT Biblical Prophetic Dreaming",
+    "epistemologyPrimary": "Revelatory",
+    "epistemologySecondary": "(none)",
+    "ontology": [
+      "Message (from God)"
+    ],
+    "functions": [
+      "Divination/decision/legitimation",
+      "Moral/spiritual instruction"
+    ],
+    "institutionalHome": "Court/state (Pharaoh, Nebuchadnezzar); Prophetic community",
+    "agencyStyle": "Neither (dreamer has zero agency; God initiates)",
+    "agencyNotes": "",
+    "period": "Ancient (c. 1000–400 BCE textual)",
+    "region": "Ancient Near East",
+    "keyFigures": [
+      "Joseph",
+      "Daniel",
+      "God (YHWH). Key texts: Genesis 37–41",
+      "Daniel 2, 4, 7."
+    ],
+    "sourceNotes": "Flag: we only have the textual tradition not ethnographic accounts. Flag: the tradition has a built-in expiration (cessation of prophecy). Flag: interpreter role is divinely gifted not trained.",
+    "restAnalyzed": true,
+    "dreamKeywords": [
+      "prophecy",
+      "God",
+      "vision",
+      "Joseph",
+      "Daniel",
+      "Pharaoh",
+      "divine message",
+      "interpretation",
+      "covenant",
+      "angel",
+      "revelation"
+    ]
+  },
+  {
+    "id": "zhuangzi-butterfly-dream",
+    "entryType": "Provocation",
+    "cluster": "Eastern Philosophical & Contemplative",
+    "name": "Zhuangzi (Butterfly Dream)",
+    "epistemologyPrimary": "Phenomenological-contemplative",
+    "epistemologySecondary": "(none)",
+    "ontology": [
+      "State of consciousness (undecidable)",
+      "Alternate world/journey (undecidable)"
+    ],
+    "functions": [
+      "(none claimed",
+      "the text refuses functional claims)"
+    ],
+    "institutionalHome": "Philosophical text / intellectual tradition",
+    "agencyStyle": "Neither (refusal to resolve)",
+    "agencyNotes": "",
+    "period": "Ancient (c. 4th c. BCE)",
+    "region": "China",
+    "keyFigures": [
+      "Zhuangzi. Key texts: Zhuangzi ch. 2 (Qi Wu Lun / Discussion on Making All Things Equal)."
+    ],
+    "sourceNotes": "Flag: this may not qualify as a tradition under the operational definition (answers <2 of ontology/function/method/validation). Flag: frequently domesticated into a simple lesson. Flag: later Taoist practice traditions absorb it but change its character.",
+    "restAnalyzed": false,
+    "dreamKeywords": [
+      "butterfly",
+      "transformation",
+      "illusion",
+      "waking",
+      "identity",
+      "Dao",
+      "paradox",
+      "uncertainty",
+      "boundaries",
+      "relativism",
+      "skepticism"
+    ]
+  },
+  {
+    "id": "imagery-rehearsal-therapy-irt",
+    "entryType": "Tradition",
+    "cluster": "Cognitive & Quantitative Psychology",
+    "name": "Imagery Rehearsal Therapy (IRT)",
+    "epistemologyPrimary": "Pragmatic-participatory",
+    "epistemologySecondary": "Empirical-experimental",
+    "ontology": [
+      "(none",
+      "deliberately refuses ontological commitment)"
+    ],
+    "functions": [
+      "Healing (nightmare reduction)",
+      "Emotional regulation/trauma processing"
+    ],
+    "institutionalHome": "Clinic (CBT-oriented)",
+    "agencyStyle": "Shape (but only over replacement imagery; not over original dream)",
+    "agencyNotes": "",
+    "period": "Contemporary (1990s–present)",
+    "region": "USA; Global",
+    "keyFigures": [
+      "Barry Krakow. Key texts: Imagery Rehearsal Therapy for Chronic Nightmares (Krakow & Zadra)",
+      "multiple RCTs."
+    ],
+    "sourceNotes": "Flag: strong empirical base (RCTs for PTSD nightmare reduction). Flag: deliberately excludes interpretation and ontological claims. Flag: when combined with trauma therapies (CPT/PE) the pragmatic purity is challenged.",
+    "restAnalyzed": true,
+    "dreamKeywords": [
+      "nightmare",
+      "rehearsal",
+      "PTSD",
+      "trauma",
+      "imagery",
+      "rescripting",
+      "therapy",
+      "sleep quality",
+      "control",
+      "cognitive behavioral"
+    ]
+  },
+  {
+    "id": "hallvan-de-castle-coding-system",
+    "entryType": "Tradition",
+    "cluster": "Cognitive & Quantitative Psychology",
+    "name": "Hall/Van de Castle Coding System",
+    "epistemologyPrimary": "Empirical-experimental",
+    "epistemologySecondary": "Descriptive/quantitative",
+    "ontology": [
+      "Measurable cognitive output",
+      "Statistical data (dreams as texts to be coded, not interpreted)"
+    ],
+    "functions": [
+      "Establishing cross-cultural and demographic baselines",
+      "quantitative comparison of dream content"
+    ],
+    "institutionalHome": "Academic psychology labs (UC Santa Cruz, DreamBank)",
+    "agencyStyle": "Describe/Measure (statistically, not symbolically)",
+    "agencyNotes": "",
+    "period": "1960s–present",
+    "region": "North America (global application)",
+    "keyFigures": [
+      "Calvin Hall, Robert Van de Castle — The Content Analysis of Dreams (1966)",
+      "Adam Schneider — DreamSAT",
+      "dreambank.net"
+    ],
+    "sourceNotes": "Rejects latent/hidden meaning entirely. Bias: can strip emotional resonance in favor of raw categorization. Strength: high intercoder reliability (76-93% agreement). Foundation for Domhoff's neurocognitive work.",
+    "restAnalyzed": true,
+    "dreamKeywords": [
+      "coding",
+      "content analysis",
+      "characters",
+      "aggression",
+      "interaction",
+      "emotion",
+      "norms",
+      "statistics",
+      "categories",
+      "quantitative"
+    ]
+  },
+  {
+    "id": "continuity-hypothesis",
+    "entryType": "Tradition",
+    "cluster": "Cognitive & Quantitative Psychology",
+    "name": "Continuity Hypothesis",
+    "epistemologyPrimary": "Empirical-experimental",
+    "epistemologySecondary": "Phenomenological",
+    "ontology": [
+      "Cognitive extension of waking conceptual system",
+      "Simulation (embodied, default network)"
+    ],
+    "functions": [
+      "Reflecting waking concerns, conceptions, and social networks in dream content"
+    ],
+    "institutionalHome": "Academic psychology & cognitive science labs",
+    "agencyStyle": "Describe/Observe",
+    "agencyNotes": "",
+    "period": "1990s–present",
+    "region": "North America",
+    "keyFigures": [
+      "G. William Domhoff — The Scientific Study of Dreams",
+      "Finding Meaning in Dreams",
+      "Calvin Hall (original formulation)"
+    ],
+    "sourceNotes": "Key empirical discovery replicated many times. Directly challenges Freudian disguise-censorship and Activation-Synthesis randomness. Bias: focuses on content continuity, may underplay discontinuities and bizarre elements.",
+    "restAnalyzed": true,
+    "dreamKeywords": [
+      "waking life",
+      "continuity",
+      "personal concerns",
+      "social network",
+      "reflection",
+      "daily experience",
+      "coherence",
+      "consistency",
+      "cognition"
+    ]
+  },
+  {
+    "id": "cognitive-experiential-model-hill",
+    "entryType": "Tradition",
+    "cluster": "Cognitive & Quantitative Psychology",
+    "name": "Cognitive-Experiential Model (Hill)",
+    "epistemologyPrimary": "Clinical-therapeutic",
+    "epistemologySecondary": "Phenomenological",
+    "ontology": [
+      "Meaningful psychological narrative",
+      "problem-solving space",
+      "extension of waking thoughts"
+    ],
+    "functions": [
+      "Emotional processing",
+      "therapeutic insight",
+      "waking-life action planning"
+    ],
+    "institutionalHome": "Counseling psychology programs (University of Maryland)",
+    "agencyStyle": "Decode & Shape (therapeutic action)",
+    "agencyNotes": "",
+    "period": "1990s–present",
+    "region": "North America",
+    "keyFigures": [
+      "Clara E. Hill — Dream Work in Therapy",
+      "Hill & Rochlen (2002) cognitive-experiential model paper"
+    ],
+    "sourceNotes": "Three-stage model: Exploration, Insight, Action. Integrates humanistic, Gestalt, psychoanalytic, cognitive, and behavioral approaches. Bias: designed for clinical efficacy rather than establishing neurological truths. Therapist as guide not expert.",
+    "restAnalyzed": true,
+    "dreamKeywords": [
+      "exploration",
+      "insight",
+      "action",
+      "therapeutic",
+      "counseling",
+      "stages",
+      "meaning",
+      "waking-life",
+      "integration",
+      "facilitation"
+    ]
+  },
+  {
+    "id": "cognitive-developmental-theory-foulkes",
+    "entryType": "Tradition",
+    "cluster": "Cognitive & Quantitative Psychology",
+    "name": "Cognitive Developmental Theory (Foulkes)",
+    "epistemologyPrimary": "Empirical-experimental",
+    "epistemologySecondary": "Developmental",
+    "ontology": [
+      "High-level cognitive achievement",
+      "symbolic thinking product of waking mind"
+    ],
+    "functions": [
+      "Epiphenomenal (byproduct of waking mind's organizing capacity)"
+    ],
+    "institutionalHome": "Developmental psychology & sleep laboratories",
+    "agencyStyle": "Describe/Observe",
+    "agencyNotes": "",
+    "period": "1960s–1990s",
+    "region": "North America",
+    "keyFigures": [
+      "David Foulkes — Children's Dreaming and the Development of Consciousness"
+    ],
+    "sourceNotes": "Groundbreaking for proving dreams develop in tandem with visuospatial skills. Bias: controversially argues infants/toddlers lack rich narrative dream lives due to absent cognitive architecture. Lab-based serial awakening methodology.",
+    "restAnalyzed": true,
+    "dreamKeywords": [
+      "children",
+      "development",
+      "cognition",
+      "visuospatial",
+      "maturation",
+      "consciousness",
+      "narrative",
+      "age",
+      "capacity",
+      "symbolic thinking"
+    ]
+  },
+  {
+    "id": "expectation-fulfillment-theory",
+    "entryType": "Tradition",
+    "cluster": "Cognitive & Quantitative Psychology",
+    "name": "Expectation Fulfillment Theory",
+    "epistemologyPrimary": "Clinical-therapeutic",
+    "epistemologySecondary": "Evolutionary",
+    "ontology": [
+      "Metaphorical simulation of emotional arousal"
+    ],
+    "functions": [
+      "Metabolizing unacted-upon emotional arousals and unmet expectations from waking day"
+    ],
+    "institutionalHome": "Human Givens Institute",
+    "agencyStyle": "Decode/Resolve",
+    "agencyNotes": "",
+    "period": "1990s–present",
+    "region": "United Kingdom",
+    "keyFigures": [
+      "Joe Griffin, Ivan Tyrrell — Dreaming Reality"
+    ],
+    "sourceNotes": "Posits emotional expectations metaphorically completed in dream deactivate arousal. Bias: exists outside mainstream academic consensus; tied to specific Human Givens therapeutic framework.",
+    "restAnalyzed": true,
+    "dreamKeywords": [
+      "expectation",
+      "arousal",
+      "metaphor",
+      "emotional",
+      "unfulfilled",
+      "deactivation",
+      "depression",
+      "REM",
+      "autonomic",
+      "completion"
+    ]
+  },
+  {
+    "id": "mesopotamian-oneiromancy",
+    "entryType": "Tradition",
+    "cluster": "Ancient & Classical Worldviews",
+    "name": "Mesopotamian Oneiromancy",
+    "epistemologyPrimary": "Revelatory/Omen",
+    "epistemologySecondary": "Manual-based",
+    "ontology": [
+      "External messages from gods/demons",
+      "predictive signs"
+    ],
+    "functions": [
+      "Predicting the future",
+      "warning of divine displeasure",
+      "apotropaic protection"
+    ],
+    "institutionalHome": "Royal courts & temples",
+    "agencyStyle": "Decode/Ward off",
+    "agencyNotes": "",
+    "period": "c. 3000–500 BCE",
+    "region": "Ancient Near East",
+    "keyFigures": [
+      "Zaqiqu (Dream Book)",
+      "Assurbanipal's library tablets"
+    ],
+    "sourceNotes": "Highly deterministic; dreams required apotropaic rituals to cancel bad omens. State-sponsored divination integrated with other omen systems (extispicy, astrology).",
+    "restAnalyzed": true,
+    "dreamKeywords": [
+      "omen",
+      "gods",
+      "demons",
+      "tablet",
+      "ritual",
+      "apotropaic",
+      "divination",
+      "temple",
+      "cuneiform",
+      "protection",
+      "Assurbanipal"
+    ]
+  },
+  {
+    "id": "ancient-egyptian-dream-tradition",
+    "entryType": "Tradition",
+    "cluster": "Ancient & Classical Worldviews",
+    "name": "Ancient Egyptian Dream Tradition",
+    "epistemologyPrimary": "Revelatory/Prophetic",
+    "epistemologySecondary": "Manual-based",
+    "ontology": [
+      "Divine oracles",
+      "glimpses of the Duat (underworld)"
+    ],
+    "functions": [
+      "Statecraft",
+      "medical diagnosis",
+      "future-telling"
+    ],
+    "institutionalHome": "Temples of Serapis/Imhotep",
+    "agencyStyle": "Decode/Incubate",
+    "agencyNotes": "",
+    "period": "c. 2000 BCE–300 CE",
+    "region": "Egypt",
+    "keyFigures": [
+      "Chester Beatty Papyrus III",
+      "Deir el-Medina dream records"
+    ],
+    "sourceNotes": "Heavily relied on linguistic puns and wordplay in Egyptian to determine meaning. Temple incubation (sleeping in sacred space to receive divine dreams).",
+    "restAnalyzed": true,
+    "dreamKeywords": [
+      "pharaoh",
+      "temple",
+      "oracle",
+      "Duat",
+      "incubation",
+      "Serapis",
+      "papyrus",
+      "healing",
+      "underworld",
+      "hieroglyphic",
+      "puns"
+    ]
+  },
+  {
+    "id": "ancient-greek-asclepian-healing",
+    "entryType": "Tradition",
+    "cluster": "Ancient & Classical Worldviews",
+    "name": "Ancient Greek Asclepian Healing",
+    "epistemologyPrimary": "Revelatory/Healing",
+    "epistemologySecondary": "Somatic-experiential",
+    "ontology": [
+      "Direct divine encounter",
+      "healing vision"
+    ],
+    "functions": [
+      "Physical healing",
+      "receiving medical prescriptions from Asclepius"
+    ],
+    "institutionalHome": "Asclepieion sanctuaries",
+    "agencyStyle": "Incubate/Partner",
+    "agencyNotes": "",
+    "period": "c. 500 BCE–500 CE",
+    "region": "Greece/Roman Empire",
+    "keyFigures": [
+      "Asclepius",
+      "Galen",
+      "Aelius Aristides — Sacred Tales"
+    ],
+    "sourceNotes": "Dreamer slept in abaton surrounded by sacred snakes/dogs. Thousands of votive tablets record cures. Bias: heavy placebo/expectation effect likely. Transition point between religious and proto-medical dream use.",
+    "restAnalyzed": true,
+    "dreamKeywords": [
+      "Asclepius",
+      "healing",
+      "temple",
+      "snake",
+      "incubation",
+      "sanctuary",
+      "divine",
+      "cure",
+      "abaton",
+      "pilgrimage",
+      "vision"
+    ]
+  },
+  {
+    "id": "greco-roman-oneirocriticism",
+    "entryType": "Tradition",
+    "cluster": "Ancient & Classical Worldviews",
+    "name": "Greco-Roman Oneirocriticism",
+    "epistemologyPrimary": "Manual-based/Omen",
+    "epistemologySecondary": "Observational",
+    "ontology": [
+      "Predictive symbols vs. bodily residues (enhypnion vs. oneiros)"
+    ],
+    "functions": [
+      "Navigating daily life, business, and social standing"
+    ],
+    "institutionalHome": "Secular diviners; educated professionals",
+    "agencyStyle": "Decode",
+    "agencyNotes": "",
+    "period": "2nd Century CE",
+    "region": "Greco-Roman World",
+    "keyFigures": [
+      "Artemidorus — Oneirocritica",
+      "Macrobius — Commentary on the Dream of Scipio"
+    ],
+    "sourceNotes": "Separated meaningless somatic dreams from prophetic ones. Highly status-conscious interpretation (same symbol means different things for slave vs. free person). First systematic classification of dream types.",
+    "restAnalyzed": true,
+    "dreamKeywords": [
+      "Artemidorus",
+      "classification",
+      "predictive",
+      "somatic",
+      "status",
+      "interpretation",
+      "omen",
+      "symbol",
+      "diviner",
+      "manual"
+    ]
+  },
+  {
+    "id": "australian-aboriginal-the-dreaming",
+    "entryType": "Tradition",
+    "cluster": "Indigenous & Shamanic Traditions",
+    "name": "Australian Aboriginal (The Dreaming)",
+    "epistemologyPrimary": "Mythic/Ancestral",
+    "epistemologySecondary": "Experiential",
+    "ontology": [
+      "A parallel, eternal every-when reality (Alcheringa/Tjukurpa)",
+      "not sleep-state specific"
+    ],
+    "functions": [
+      "Accessing sacred law",
+      "navigating geography",
+      "confirming totemic identity",
+      "maintaining Country"
+    ],
+    "institutionalHome": "Kin networks/Elders",
+    "agencyStyle": "Participate/Observe",
+    "agencyNotes": "",
+    "period": "Pre-history–present",
+    "region": "Australia",
+    "keyFigures": [
+      "Alcheringa/Tjukurpa (concept)",
+      "Stanner — The Dreaming (1956 essay)"
+    ],
+    "sourceNotes": "Dreaming is not just sleep-state but the generative fabric of reality itself. Critical bias: Western term dreaming is a reductive mistranslation. Enormous internal diversity across language groups. Treat with extreme care re: sacred/restricted knowledge.",
+    "restAnalyzed": true,
+    "dreamKeywords": [
+      "Dreaming",
+      "ancestral",
+      "Tjukurpa",
+      "Country",
+      "songline",
+      "creation",
+      "sacred",
+      "law",
+      "eternal",
+      "totem",
+      "landscape"
+    ]
+  },
+  {
+    "id": "iroquois-ononharoia",
+    "entryType": "Tradition",
+    "cluster": "Indigenous & Shamanic Traditions",
+    "name": "Iroquois (Ononharoia)",
+    "epistemologyPrimary": "Revelatory/Somatic",
+    "epistemologySecondary": "Communal",
+    "ontology": [
+      "Expressions of the soul's literal desires"
+    ],
+    "functions": [
+      "Preventing illness by fulfilling soul-wishes via community action",
+      "social cohesion"
+    ],
+    "institutionalHome": "Tribal councils; longhouse communities",
+    "agencyStyle": "Act/Resolve",
+    "agencyNotes": "",
+    "period": "Pre-contact–present",
+    "region": "North America (Haudenosaunee)",
+    "keyFigures": [
+      "Jesuit Relations (historical records)",
+      "Midwinter Dream Festival (Ononharoia)"
+    ],
+    "sourceNotes": "Community obligated to guess and fulfill the dream, making it a powerful social safety net. Closest parallel to group therapy in any pre-modern tradition. Bias: primary sources are colonial Jesuit accounts.",
+    "restAnalyzed": true,
+    "dreamKeywords": [
+      "soul wish",
+      "community",
+      "festival",
+      "healing",
+      "fulfillment",
+      "Midwinter",
+      "longhouse",
+      "obligation",
+      "Haudenosaunee",
+      "desire"
+    ]
+  },
+  {
+    "id": "mapuche-pewma",
+    "entryType": "Tradition",
+    "cluster": "Indigenous & Shamanic Traditions",
+    "name": "Mapuche (Pewma)",
+    "epistemologyPrimary": "Revelatory",
+    "epistemologySecondary": "Shamanic-experiential",
+    "ontology": [
+      "Literal journeys of the soul",
+      "contact with weku mapu (spirit world)"
+    ],
+    "functions": [
+      "Diagnosing illness",
+      "foreseeing community events",
+      "validating machi (shaman) vocation"
+    ],
+    "institutionalHome": "Machi (shamans); community elders",
+    "agencyStyle": "Journey/Decode",
+    "agencyNotes": "",
+    "period": "Pre-contact–present",
+    "region": "Chile/Argentina",
+    "keyFigures": [
+      "Mapuche oral tradition",
+      "Course — Mapuche ethno-medicine literature"
+    ],
+    "sourceNotes": "Dreams are primary epistemological tools; a machi cannot practice without valid pewma. Active contemporary tradition. Bias: colonial/missionary accounts distort; prioritize Mapuche-authored scholarship.",
+    "restAnalyzed": true,
+    "dreamKeywords": [
+      "pewma",
+      "machi",
+      "shaman",
+      "spirit world",
+      "soul journey",
+      "diagnosis",
+      "vocation",
+      "ancestor",
+      "Chile",
+      "healing",
+      "weku mapu"
+    ]
+  },
+  {
+    "id": "hindu-upanishadic-dream-theory",
+    "entryType": "Tradition",
+    "cluster": "Eastern Philosophical & Contemplative",
+    "name": "Hindu Upanishadic Dream Theory",
+    "epistemologyPrimary": "Contemplative",
+    "epistemologySecondary": "Metaphysical",
+    "ontology": [
+      "Svapna (distinct state of consciousness)",
+      "self-illuminated creations of Atman"
+    ],
+    "functions": [
+      "Transitional space between waking (Jagrat) and formless consciousness (Sushupti)",
+      "spiritual development"
+    ],
+    "institutionalHome": "Vedic ashrams/gurukulas; philosophical schools",
+    "agencyStyle": "Observe/Transcend",
+    "agencyNotes": "",
+    "period": "c. 800 BCE–present",
+    "region": "India",
+    "keyFigures": [
+      "Mandukya Upanishad",
+      "Brihadaranyaka Upanishad",
+      "Shankara's commentaries"
+    ],
+    "sourceNotes": "Dreams as one of four states of consciousness (AUM). The dreamer creates entire worlds from self-luminous awareness. Foundational for later Buddhist and Yogic dream practices. Bias: textual/elite tradition may not represent folk Hindu dream practices.",
+    "restAnalyzed": true,
+    "dreamKeywords": [
+      "Atman",
+      "consciousness",
+      "svapna",
+      "Mandukya",
+      "AUM",
+      "Brahman",
+      "self-luminous",
+      "jagrat",
+      "sushupti",
+      "turiya",
+      "Upanishad"
+    ]
+  },
+  {
+    "id": "daoist-dream-tradition-internal-alchemy",
+    "entryType": "Tradition",
+    "cluster": "Eastern Philosophical & Contemplative",
+    "name": "Daoist Dream Tradition (Internal Alchemy)",
+    "epistemologyPrimary": "Contemplative",
+    "epistemologySecondary": "Metaphysical",
+    "ontology": [
+      "Wandering of the hun (ethereal soul)",
+      "dream as liminal space between yin/yang"
+    ],
+    "functions": [
+      "Aligning with the Dao",
+      "refining vital energy (Qi)",
+      "spiritual cultivation"
+    ],
+    "institutionalHome": "Daoist temples/hermitages; lineage-based transmission",
+    "agencyStyle": "Observe/Harmonize",
+    "agencyNotes": "",
+    "period": "c. 4th Century BCE–present",
+    "region": "China",
+    "keyFigures": [
+      "Zhuangzi (Butterfly Dream, ch. 2)",
+      "Ge Hong",
+      "later neidan (internal alchemy) texts"
+    ],
+    "sourceNotes": "Famously questions boundary between waking and dreaming (Butterfly Dream paradox). Later internal alchemy traditions use dream practice for cultivation. Bias: frequently domesticated into simple relativism lesson; actual Daoist dream practice traditions are sophisticated and diverse.",
+    "restAnalyzed": true,
+    "dreamKeywords": [
+      "hun",
+      "soul",
+      "Qi",
+      "alchemy",
+      "Dao",
+      "yin",
+      "yang",
+      "cultivation",
+      "butterfly",
+      "Zhuangzi",
+      "immortality",
+      "neidan"
+    ]
+  },
+  {
+    "id": "talmudic-jewish-dream-tradition",
+    "entryType": "Tradition",
+    "cluster": "Western Religious & Mystical",
+    "name": "Talmudic Jewish Dream Tradition",
+    "epistemologyPrimary": "Revelatory",
+    "epistemologySecondary": "Hermeneutic (textual)",
+    "ontology": [
+      "Subjective experience requiring communal validation",
+      "divine communication filtered through human interpretation"
+    ],
+    "functions": [
+      "Divine communication requiring interpretation to become real",
+      "moral/spiritual instruction"
+    ],
+    "institutionalHome": "Rabbinic academies; synagogues",
+    "agencyStyle": "Decode/Reframe",
+    "agencyNotes": "",
+    "period": "c. 200 CE–present",
+    "region": "Middle East/Global",
+    "keyFigures": [
+      "Babylonian Talmud (Tractate Berakhot 55a-57b)",
+      "Hatavat Chalom ritual"
+    ],
+    "sourceNotes": "A dream uninterpreted is like a letter unread. Features Hatavat Chalom (ritual to transform bad dream into good). Sophisticated: same dream can have multiple valid interpretations. Interpretation itself has creative/performative power.",
+    "restAnalyzed": true,
+    "dreamKeywords": [
+      "interpretation",
+      "Talmud",
+      "Berakhot",
+      "letter unread",
+      "ritual",
+      "rabbi",
+      "prophecy",
+      "mouth",
+      "Hatavat Chalom",
+      "multiple meanings"
+    ]
+  },
+  {
+    "id": "early-christianpatristic-dream-tradition",
+    "entryType": "Tradition",
+    "cluster": "Western Religious & Mystical",
+    "name": "Early Christian/Patristic Dream Tradition",
+    "epistemologyPrimary": "Revelatory",
+    "epistemologySecondary": "Theological",
+    "ontology": [
+      "External visitations (angelic/demonic) or somatic residue"
+    ],
+    "functions": [
+      "Discerning spirits",
+      "moral testing",
+      "divine communication (with suspicion)"
+    ],
+    "institutionalHome": "Church Fathers/monastic orders",
+    "agencyStyle": "Discern/Observe",
+    "agencyNotes": "",
+    "period": "2nd–5th Century CE",
+    "region": "Mediterranean",
+    "keyFigures": [
+      "Augustine (De Genesi ad Litteram)",
+      "Tertullian (De Anima)",
+      "Gregory the Great",
+      "Synesius of Cyrene"
+    ],
+    "sourceNotes": "Deep suspicion of dreams as potential entry points for demonic deception. Augustine distinguished types of visions. Tension between accepting biblical dream revelations and distrusting contemporary ones. Led to institutional suppression of dream authority.",
+    "restAnalyzed": true,
+    "dreamKeywords": [
+      "discernment",
+      "demon",
+      "angel",
+      "Augustine",
+      "temptation",
+      "vision",
+      "suspicion",
+      "moral",
+      "patristic",
+      "Church Fathers",
+      "spirit"
+    ]
+  },
+  {
+    "id": "freudian-psychoanalysis",
+    "entryType": "Tradition",
+    "cluster": "Depth & Clinical Psychology",
+    "name": "Freudian Psychoanalysis",
+    "epistemologyPrimary": "Clinical-therapeutic",
+    "epistemologySecondary": "Hermeneutic",
+    "ontology": [
+      "Disguised wish-fulfillment (latent vs. manifest content)",
+      "dreams as guardians of sleep"
+    ],
+    "functions": [
+      "Protecting sleep",
+      "venting repressed infantile/sexual drives",
+      "royal road to the unconscious"
+    ],
+    "institutionalHome": "Psychoanalytic institutes; clinical practice",
+    "agencyStyle": "Decode",
+    "agencyNotes": "",
+    "period": "1899–present",
+    "region": "Europe/Global",
+    "keyFigures": [
+      "Sigmund Freud — The Interpretation of Dreams (1900)",
+      "Die Traumdeutung"
+    ],
+    "sourceNotes": "Foundational modern dream theory. Bias: highly deterministic; overly reliant on sexual/aggressive drives; makes analyst ultimate authority on meaning. Free association method. Dreamwork mechanisms: condensation, displacement, symbolization, secondary revision. Massively influential even where rejected.",
+    "restAnalyzed": true,
+    "dreamKeywords": [
+      "wish fulfillment",
+      "unconscious",
+      "repression",
+      "latent content",
+      "manifest content",
+      "free association",
+      "condensation",
+      "displacement",
+      "Oedipus",
+      "sexuality",
+      "censorship"
+    ]
+  },
+  {
+    "id": "threat-simulation-theory-tst",
+    "entryType": "Tradition",
+    "cluster": "Neurobiological & Evolutionary",
+    "name": "Threat Simulation Theory (TST)",
+    "epistemologyPrimary": "Empirical-experimental",
+    "epistemologySecondary": "Evolutionary",
+    "ontology": [
+      "Evolutionary virtual reality",
+      "offline threat rehearsal"
+    ],
+    "functions": [
+      "Practicing threat-recognition and avoidance to increase survival fitness"
+    ],
+    "institutionalHome": "University of Turku; evolutionary psychology",
+    "agencyStyle": "Observe/Describe",
+    "agencyNotes": "",
+    "period": "2000–present",
+    "region": "Finland",
+    "keyFigures": [
+      "Antti Revonsuo — The Reinterpretation of Dreams (2000)",
+      "Valli & Revonsuo studies"
+    ],
+    "sourceNotes": "Explains why nightmares and negative emotions dominate dreams globally. Supported by cross-cultural data showing threat content overrepresentation. Bias: less effective explaining mundane, abstract, or positive dreams. Ancestral environment assumption.",
+    "restAnalyzed": true,
+    "dreamKeywords": [
+      "threat",
+      "survival",
+      "evolution",
+      "nightmare",
+      "rehearsal",
+      "ancestral",
+      "danger",
+      "fight",
+      "flight",
+      "negative emotion",
+      "simulation"
+    ]
+  },
+  {
+    "id": "active-system-consolidation",
+    "entryType": "Tradition",
+    "cluster": "Neurobiological & Evolutionary",
+    "name": "Active System Consolidation",
+    "epistemologyPrimary": "Empirical-experimental",
+    "epistemologySecondary": "Neurobiological",
+    "ontology": [
+      "Offline memory processing",
+      "hippocampal-neocortical dialogue during sleep"
+    ],
+    "functions": [
+      "Transferring memories from hippocampus to neocortex for long-term storage",
+      "emotional stripping"
+    ],
+    "institutionalHome": "Sleep & memory labs (global)",
+    "agencyStyle": "Observe",
+    "agencyNotes": "",
+    "period": "1990s–present",
+    "region": "Global",
+    "keyFigures": [
+      "Jan Born",
+      "Matthew Walker — Why We Sleep",
+      "Robert Stickgold",
+      "Susanne Diekelmann"
+    ],
+    "sourceNotes": "Linked with sleep to forget, sleep to remember framework (stripping emotion from trauma while retaining information). Strong experimental evidence from TMR studies. Bias: primarily about sleep function, dream content is secondary/epiphenomenal to the consolidation process.",
+    "restAnalyzed": true,
+    "dreamKeywords": [
+      "memory",
+      "consolidation",
+      "hippocampus",
+      "neocortex",
+      "sleep spindle",
+      "slow wave",
+      "replay",
+      "transfer",
+      "learning",
+      "emotional stripping"
+    ]
+  },
+  {
+    "id": "lucid-dreaming-scientific",
+    "entryType": "Tradition",
+    "cluster": "Contemporary, Frontier, & Esoteric",
+    "name": "Lucid Dreaming (Scientific)",
+    "epistemologyPrimary": "Empirical-experimental",
+    "epistemologySecondary": "Experiential",
+    "ontology": [
+      "Conscious awareness within the REM state",
+      "metacognitive hybrid state"
+    ],
+    "functions": [
+      "Nightmare resolution",
+      "motor-skill rehearsal",
+      "psychological exploration",
+      "creativity"
+    ],
+    "institutionalHome": "Stanford University/Lucidity Institute; sleep labs globally",
+    "agencyStyle": "Shape/Control",
+    "agencyNotes": "",
+    "period": "1980s–present",
+    "region": "North America/Global",
+    "keyFigures": [
+      "Stephen LaBerge — Exploring the World of Lucid Dreaming",
+      "Keith Hearne (1978 first verification)",
+      "Ursula Voss"
+    ],
+    "sourceNotes": "Validated via pre-arranged eye-movement signals during REM. Bias: over-focus on control can disrupt natural self-regulating functions of standard dreaming. Bridges contemplative traditions (dream yoga) and neuroscience. Growing clinical applications.",
+    "restAnalyzed": true,
+    "dreamKeywords": [
+      "lucid",
+      "awareness",
+      "control",
+      "REM",
+      "eye signal",
+      "metacognition",
+      "MILD",
+      "WILD",
+      "LaBerge",
+      "consciousness",
+      "volitional"
+    ]
+  },
+  {
+    "id": "mutual-dreaming-parapsychology",
+    "entryType": "Tradition",
+    "cluster": "Contemporary, Frontier, & Esoteric",
+    "name": "Mutual Dreaming / Parapsychology",
+    "epistemologyPrimary": "Anecdotal/Fringe",
+    "epistemologySecondary": "Experiential",
+    "ontology": [
+      "Non-local shared consciousness",
+      "telepathic dream communication"
+    ],
+    "functions": [
+      "Interpersonal communication",
+      "expanded consciousness",
+      "psi research"
+    ],
+    "institutionalHome": "Independent/Rhine Research Center; Maimonides Dream Lab",
+    "agencyStyle": "Partner/Shape",
+    "agencyNotes": "",
+    "period": "1970s–present",
+    "region": "Global",
+    "keyFigures": [
+      "Montague Ullman",
+      "Stanley Krippner — Dream Telepathy (1973)",
+      "Linda Lane Magallón"
+    ],
+    "sourceNotes": "Highly controversial; lacks reproducible empirical backing but persistent phenomenological claims. Maimonides experiments showed suggestive but non-replicable results. Important as boundary case for the project: tests limits of empirical-experimental epistemology.",
+    "restAnalyzed": true,
+    "dreamKeywords": [
+      "telepathy",
+      "shared dream",
+      "ESP",
+      "Maimonides",
+      "psi",
+      "connection",
+      "sender",
+      "receiver",
+      "paranormal",
+      "non-local",
+      "consciousness"
+    ]
+  }
+]

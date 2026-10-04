@@ -1,0 +1,1872 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dreamward — A Comparative Atlas of Dream Traditions</title>
+  <meta name="description" content="A scholarly atlas mapping the world's dream traditions — their ontologies, epistemologies, and interpretive methods.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/graph.css">
+  <link rel="stylesheet" href="./css/matrix.css">
+  <link rel="stylesheet" href="./css/resources.css">
+  <link rel="stylesheet" href="./css/glossary.css">
+  <link rel="stylesheet" href="./css/about.css">
+  <link rel="stylesheet" href="./css/interpret.css">
+
+  <!-- D3 v7 -->
+  <script src="https://d3js.org/d3.v7.min.js" defer></script>
+
+  <!-- App scripts -->
+  <script src="./js/main.js" defer></script>
+  <script src="./js/dream-entry.js" defer></script>
+  <script src="./js/graph.js" defer></script>
+  <script src="./js/matrix.js" defer></script>
+  <script src="./js/profile.js" defer></script>
+  <script src="./js/comparator.js" defer></script>
+  <script src="./js/resources.js" defer></script>
+  <script src="./js/glossary.js" defer></script>
+  <script src="./js/about.js" defer></script>
+  <script src="./js/interpret.js" defer></script>
+
+  <style>
+    /* ── Entry View ─────────────────────────────────────── */
+    .entry-view {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100dvh;
+      padding: var(--space-16) var(--space-8);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .entry-bg {
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 60% 50% at 50% 60%, rgba(201,168,76,0.04) 0%, transparent 70%),
+        radial-gradient(ellipse 80% 60% at 20% 30%, rgba(138,116,168,0.03) 0%, transparent 60%);
+      pointer-events: none;
+    }
+
+    .entry-wordmark {
+      font-family: var(--font-body);
+      font-size: var(--text-xs);
+      font-weight: 600;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      color: var(--color-primary);
+      margin-bottom: var(--space-4);
+    }
+
+    .entry-title {
+      font-family: var(--font-display);
+      font-size: var(--text-2xl);
+      font-weight: 400;
+      color: var(--color-text);
+      text-align: center;
+      margin-bottom: var(--space-3);
+      line-height: 1.1;
+    }
+
+    .entry-subtitle {
+      font-size: var(--text-sm);
+      color: var(--color-text-muted);
+      text-align: center;
+      margin-bottom: var(--space-12);
+      letter-spacing: 0.02em;
+      font-style: italic;
+      font-family: var(--font-display);
+    }
+
+    .entry-form {
+      width: 100%;
+      max-width: 640px;
+      position: relative;
+    }
+
+    .entry-textarea {
+      width: 100%;
+      min-height: 180px;
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      padding: var(--space-5) var(--space-6);
+      font-family: var(--font-display);
+      font-size: var(--text-base);
+      color: var(--color-text);
+      resize: vertical;
+      transition: border-color var(--transition-interactive), box-shadow var(--transition-interactive);
+      line-height: 1.7;
+    }
+
+    .entry-textarea::placeholder {
+      color: var(--color-text-faint);
+      font-style: italic;
+    }
+
+    .entry-textarea:focus {
+      outline: none;
+      border-color: rgba(201,168,76,0.4);
+      box-shadow: 0 0 0 3px rgba(201,168,76,0.07), var(--shadow-lg);
+    }
+
+    .entry-actions {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: var(--space-4);
+      margin-top: var(--space-5);
+    }
+
+    .entry-submit-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-2);
+      padding: var(--space-3) var(--space-8);
+      background: var(--color-primary);
+      color: var(--color-text-inverse);
+      border: none;
+      border-radius: var(--radius-sm);
+      font-size: var(--text-sm);
+      font-weight: 500;
+      letter-spacing: 0.03em;
+      cursor: pointer;
+      transition: all var(--transition-interactive);
+    }
+
+    .entry-submit-btn:hover {
+      background: var(--color-primary-hover);
+      box-shadow: var(--shadow-gold);
+    }
+
+    .entry-explore-link {
+      font-size: var(--text-xs);
+      color: var(--color-text-faint);
+      cursor: pointer;
+      transition: color var(--transition-interactive);
+      background: none;
+      border: none;
+    }
+
+    .entry-explore-link:hover { color: var(--color-text-muted); }
+
+    .entry-explore-link span {
+      color: var(--color-primary);
+      transition: color var(--transition-interactive);
+    }
+
+    /* ── Profile View ──────────────────────────────────── */
+    .profile-view {
+      flex: 1;
+    }
+
+    .profile-inner {
+      max-width: var(--content-wide);
+      margin: 0 auto;
+      padding: var(--space-12) var(--space-8);
+      display: grid;
+      grid-template-columns: 1fr 300px;
+      gap: var(--space-12);
+      align-items: start;
+    }
+
+    .profile-back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-2);
+      font-size: var(--text-xs);
+      color: var(--color-text-faint);
+      cursor: pointer;
+      background: none;
+      border: none;
+      margin-bottom: var(--space-8);
+      padding: var(--space-2) 0;
+      transition: color var(--transition-interactive);
+    }
+    .profile-back-btn:hover { color: var(--color-text-muted); }
+
+    .profile-cluster-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-2);
+      font-size: var(--text-xs);
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: var(--space-4);
+    }
+
+    .profile-name {
+      font-family: var(--font-display);
+      font-size: var(--text-2xl);
+      font-weight: 500;
+      color: var(--color-text);
+      margin-bottom: var(--space-4);
+      line-height: 1.15;
+    }
+
+    .profile-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-2);
+      margin-bottom: var(--space-10);
+    }
+
+    .profile-tag {
+      font-size: var(--text-xs);
+      padding: var(--space-1) var(--space-3);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-full);
+      color: var(--color-text-muted);
+      background: var(--color-surface);
+    }
+
+    .profile-section {
+      margin-bottom: var(--space-10);
+    }
+
+    .profile-section-heading {
+      font-size: var(--text-xs);
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--color-text-faint);
+      margin-bottom: var(--space-4);
+      padding-bottom: var(--space-3);
+      border-bottom: 1px solid var(--color-divider);
+    }
+
+    .profile-prose {
+      font-size: var(--text-base);
+      color: var(--color-text-muted);
+      line-height: 1.75;
+      max-width: 68ch;
+    }
+
+    .profile-prose p + p { margin-top: var(--space-4); }
+
+    .profile-key-figures {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-2);
+    }
+
+    .profile-key-figure {
+      font-size: var(--text-sm);
+      color: var(--color-text-muted);
+      padding-left: var(--space-4);
+      border-left: 2px solid var(--color-primary-dim);
+      line-height: 1.5;
+    }
+
+    .profile-source-note {
+      font-size: var(--text-sm);
+      color: var(--color-text-muted);
+      line-height: 1.7;
+      font-style: italic;
+    }
+
+    .bias-flag {
+      background: rgba(176,128,80,0.12);
+      color: #c98b50;
+      border-radius: var(--radius-sm);
+      padding: 1px 4px;
+      font-style: normal;
+      font-size: 0.9em;
+    }
+
+    .profile-resources {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-3);
+    }
+
+    .resource-item {
+      padding: var(--space-4);
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+    }
+
+    .resource-item-title {
+      font-size: var(--text-sm);
+      color: var(--color-text);
+      margin-bottom: var(--space-1);
+      font-weight: 500;
+      line-height: 1.4;
+    }
+
+    .resource-item-meta {
+      font-size: var(--text-xs);
+      color: var(--color-text-faint);
+      display: flex;
+      gap: var(--space-3);
+      flex-wrap: wrap;
+    }
+
+    .resource-type-badge {
+      padding: 1px 6px;
+      border-radius: var(--radius-full);
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      background: var(--color-surface-raised);
+      color: var(--color-text-faint);
+    }
+
+    .resource-item-links {
+      display: flex;
+      gap: var(--space-2);
+      margin-top: var(--space-2);
+    }
+
+    .resource-link-badge {
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      padding: 2px 8px;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--color-border);
+      color: var(--color-text-faint);
+      text-decoration: none;
+      transition: all var(--transition-interactive);
+      cursor: pointer;
+    }
+
+    .resource-link-badge:hover {
+      border-color: var(--color-primary);
+      color: var(--color-primary);
+      background: rgba(201,168,76,0.08);
+    }
+
+    .resource-link-badge--doi {
+      border-color: rgba(201,168,76,0.35);
+      color: var(--color-primary);
+    }
+
+    .resource-link-badge--scholar {
+      border-style: dashed;
+    }
+
+    /* ── Profile Sidebar ───────────────────────────────── */
+    .profile-sidebar {
+      position: sticky;
+      top: calc(52px + var(--space-8));
+    }
+
+    .sidebar-meta-card {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      padding: var(--space-5);
+      margin-bottom: var(--space-4);
+    }
+
+    .sidebar-meta-title {
+      font-size: var(--text-xs);
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--color-text-faint);
+      margin-bottom: var(--space-4);
+    }
+
+    .sidebar-meta-row {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-1);
+      padding: var(--space-3) 0;
+      border-bottom: 1px solid var(--color-divider);
+    }
+
+    .sidebar-meta-row:last-child { border-bottom: none; }
+
+    .sidebar-meta-key {
+      font-size: var(--text-xs);
+      color: var(--color-text-faint);
+      font-weight: 500;
+    }
+
+    .sidebar-meta-value {
+      font-size: var(--text-xs);
+      color: var(--color-text-muted);
+      line-height: 1.5;
+    }
+
+    .sidebar-actions {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-2);
+    }
+
+    /* ── Comparator View ──────────────────────────────── */
+    .compare-view {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .compare-header {
+      padding: var(--space-8) var(--space-8) var(--space-6);
+      border-bottom: 1px solid var(--color-divider);
+    }
+
+    .compare-header-title {
+      font-family: var(--font-display);
+      font-size: var(--text-xl);
+      font-weight: 400;
+      color: var(--color-text);
+      margin-bottom: var(--space-2);
+    }
+
+    .compare-header-sub {
+      font-size: var(--text-sm);
+      color: var(--color-text-muted);
+    }
+
+    .compare-empty {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: var(--space-4);
+      color: var(--color-text-faint);
+    }
+
+    .compare-empty-icon {
+      opacity: 0.3;
+    }
+
+    .compare-empty-text {
+      font-size: var(--text-sm);
+      color: var(--color-text-faint);
+      text-align: center;
+      max-width: 400px;
+      line-height: 1.6;
+    }
+
+    .compare-table-wrap {
+      flex: 1;
+      overflow: auto;
+      padding: var(--space-6) var(--space-8);
+    }
+
+    .compare-table {
+      min-width: 600px;
+    }
+
+    .compare-table th {
+      vertical-align: top;
+      padding: var(--space-4);
+      text-align: left;
+      font-weight: 400;
+    }
+
+    .compare-col-header {
+      position: relative;
+      min-width: 200px;
+    }
+
+    .compare-col-name {
+      font-family: var(--font-display);
+      font-size: var(--text-lg);
+      color: var(--color-text);
+      margin-bottom: var(--space-2);
+      line-height: 1.2;
+    }
+
+    .compare-remove-btn {
+      position: absolute;
+      top: 0;
+      right: var(--space-4);
+      font-size: var(--text-xs);
+      color: var(--color-text-faint);
+      padding: var(--space-1);
+      transition: color var(--transition-interactive);
+    }
+    .compare-remove-btn:hover { color: var(--color-notification); }
+
+    .compare-row-label-col {
+      font-size: var(--text-xs);
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--color-text-faint);
+      padding: var(--space-4);
+      vertical-align: middle;
+      white-space: nowrap;
+      min-width: 140px;
+    }
+
+    .compare-cell {
+      padding: var(--space-4);
+      font-size: var(--text-sm);
+      color: var(--color-text-muted);
+      vertical-align: top;
+      border-top: 1px solid var(--color-divider);
+      line-height: 1.5;
+    }
+
+    .compare-cell.shared {
+      background: rgba(201,168,76,0.05);
+      color: var(--color-text);
+    }
+
+    .compare-add-col {
+      padding: var(--space-4);
+      vertical-align: top;
+      border-top: 1px solid var(--color-divider);
+    }
+
+    .compare-add-btn {
+      display: flex;
+      align-items: center;
+      gap: var(--space-2);
+      font-size: var(--text-xs);
+      color: var(--color-text-faint);
+      padding: var(--space-2) var(--space-3);
+      border: 1px dashed var(--color-border);
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      transition: all var(--transition-interactive);
+      background: none;
+    }
+    .compare-add-btn:hover {
+      color: var(--color-primary);
+      border-color: rgba(201,168,76,0.35);
+      background: var(--color-primary-dim);
+    }
+
+    /* ── Add to compare search modal ─────────────────── */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      z-index: 400;
+      background: rgba(0,0,0,0.7);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: var(--space-8);
+      backdrop-filter: blur(4px);
+    }
+
+    .modal-overlay.open { display: flex; }
+
+    .modal {
+      background: var(--color-surface-2);
+      border: 1px solid var(--color-border-strong);
+      border-radius: var(--radius-xl);
+      width: 100%;
+      max-width: 520px;
+      max-height: 80vh;
+      display: flex;
+      flex-direction: column;
+      box-shadow: var(--shadow-xl);
+    }
+
+    .modal-header {
+      padding: var(--space-5) var(--space-6);
+      border-bottom: 1px solid var(--color-divider);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .modal-title {
+      font-size: var(--text-sm);
+      font-weight: 500;
+      color: var(--color-text);
+    }
+
+    .modal-close {
+      font-size: var(--text-lg);
+      color: var(--color-text-faint);
+      padding: var(--space-1);
+      transition: color var(--transition-interactive);
+    }
+    .modal-close:hover { color: var(--color-text); }
+
+    .modal-search {
+      padding: var(--space-4) var(--space-6);
+      border-bottom: 1px solid var(--color-divider);
+    }
+
+    .modal-search input {
+      width: 100%;
+      background: var(--color-surface-offset);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-sm);
+      padding: var(--space-3) var(--space-4);
+      font-size: var(--text-sm);
+      color: var(--color-text);
+      transition: border-color var(--transition-interactive);
+    }
+    .modal-search input:focus {
+      outline: none;
+      border-color: rgba(201,168,76,0.4);
+    }
+    .modal-search input::placeholder { color: var(--color-text-faint); }
+
+    .modal-list {
+      flex: 1;
+      overflow-y: auto;
+      padding: var(--space-3) var(--space-3);
+    }
+
+    .modal-list-item {
+      display: flex;
+      align-items: flex-start;
+      gap: var(--space-3);
+      padding: var(--space-3) var(--space-3);
+      border-radius: var(--radius-md);
+      cursor: pointer;
+      transition: background var(--transition-interactive);
+    }
+    .modal-list-item:hover { background: var(--color-surface-offset); }
+
+    .modal-list-item-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      margin-top: 5px;
+      flex-shrink: 0;
+    }
+
+    .modal-list-item-name {
+      font-size: var(--text-sm);
+      color: var(--color-text);
+      line-height: 1.4;
+    }
+
+    .modal-list-item-cluster {
+      font-size: var(--text-xs);
+      color: var(--color-text-faint);
+    }
+
+    /* ── Loading State ────────────────────────────────── */
+    .loading-screen {
+      position: fixed;
+      inset: 0;
+      z-index: 999;
+      background: var(--color-bg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: var(--space-4);
+      transition: opacity 300ms ease;
+    }
+
+    .loading-screen.fade-out {
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .loading-wordmark {
+      font-family: var(--font-body);
+      font-size: var(--text-xs);
+      font-weight: 600;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      color: var(--color-primary);
+    }
+
+    .loading-bar {
+      width: 120px;
+      height: 1px;
+      background: var(--color-border);
+      border-radius: 1px;
+      overflow: hidden;
+    }
+
+    .loading-bar-fill {
+      height: 100%;
+      background: var(--color-primary);
+      border-radius: 1px;
+      animation: loadFill 1s cubic-bezier(0.16,1,0.3,1) forwards;
+    }
+
+    @keyframes loadFill {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+
+    /* ── Match Results ────────────────────────────────── */
+    .match-results {
+      position: absolute;
+      top: var(--space-6);
+      right: var(--space-6);
+      z-index: 50;
+      width: 290px;
+      background: rgba(20,20,20,0.95);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      padding: var(--space-5);
+      backdrop-filter: blur(12px);
+      box-shadow: var(--shadow-lg);
+      max-height: 70vh;
+      overflow-y: auto;
+    }
+
+    .match-results-title {
+      font-size: var(--text-xs);
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--color-primary);
+      margin-bottom: var(--space-3);
+    }
+
+    .match-results-subtitle {
+      font-size: var(--text-xs);
+      color: var(--color-text-faint);
+      margin-bottom: var(--space-4);
+      line-height: 1.5;
+      font-style: italic;
+      font-family: var(--font-display);
+    }
+
+    .match-result-item {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-1);
+      padding: var(--space-3) 0;
+      border-bottom: 1px solid var(--color-divider);
+    }
+
+    .match-result-item:last-child { border-bottom: none; }
+
+    .match-result-header {
+      display: flex;
+      align-items: center;
+      gap: var(--space-2);
+    }
+
+    .match-result-rank {
+      font-size: var(--text-xs);
+      color: var(--color-primary);
+      font-weight: 600;
+      min-width: 20px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .match-result-name {
+      font-size: var(--text-xs);
+      color: var(--color-text-muted);
+      flex: 1;
+      line-height: 1.4;
+    }
+
+    .match-result-score {
+      font-size: var(--text-xs);
+      color: var(--color-text-faint);
+      font-variant-numeric: tabular-nums;
+    }
+
+    .match-keywords {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 3px;
+      padding-left: 20px;
+    }
+
+    .match-kw {
+      font-size: 10px;
+      padding: 1px 5px;
+      border-radius: var(--radius-sm);
+      line-height: 1.5;
+    }
+
+    .match-kw--strong {
+      background: rgba(201,168,76,0.18);
+      color: var(--color-primary);
+    }
+
+    .match-kw--soft {
+      background: rgba(232,227,217,0.08);
+      color: var(--color-text-faint);
+    }
+
+    .match-clear-btn {
+      margin-top: var(--space-3);
+      width: 100%;
+      font-size: var(--text-xs);
+      color: var(--color-text-faint);
+      padding: var(--space-2);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-sm);
+      background: none;
+      cursor: pointer;
+      transition: all var(--transition-interactive);
+      text-align: center;
+    }
+    .match-clear-btn:hover {
+      color: var(--color-text-muted);
+      border-color: var(--color-border-strong);
+    }
+
+    /* ── Match Rationale (Component 2) ───────────────── */
+    .match-rationale {
+      font-size: 11px;
+      color: var(--color-text-muted);
+      line-height: 1.5;
+      padding: 4px 0 4px 20px;
+      font-family: var(--font-body);
+      font-style: italic;
+    }
+
+    .match-kw--dream {
+      background: rgba(232, 227, 217, 0.15);
+      color: var(--color-text);
+      font-size: 10px;
+      padding: 1px 5px;
+      border-radius: var(--radius-sm);
+      line-height: 1.5;
+    }
+
+    .match-kw-group-label {
+      font-size: 9px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--color-text-faint);
+      padding-left: 20px;
+      margin-top: 4px;
+      margin-bottom: 2px;
+    }
+
+    .match-dream-echo {
+      margin-bottom: var(--space-3);
+      font-size: 11px;
+      color: var(--color-text-faint);
+    }
+    .match-dream-echo summary {
+      cursor: pointer;
+      font-size: var(--text-xs);
+      color: var(--color-text-faint);
+      font-style: italic;
+    }
+    .match-dream-text {
+      margin-top: var(--space-2);
+      font-size: 11px;
+      color: var(--color-text-muted);
+      line-height: 1.6;
+      font-family: var(--font-display);
+      max-height: 100px;
+      overflow-y: auto;
+    }
+
+    /* ── Dream Lens (Component 3 — Profile) ──────────── */
+    .dream-lens-section {
+      margin-bottom: var(--space-8);
+    }
+
+    .dream-lens-card {
+      background: rgba(201, 168, 76, 0.04);
+      border: 1px solid rgba(201, 168, 76, 0.2);
+      border-radius: var(--radius-lg);
+      padding: var(--space-5) var(--space-6);
+    }
+
+    .dream-lens-heading {
+      font-family: var(--font-display);
+      font-size: var(--text-sm);
+      font-weight: 500;
+      color: var(--color-primary);
+      letter-spacing: 0.02em;
+      margin-bottom: var(--space-1);
+    }
+
+    .dream-lens-rank {
+      font-size: var(--text-xs);
+      color: var(--color-text-faint);
+      margin-bottom: var(--space-4);
+    }
+
+    .dream-lens-rationale {
+      font-size: var(--text-sm);
+      color: var(--color-text-muted);
+      line-height: 1.7;
+      margin-bottom: var(--space-4);
+      max-width: 60ch;
+    }
+
+    .dream-lens-keywords {
+      display: flex;
+      align-items: flex-start;
+      gap: var(--space-3);
+      flex-wrap: wrap;
+      margin-bottom: var(--space-4);
+    }
+
+    .dream-lens-arrow {
+      color: var(--color-primary);
+      font-size: var(--text-sm);
+      padding-top: 20px;
+      opacity: 0.6;
+    }
+
+    .dream-lens-kw-group {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-2);
+    }
+
+    .dream-lens-kw-label {
+      font-size: 10px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--color-text-faint);
+      font-weight: 500;
+    }
+
+    .dream-lens-kw-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+
+    .dream-lens-kw-pills span {
+      font-size: 11px;
+      padding: 2px 8px;
+      border-radius: var(--radius-sm);
+      line-height: 1.5;
+    }
+
+    /* Dream word pills: cream/neutral */
+    .dream-lens-kw-group:first-child .dream-lens-kw-pills span {
+      background: rgba(232, 227, 217, 0.12);
+      color: var(--color-text);
+    }
+
+    /* Tradition keyword pills: gold */
+    .dream-lens-kw-group:last-child .dream-lens-kw-pills span {
+      background: rgba(201, 168, 76, 0.18);
+      color: var(--color-primary);
+    }
+
+    .dream-lens-dream-echo {
+      margin-top: var(--space-3);
+      font-size: 11px;
+      color: var(--color-text-faint);
+    }
+
+    .dream-lens-dream-echo summary {
+      cursor: pointer;
+      font-size: var(--text-xs);
+      font-style: italic;
+    }
+
+    .dream-lens-dream-echo p {
+      margin-top: var(--space-2);
+      font-size: 11px;
+      line-height: 1.6;
+      color: var(--color-text-muted);
+      font-family: var(--font-display);
+    }
+
+    .dream-lens-dismiss {
+      margin-top: var(--space-3);
+      font-size: var(--text-xs);
+      color: var(--color-text-faint);
+      background: none;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-sm);
+      padding: var(--space-2) var(--space-4);
+      cursor: pointer;
+      transition: all var(--transition-interactive);
+    }
+    .dream-lens-dismiss:hover {
+      color: var(--color-text-muted);
+      border-color: var(--color-border-strong);
+    }
+
+    @media (max-width: 768px) {
+      /* ── Profile (#5) ─────────────────────────── */
+      .profile-inner {
+        grid-template-columns: 1fr;
+        padding: var(--space-6) var(--space-4);
+        gap: var(--space-6);
+      }
+      .profile-sidebar {
+        position: static;
+        order: -1;
+      }
+      .profile-name {
+        font-size: var(--text-xl);
+      }
+      .profile-prose {
+        font-size: var(--text-sm);
+        max-width: 100%;
+      }
+      .profile-section {
+        margin-bottom: var(--space-6);
+      }
+      .profile-back-btn {
+        margin-bottom: var(--space-4);
+      }
+      .sidebar-meta-card {
+        padding: var(--space-4);
+      }
+      .resource-link-badge {
+        min-height: 36px;
+        display: inline-flex;
+        align-items: center;
+        padding: var(--space-2) var(--space-3);
+      }
+
+      /* ── Dream Lens mobile ────────────────────── */
+      .dream-lens-card {
+        padding: var(--space-4);
+      }
+      .dream-lens-keywords {
+        flex-direction: column;
+      }
+      .dream-lens-arrow {
+        transform: rotate(90deg);
+        padding: 0;
+        align-self: center;
+      }
+      .dream-lens-rationale {
+        font-size: var(--text-xs);
+        max-width: 100%;
+      }
+
+      /* ── Entry view (#2) ─────────────────────────── */
+      .entry-view {
+        padding: var(--space-8) var(--space-4);
+        justify-content: flex-start;
+        padding-top: calc(52px + var(--space-8));
+      }
+      .entry-title {
+        font-size: var(--text-xl);
+      }
+      .entry-textarea {
+        min-height: 140px;
+        padding: var(--space-4);
+        font-size: var(--text-sm);
+      }
+      .entry-form {
+        max-width: 100%;
+      }
+      .entry-subtitle {
+        margin-bottom: var(--space-6);
+      }
+      .entry-submit-btn {
+        width: 100%;
+        justify-content: center;
+      }
+
+      /* ── Comparator (#6) ─────────────────────────── */
+      .compare-header {
+        padding: var(--space-6) var(--space-4) var(--space-4);
+      }
+      .compare-header-title {
+        font-size: var(--text-lg);
+      }
+      .compare-table-wrap {
+        padding: var(--space-4);
+        -webkit-overflow-scrolling: touch;
+        position: relative;
+      }
+      .compare-col-header {
+        min-width: 160px;
+      }
+      .compare-row-label-col {
+        min-width: 100px;
+        font-size: 10px;
+      }
+      .compare-cell {
+        font-size: var(--text-xs);
+        min-width: 160px;
+      }
+      .compare-ai-result {
+        padding: var(--space-4);
+      }
+      .compare-add-btn {
+        min-height: 44px;
+      }
+      .compare-empty-text {
+        padding: 0 var(--space-4);
+      }
+
+      /* ── Comparator AI Summary scroll (#14) ──────── */
+      .compare-ai-result {
+        max-height: 60vh;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+      }
+      .compare-ai-body {
+        font-size: var(--text-xs);
+      }
+
+      /* ── Hover Card disabled (#9) ────────────────── */
+      .hover-card { display: none !important; }
+
+      /* ── Modal bottom sheet (#10) ────────────────── */
+      .modal-overlay {
+        padding: 0;
+        align-items: flex-end;
+      }
+      .modal {
+        max-width: 100%;
+        max-height: 90vh;
+        border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+        width: 100%;
+      }
+      .modal-search input {
+        min-height: 44px;
+        font-size: 16px !important;
+      }
+      .modal-list-item {
+        min-height: 48px;
+        padding: var(--space-3) var(--space-4);
+      }
+
+      /* ── Toast above bottom controls (#11) ───────── */
+      .toast {
+        bottom: calc(var(--space-8) + 56px);
+        left: var(--space-4);
+        right: var(--space-4);
+        transform: translateY(20px);
+        text-align: center;
+        max-width: none;
+      }
+      .toast.show {
+        transform: translateY(0);
+      }
+
+      /* ── Global touch & input (#13) ──────────────── */
+      input, select, textarea {
+        font-size: max(16px, var(--text-sm)) !important;
+      }
+      button, .btn, a[role="listitem"], .nav-link,
+      .matrix-card, .modal-list-item, .res-card,
+      [role="button"], [tabindex="0"] {
+        min-height: 44px;
+      }
+      .graph-controls, .match-results, .modal {
+        overscroll-behavior: contain;
+      }
+      .nav {
+        padding-left: max(var(--space-4), env(safe-area-inset-left));
+        padding-right: max(var(--space-4), env(safe-area-inset-right));
+      }
+      body {
+        padding-bottom: env(safe-area-inset-bottom);
+      }
+      .matrix-card, .modal-list-item {
+        -webkit-user-select: none;
+        user-select: none;
+      }
+      .matrix-body, .res-list-wrap, .glossary-list-wrap, .compare-table-wrap {
+        -webkit-overflow-scrolling: touch;
+      }
+
+      /* ── Groupby tooltips — bottom-position on mobile ── */
+      .groupby-tooltip {
+        position: fixed;
+        left: var(--space-4) !important;
+        right: var(--space-4) !important;
+        top: auto !important;
+        bottom: var(--space-8);
+        transform: none !important;
+        width: auto !important;
+        max-width: calc(100vw - 2 * var(--space-4));
+      }
+    }
+
+    /* ── Group By Tooltip ────────────────────────────────── */
+    .groupby-info-wrapper {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-2);
+      position: relative;
+    }
+
+    .groupby-info-icon {
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background: var(--color-surface-raised);
+      border: 1px solid var(--color-border);
+      color: var(--color-text-faint);
+      font-size: 10px;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      cursor: default;
+      flex-shrink: 0;
+      transition: border-color var(--transition-interactive), color var(--transition-interactive);
+      line-height: 1;
+      font-style: normal;
+      font-family: var(--font-body);
+    }
+
+    .groupby-info-icon:hover,
+    .groupby-info-icon:focus-visible {
+      color: var(--color-text-muted);
+      border-color: var(--color-border-strong);
+      outline: none;
+    }
+
+    .groupby-tooltip {
+      position: absolute;
+      top: 50%;
+      left: calc(100% + 10px);
+      transform: translateY(-50%);
+      width: 244px;
+      background: rgba(20,20,20,0.97);
+      border: 1px solid var(--color-border-strong);
+      border-radius: var(--radius-lg);
+      padding: var(--space-4) var(--space-5);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      box-shadow: 0 12px 40px rgba(0,0,0,0.65);
+      z-index: 200;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 150ms ease;
+    }
+
+    .groupby-info-icon:hover + .groupby-tooltip,
+    .groupby-info-icon:focus + .groupby-tooltip {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    /* Resource filter tooltip position — show below instead */
+    .res-filter-tooltip-wrap .groupby-tooltip {
+      top: calc(100% + 8px);
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .groupby-tooltip-option {
+      margin-bottom: var(--space-3);
+    }
+
+    .groupby-tooltip-option:last-child {
+      margin-bottom: 0;
+    }
+
+    .groupby-tooltip-option-label {
+      font-size: var(--text-xs);
+      font-weight: 600;
+      color: var(--color-primary);
+      letter-spacing: 0.04em;
+      margin-bottom: 2px;
+    }
+
+    .groupby-tooltip-option-desc {
+      font-size: 11px;
+      color: var(--color-text-faint);
+      line-height: 1.5;
+    }
+
+    /* ── AI Summary Panel (Comparator) ──────────────────── */
+    .compare-ai-section {
+      margin-top: var(--space-4);
+    }
+
+    .compare-ai-loading {
+      padding: var(--space-6);
+      background: var(--color-surface-2);
+      border-left: 3px solid var(--color-primary);
+      border-radius: var(--radius-md);
+      margin-top: var(--space-4);
+    }
+
+    .compare-ai-result {
+      background: var(--color-surface-2);
+      border-left: 3px solid var(--color-primary);
+      border-radius: var(--radius-md);
+      padding: var(--space-6);
+      margin-top: var(--space-4);
+      position: relative;
+    }
+
+    .compare-ai-error {
+      border-left-color: var(--color-text-faint);
+    }
+
+    .compare-ai-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: var(--space-4);
+    }
+
+    .compare-ai-title {
+      font-family: var(--font-display);
+      font-size: var(--text-sm);
+      font-weight: 500;
+      color: var(--color-text);
+      letter-spacing: 0.02em;
+    }
+
+    .compare-ai-badge {
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--color-primary);
+      background: var(--color-primary-dim);
+      border: 1px solid rgba(201,168,76,0.2);
+      border-radius: var(--radius-full);
+      padding: 2px var(--space-2);
+    }
+
+    .compare-ai-body {
+      font-size: var(--text-sm);
+      line-height: 1.7;
+      color: var(--color-text-muted);
+    }
+
+    .compare-ai-body p {
+      margin-bottom: var(--space-4);
+    }
+
+    .compare-ai-body p:last-child {
+      margin-bottom: 0;
+    }
+
+    .compare-ai-regen {
+      margin-top: var(--space-4);
+    }
+
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Pre-routing: activate correct view based on hash before JS loads -->
+<script>
+(function() {
+  var hash = window.location.hash.replace('#', '');
+  var viewMap = { graph: 'view-graph', matrix: 'view-matrix', compare: 'view-compare', resources: 'view-resources', glossary: 'view-glossary', about: 'view-about', interpret: 'view-interpret' };
+  if (hash && viewMap[hash]) {
+    document.addEventListener('DOMContentLoaded', function() {
+      var views = document.querySelectorAll('.view');
+      views.forEach(function(v) { v.classList.remove('active'); });
+      var target = document.getElementById(viewMap[hash]);
+      if (target) target.classList.add('active');
+    });
+  }
+})();
+</script>
+
+
+<!-- Navigation -->
+<nav class="nav" role="navigation" aria-label="Main navigation">
+  <button class="nav-logo" onclick="navigateTo('entry')" aria-label="Dreamward home">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2z" stroke="currentColor" stroke-width="1.2" style="color: var(--color-primary)"/>
+      <path d="M12 6c0 0 2 3 2 6s-2 6-2 6" stroke="currentColor" stroke-width="1" stroke-linecap="round" style="color: var(--color-primary); opacity: 0.6"/>
+      <path d="M12 6c0 0-2 3-2 6s2 6 2 6" stroke="currentColor" stroke-width="1" stroke-linecap="round" style="color: var(--color-primary); opacity: 0.6"/>
+      <ellipse cx="12" cy="12" rx="7" ry="3.5" stroke="currentColor" stroke-width="1" style="color: var(--color-primary); opacity: 0.4"/>
+    </svg>
+    <span class="nav-logo-text">Dreamward</span>
+  </button>
+
+  <div class="nav-links" role="list">
+    <button class="nav-link" data-view="graph" onclick="navigateTo('graph')" role="listitem">Graph</button>
+    <button class="nav-link" data-view="matrix" onclick="navigateTo('matrix')" role="listitem">Matrix</button>
+    <button class="nav-link" data-view="resources" onclick="navigateTo('resources')" role="listitem">Resources</button>
+    <button class="nav-link" data-view="glossary" onclick="navigateTo('glossary')" role="listitem">Glossary</button>
+    <button class="nav-link" data-view="compare" onclick="navigateTo('compare')" role="listitem">Comparator</button>
+    <button class="nav-link" data-view="interpret" onclick="navigateTo('interpret')" role="listitem">Interpret</button>
+    <button class="nav-link" data-view="about" onclick="navigateTo('about')" role="listitem">About</button>
+  </div>
+
+  <button class="nav-hamburger" onclick="toggleMobileNav()" aria-label="Menu" aria-expanded="false">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+      <path d="M4 7h16M4 12h16M4 17h16"/>
+    </svg>
+  </button>
+
+  <span class="nav-spacer"></span>
+
+  <button class="nav-entry-btn" onclick="navigateTo('entry')" aria-label="New dream entry">
+    New dream
+  </button>
+</nav>
+
+<!-- App Shell -->
+<main class="app-shell" role="main">
+
+  <!-- ── ENTRY VIEW ───────────────────────────────────────── -->
+  <section class="view active" id="view-entry" aria-label="Dream Entry">
+    <div class="entry-view">
+      <div class="entry-bg" aria-hidden="true"></div>
+      <p class="entry-wordmark" aria-hidden="true">Dreamward</p>
+      <h1 class="entry-title">A comparative atlas<br><em>of dream traditions</em></h1>
+      <p class="entry-subtitle">Thirty-two ways of understanding what happens when you sleep</p>
+
+      <form class="entry-form" id="entry-form" onsubmit="handleDreamSubmit(event)">
+        <label for="dream-textarea" class="sr-only">Describe your dream</label>
+        <textarea
+          id="dream-textarea"
+          class="entry-textarea"
+          placeholder="Describe your dream. Write as much or as little as you remember — images, feelings, people, places, fragments..."
+          rows="7"
+          autocomplete="off"
+          spellcheck="false"
+        ></textarea>
+        <div class="entry-actions">
+          <div class="entry-actions-row">
+            <button type="submit" class="entry-submit-btn">
+              Locate me in the atlas
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+            <button type="button" class="entry-interpret-btn" onclick="handleInterpretFromEntry()">
+              Interpret my dream
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                <path d="M8 1v3M8 12v3M1 8h3M12 8h3M3.05 3.05l2.12 2.12M10.83 10.83l2.12 2.12M3.05 12.95l2.12-2.12M10.83 5.17l2.12-2.12" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+              </svg>
+            </button>
+          </div>
+          <button type="button" class="entry-explore-link" onclick="navigateTo('graph')">
+            or <span>explore the atlas directly →</span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ── GRAPH VIEW ───────────────────────────────────────── -->
+  <section class="view" id="view-graph" aria-label="Graph View">
+    <div class="graph-view" id="graph-container">
+      <!-- Controls Panel -->
+      <aside class="graph-controls" aria-label="Graph controls">
+        <p class="graph-controls-title">Atlas</p>
+
+        <div class="graph-controls-section">
+          <div class="groupby-info-wrapper" style="margin-bottom:var(--space-2);">
+            <label class="graph-controls-label" for="group-by-select" style="margin-bottom:0;">Group by</label>
+            <span class="groupby-info-icon" tabindex="0" role="button" aria-label="Explain grouping options">i</span>
+            <div class="groupby-tooltip" role="tooltip">
+              <div class="groupby-tooltip-option">
+                <p class="groupby-tooltip-option-label">Cluster</p>
+                <p class="groupby-tooltip-option-desc">Groups traditions by their thematic family (e.g., Eastern, Indigenous, Depth Psychology)</p>
+              </div>
+              <div class="groupby-tooltip-option">
+                <p class="groupby-tooltip-option-label">Epistemology</p>
+                <p class="groupby-tooltip-option-desc">Arranges traditions by how they claim to generate dream knowledge (e.g., Revelation, Empirical, Introspection)</p>
+              </div>
+              <div class="groupby-tooltip-option">
+                <p class="groupby-tooltip-option-label">Agency Style</p>
+                <p class="groupby-tooltip-option-desc">Separates traditions by the dreamer's role — whether dreams are decoded, shaped, incubated, or observed</p>
+              </div>
+            </div>
+          </div>
+          <select id="group-by-select" onchange="graphGroupBy(this.value)">
+            <option value="cluster">Cluster</option>
+            <option value="epistemology">Epistemology</option>
+            <option value="agency">Agency Style</option>
+          </select>
+        </div>
+
+        <hr class="graph-controls-divider">
+
+        <div class="graph-controls-section">
+          <span class="graph-controls-label">Clusters</span>
+          <div class="cluster-filters" id="cluster-filters" role="group" aria-label="Filter by cluster">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+
+        <hr class="graph-controls-divider">
+
+        <div class="toggle-row">
+          <span>Show connections</span>
+          <label class="toggle-switch" aria-label="Show connections">
+            <input type="checkbox" id="show-connections" checked onchange="graphToggleEdges(this.checked)">
+            <span class="toggle-track"></span>
+          </label>
+        </div>
+
+        <hr class="graph-controls-divider" style="margin-top: var(--space-3);">
+
+        <button class="btn btn-ghost btn-sm" style="width:100%; margin-top:var(--space-2);" onclick="graphReset()">
+          Reset view
+        </button>
+      </aside>
+
+      <!-- SVG Canvas -->
+      <svg id="graph-svg" role="img" aria-label="Dream traditions network graph">
+        <defs>
+          <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="rgba(255,255,255,0.2)"/>
+          </marker>
+        </defs>
+        <g id="graph-root"></g>
+      </svg>
+
+      <!-- Match Results Panel (shown after dream entry) -->
+      <div class="match-results" id="match-results" style="display:none;" role="status">
+        <p class="match-results-title">Resonant traditions</p>
+        <p class="match-results-subtitle" id="match-results-subtitle">Based on your dream</p>
+        <div id="match-dream-echo"></div>
+        <div id="match-results-list"></div>
+        <button class="match-clear-btn" onclick="clearDreamMatch()">Clear dream filter</button>
+        <button class="match-interpret-btn" onclick="handleInterpretFromGraph()">
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M8 1v3M8 12v3M1 8h3M12 8h3M3.05 3.05l2.12 2.12M10.83 10.83l2.12 2.12M3.05 12.95l2.12-2.12M10.83 5.17l2.12-2.12" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+          </svg>
+          Interpret my dream
+        </button>
+      </div>
+
+      <!-- Dream match info banner -->
+      <div class="dream-match-banner" id="dream-match-banner" style="display:none;" role="status">
+        <span class="dream-match-text"><strong>Dream matched.</strong> Highlighted nodes resonate most.</span>
+        <button class="btn btn-ghost btn-sm" onclick="clearDreamMatch()">Clear</button>
+      </div>
+
+      <!-- Node count -->
+      <p class="graph-count-badge" id="graph-count" aria-live="polite"></p>
+    </div>
+  </section>
+
+  <!-- ── MATRIX VIEW ──────────────────────────────────────── -->
+  <section class="view" id="view-matrix" aria-label="Matrix View">
+    <div class="matrix-view">
+      <header class="matrix-header">
+        <span class="matrix-header-title">Matrix</span>
+        <div class="matrix-controls">
+          <div class="matrix-control-group">
+            <div class="groupby-info-wrapper">
+              <span class="matrix-control-label">Group by</span>
+              <span class="groupby-info-icon" tabindex="0" role="button" aria-label="Explain grouping options">i</span>
+              <div class="groupby-tooltip" role="tooltip">
+                <div class="groupby-tooltip-option">
+                  <p class="groupby-tooltip-option-label">Cluster</p>
+                  <p class="groupby-tooltip-option-desc">Groups traditions by their thematic family</p>
+                </div>
+                <div class="groupby-tooltip-option">
+                  <p class="groupby-tooltip-option-label">Epistemology</p>
+                  <p class="groupby-tooltip-option-desc">Groups by how traditions claim to generate dream knowledge</p>
+                </div>
+                <div class="groupby-tooltip-option">
+                  <p class="groupby-tooltip-option-label">Agency Style</p>
+                  <p class="groupby-tooltip-option-desc">Groups by the dreamer's active role in the dream</p>
+                </div>
+                <div class="groupby-tooltip-option">
+                  <p class="groupby-tooltip-option-label">Period</p>
+                  <p class="groupby-tooltip-option-desc">Groups by historical time period</p>
+                </div>
+                <div class="groupby-tooltip-option">
+                  <p class="groupby-tooltip-option-label">Ontology</p>
+                  <p class="groupby-tooltip-option-desc">Groups by the tradition's view of dream reality</p>
+                </div>
+              </div>
+            </div>
+            <select id="matrix-group-select" onchange="matrixSetGroupBy(this.value)">
+              <option value="cluster">Cluster</option>
+              <option value="epistemologyPrimary">Epistemology</option>
+              <option value="agencyStyle">Agency Style</option>
+              <option value="period">Period</option>
+              <option value="ontology">Ontology</option>
+            </select>
+          </div>
+          <div class="matrix-control-group">
+            <div class="groupby-info-wrapper">
+              <span class="matrix-control-label">Sort by</span>
+              <span class="groupby-info-icon" tabindex="0" role="button" aria-label="Explain sorting options">i</span>
+              <div class="groupby-tooltip" role="tooltip">
+                <div class="groupby-tooltip-option">
+                  <p class="groupby-tooltip-option-label">Alphabetical</p>
+                  <p class="groupby-tooltip-option-desc">Sorts traditions A–Z within each group</p>
+                </div>
+                <div class="groupby-tooltip-option">
+                  <p class="groupby-tooltip-option-label">Period</p>
+                  <p class="groupby-tooltip-option-desc">Sorts by approximate historical chronology</p>
+                </div>
+                <div class="groupby-tooltip-option">
+                  <p class="groupby-tooltip-option-label">Cluster</p>
+                  <p class="groupby-tooltip-option-desc">Sorts by the cluster order used in the atlas</p>
+                </div>
+              </div>
+            </div>
+            <select id="matrix-sort-select" onchange="matrixSetSortBy(this.value)">
+              <option value="alpha">Alphabetical</option>
+              <option value="period">Period</option>
+              <option value="cluster">Cluster</option>
+            </select>
+          </div>
+          <div class="matrix-search-wrap">
+            <svg class="matrix-search-icon" width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+              <circle cx="6.5" cy="6.5" r="4.5" stroke="currentColor" stroke-width="1.4"/>
+              <path d="M10 10l3.5 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+            </svg>
+            <input class="matrix-search" id="matrix-search-input" type="search" placeholder="Filter traditions…"
+              oninput="matrixSetSearch(this.value)" autocomplete="off">
+          </div>
+        </div>
+        <span class="matrix-count-badge" id="matrix-count-badge">32 traditions</span>
+      </header>
+
+      <!-- Preset Views -->
+      <div class="matrix-presets" id="matrix-presets">
+        <button class="matrix-preset-btn" onclick="matrixApplyPreset('epistemology')" data-preset="epistemology">By Epistemology</button>
+        <button class="matrix-preset-btn" onclick="matrixApplyPreset('indigenous')" data-preset="indigenous">Indigenous Traditions</button>
+        <button class="matrix-preset-btn" onclick="matrixApplyPreset('timeline')" data-preset="timeline">Ancient to Modern</button>
+        <button class="matrix-preset-btn" onclick="matrixApplyPreset('ontology')" data-preset="ontology">Ways of Knowing</button>
+        <button class="matrix-preset-btn" onclick="matrixApplyPreset('active')" data-preset="active">Active Dreamers</button>
+        <button class="matrix-preset-btn matrix-preset-clear" id="matrix-preset-clear" onclick="matrixClearPreset()" style="display:none;">Clear preset ×</button>
+      </div>
+
+      <div class="matrix-body">
+        <div id="matrix-card-container"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── RESOURCES VIEW ────────────────────────────────────── -->
+  <section class="view" id="view-resources" aria-label="Resource Library">
+    <div class="res-view">
+      <header class="res-page-header">
+        <h1 class="res-page-title">Resource Library</h1>
+        <p class="res-page-subtitle">168 scholarly resources across 32 dream traditions</p>
+        <div class="res-filter-bar">
+          <div class="res-search-wrap">
+            <svg class="res-search-icon" width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+              <circle cx="6.5" cy="6.5" r="4.5" stroke="currentColor" stroke-width="1.4"/>
+              <path d="M10 10l3.5 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+            </svg>
+            <input class="res-search" type="search" id="res-search-input" placeholder="Search title, authors, tradition…"
+              oninput="resSetSearch(this.value)" autocomplete="off">
+          </div>
+          <div class="groupby-info-wrapper res-filter-tooltip-wrap">
+            <select class="res-filter-select" id="res-filter-type" onchange="resSetFilter('filterType', this.value)">
+              <option value="">All types</option>
+            </select>
+            <span class="groupby-info-icon" tabindex="0" role="button" aria-label="About type filter">i</span>
+            <div class="groupby-tooltip" role="tooltip">
+              <div class="groupby-tooltip-option">
+                <p class="groupby-tooltip-option-label">Type</p>
+                <p class="groupby-tooltip-option-desc">Filter by resource format — books, journal articles, book chapters, etc.</p>
+              </div>
+            </div>
+          </div>
+          <div class="groupby-info-wrapper res-filter-tooltip-wrap">
+            <select class="res-filter-select" id="res-filter-cluster" onchange="resSetFilter('filterCluster', this.value)">
+              <option value="">All clusters</option>
+            </select>
+            <span class="groupby-info-icon" tabindex="0" role="button" aria-label="About cluster filter">i</span>
+            <div class="groupby-tooltip" role="tooltip">
+              <div class="groupby-tooltip-option">
+                <p class="groupby-tooltip-option-label">Cluster</p>
+                <p class="groupby-tooltip-option-desc">Filter by thematic cluster — groups of related dream traditions</p>
+              </div>
+            </div>
+          </div>
+          <div class="groupby-info-wrapper res-filter-tooltip-wrap">
+            <select class="res-filter-select" id="res-filter-source" onchange="resSetFilter('filterSource', this.value)">
+              <option value="">All sources</option>
+            </select>
+            <span class="groupby-info-icon" tabindex="0" role="button" aria-label="About source filter">i</span>
+            <div class="groupby-tooltip" role="tooltip">
+              <div class="groupby-tooltip-option">
+                <p class="groupby-tooltip-option-label">Source</p>
+                <p class="groupby-tooltip-option-desc">Filter by source category — academic press, journal, institutional, etc.</p>
+              </div>
+            </div>
+          </div>
+          <div class="groupby-info-wrapper res-filter-tooltip-wrap">
+            <select class="res-filter-select" id="res-filter-access" onchange="resSetFilter('filterAccess', this.value)">
+              <option value="">All access</option>
+            </select>
+            <span class="groupby-info-icon" tabindex="0" role="button" aria-label="About access filter">i</span>
+            <div class="groupby-tooltip" role="tooltip">
+              <div class="groupby-tooltip-option">
+                <p class="groupby-tooltip-option-label">Access</p>
+                <p class="groupby-tooltip-option-desc">Filter by access level — open access or paid/subscription</p>
+              </div>
+            </div>
+          </div>
+          <div class="groupby-info-wrapper res-filter-tooltip-wrap">
+            <select class="res-sort-select" id="res-sort" onchange="resSetSort(this.value)">
+              <option value="year-desc">Newest first</option>
+              <option value="year-asc">Oldest first</option>
+              <option value="title-asc">Title A–Z</option>
+              <option value="tradition">By tradition</option>
+              <option value="cluster">By cluster</option>
+            </select>
+            <span class="groupby-info-icon" tabindex="0" role="button" aria-label="About sort options">i</span>
+            <div class="groupby-tooltip" role="tooltip">
+              <div class="groupby-tooltip-option">
+                <p class="groupby-tooltip-option-label">Sort</p>
+                <p class="groupby-tooltip-option-desc">Change the ordering of results — by date, title, tradition, or cluster</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="res-active-filters" id="res-active-filters"></div>
+      </header>
+
+      <div class="res-list-meta">
+        <span class="res-count" id="res-count">168 resources</span>
+      </div>
+
+      <div class="res-list-wrap">
+        <div class="res-list" id="res-list">
+          <!-- Populated by JS -->
+        </div>
+        <div class="res-load-more-wrap">
+          <button class="res-load-more-btn" id="res-load-more" onclick="resLoadMore()" style="display:none;">
+            Load more
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROFILE VIEW ─────────────────────────────────────── -->
+  <section class="view" id="view-profile" aria-label="Tradition Profile">
+    <article class="profile-view" id="profile-content">
+      <!-- Populated by JS -->
+    </article>
+  </section>
+
+  <!-- ── COMPARATOR VIEW ──────────────────────────────────── -->
+  <section class="view" id="view-compare" aria-label="Comparator">
+    <div class="compare-view">
+      <header class="compare-header">
+        <h2 class="compare-header-title">Comparator</h2>
+        <p class="compare-header-sub">Compare two or three traditions side by side</p>
+      </header>
+      <div id="compare-content">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ── INTERPRET VIEW ────────────────────────────────────── -->
+  <section class="view" id="view-interpret" aria-label="Dream Interpretation">
+    <div class="interpret-view" id="interpret-container">
+
+      <!-- State A: No dream yet (navigated from nav bar) -->
+      <div class="interpret-entry" id="interpret-entry">
+        <div class="interpret-entry-header">
+          <h1 class="interpret-entry-title">Interpret Your Dream</h1>
+          <p class="interpret-entry-subtitle">Describe your dream, then choose a tradition to interpret it through</p>
+        </div>
+        <form class="interpret-form" id="interpret-form" onsubmit="handleInterpretSubmit(event)">
+          <textarea id="interpret-textarea" class="entry-textarea"
+            placeholder="Describe your dream. Write as much or as little as you remember — images, feelings, people, places, fragments..."
+            rows="5" autocomplete="off" spellcheck="false"></textarea>
+          <div class="interpret-form-actions">
+            <button type="submit" class="entry-submit-btn">
+              Find traditions
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <!-- State B: Tradition picker -->
+      <div class="interpret-picker" id="interpret-picker" style="display:none">
+        <!-- Populated by JS -->
+      </div>
+
+      <!-- State C: Interpretation results -->
+      <div class="interpret-results" id="interpret-results" style="display:none">
+        <!-- Populated by JS -->
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── GLOSSARY VIEW ──────────────────────────────────────── -->
+  <section class="view" id="view-glossary" aria-label="Glossary">
+    <div class="glossary-view">
+      <div class="glossary-sidebar" id="glossary-sidebar">
+        <!-- Populated by JS -->
+      </div>
+      <div class="glossary-main">
+        <header class="glossary-header">
+          <h1 class="glossary-title">Glossary</h1>
+          <p class="glossary-subtitle">59 terms across dream traditions — from cross-cultural concepts to tradition-specific vocabulary</p>
+          <div class="glossary-search-wrap">
+            <svg class="glossary-search-icon" width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+              <circle cx="6.5" cy="6.5" r="4.5" stroke="currentColor" stroke-width="1.4"/>
+              <path d="M10 10l3.5 3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+            </svg>
+            <input class="glossary-search" type="search" id="glossary-search-input" placeholder="Search terms…"
+              oninput="glossarySetSearch(this.value)" autocomplete="off">
+          </div>
+          <div class="glossary-alpha-bar" id="glossary-alpha-bar">
+            <!-- Populated by JS -->
+          </div>
+        </header>
+        <div class="glossary-content" id="glossary-content">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT VIEW ────────────────────────────────────────── -->
+  <section class="view" id="view-about" aria-label="About">
+    <div class="about-view">
+      <div id="about-content">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- Hover Card (shared across views) -->
+<div class="hover-card" id="hover-card" role="tooltip" aria-live="polite">
+  <div class="hover-card-cluster" id="hc-cluster"></div>
+  <div class="hover-card-name" id="hc-name"></div>
+  <div class="hover-card-meta" id="hc-meta"></div>
+  <div class="hover-card-tags" id="hc-tags"></div>
+  <div class="hover-card-actions">
+    <button class="btn btn-ghost btn-sm" id="hc-open-btn" onclick="hoverCardOpen()">Open profile →</button>
+    <button class="btn btn-outline-gold btn-sm" id="hc-compare-btn" onclick="hoverCardCompare()">Compare +</button>
+  </div>
+</div>
+
+<!-- Add Tradition Modal -->
+<div class="modal-overlay" id="add-modal" role="dialog" aria-modal="true" aria-label="Add tradition to comparator">
+  <div class="modal">
+    <div class="modal-header">
+      <span class="modal-title">Add to Comparator</span>
+      <button class="modal-close" onclick="closeAddModal()" aria-label="Close">×</button>
+    </div>
+    <div class="modal-search">
+      <input type="search" id="modal-search-input" placeholder="Search traditions…" oninput="filterModalList(this.value)" autocomplete="off">
+    </div>
+    <div class="modal-list" id="modal-list" role="list">
+      <!-- Populated by JS -->
+    </div>
+  </div>
+</div>
+
+<!-- Toast -->
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+</body>
+</html>

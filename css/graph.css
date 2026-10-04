@@ -1,0 +1,343 @@
+/* ============================================================
+   DREAMWARD — Graph View Styles
+   ============================================================ */
+
+/* ── Graph Layout ─────────────────────────────────────────── */
+.graph-view {
+  position: relative;
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+  background: var(--color-bg);
+}
+
+#graph-svg {
+  flex: 1;
+  cursor: grab;
+  touch-action: none;
+}
+
+#graph-svg:active { cursor: grabbing; }
+
+/* ── Controls Panel ──────────────────────────────────────── */
+.graph-controls {
+  position: absolute;
+  top: var(--space-6);
+  left: var(--space-6);
+  z-index: 50;
+  width: 220px;
+  background: rgba(20, 20, 20, 0.92);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+  backdrop-filter: blur(12px);
+  box-shadow: var(--shadow-lg);
+}
+
+.graph-controls-title {
+  font-size: var(--text-xs);
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-text-faint);
+  margin-bottom: var(--space-4);
+}
+
+.graph-controls-section {
+  margin-bottom: var(--space-4);
+}
+
+.graph-controls-label {
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-2);
+  display: block;
+}
+
+.graph-controls select {
+  width: 100%;
+  background: var(--color-surface-offset);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: var(--space-2) var(--space-3);
+  font-size: var(--text-xs);
+  color: var(--color-text);
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' fill='none' stroke='%239a9490' stroke-width='1.5'%3E%3Cpath d='M1 1l5 5 5-5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right var(--space-3) center;
+  padding-right: var(--space-8);
+}
+
+.cluster-filters {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+.cluster-filter-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  cursor: pointer;
+  user-select: none;
+}
+
+.cluster-filter-item input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+  border: 1px solid var(--color-border);
+  border-radius: 3px;
+  cursor: pointer;
+  position: relative;
+  flex-shrink: 0;
+  transition: all var(--transition-interactive);
+}
+
+.cluster-filter-item input[type="checkbox"]:checked {
+  background: var(--cluster-color, var(--color-primary));
+  border-color: var(--cluster-color, var(--color-primary));
+}
+
+.cluster-filter-item input[type="checkbox"]:checked::after {
+  content: '';
+  position: absolute;
+  left: 3px;
+  top: 1px;
+  width: 6px;
+  height: 9px;
+  border-right: 1.5px solid #0f0f0f;
+  border-bottom: 1.5px solid #0f0f0f;
+  transform: rotate(40deg);
+}
+
+.cluster-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.graph-controls-divider {
+  border: none;
+  border-top: 1px solid var(--color-divider);
+  margin: var(--space-3) 0;
+}
+
+.toggle-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+}
+
+.toggle-switch {
+  position: relative;
+  width: 32px;
+  height: 18px;
+}
+
+.toggle-switch input { opacity: 0; width: 0; height: 0; }
+
+.toggle-track {
+  position: absolute;
+  inset: 0;
+  background: var(--color-surface-offset);
+  border-radius: 9px;
+  cursor: pointer;
+  transition: background var(--transition-interactive);
+  border: 1px solid var(--color-border);
+}
+
+.toggle-switch input:checked + .toggle-track {
+  background: var(--color-primary-dim);
+  border-color: rgba(201,168,76,0.3);
+}
+
+.toggle-track::after {
+  content: '';
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  left: 2px;
+  top: 2px;
+  background: var(--color-text-faint);
+  border-radius: 50%;
+  transition: transform var(--transition-interactive), background var(--transition-interactive);
+}
+
+.toggle-switch input:checked + .toggle-track::after {
+  transform: translateX(14px);
+  background: var(--color-primary);
+}
+
+/* ── Dream Match Banner ───────────────────────────────────── */
+.dream-match-banner {
+  position: absolute;
+  bottom: var(--space-6);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 50;
+  background: rgba(20, 20, 20, 0.95);
+  border: 1px solid rgba(201,168,76,0.25);
+  border-radius: var(--radius-lg);
+  padding: var(--space-4) var(--space-6);
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  box-shadow: var(--shadow-gold);
+  backdrop-filter: blur(12px);
+  white-space: nowrap;
+}
+
+.dream-match-text {
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+}
+
+.dream-match-text strong {
+  color: var(--color-primary);
+  font-weight: 500;
+}
+
+/* ── Nodes / Edges SVG ────────────────────────────────────── */
+.node circle,
+.node polygon {
+  cursor: pointer;
+  transition: r 200ms ease, opacity 200ms ease;
+}
+
+.node text {
+  font-family: var(--font-body);
+  font-size: 11px;
+  fill: rgba(232,227,217,0.7);
+  pointer-events: none;
+  dominant-baseline: middle;
+}
+
+.node.highlighted circle,
+.node.highlighted polygon {
+  filter: drop-shadow(0 0 8px currentColor);
+}
+
+.node.dimmed circle,
+.node.dimmed polygon {
+  opacity: 0.25;
+}
+
+.edge {
+  stroke-opacity: 0.2;
+  fill: none;
+}
+
+.edge.dimmed {
+  stroke-opacity: 0.05;
+}
+
+/* ── Node count badge ─────────────────────────────────────── */
+.graph-count-badge {
+  position: absolute;
+  bottom: var(--space-6);
+  right: var(--space-6);
+  font-size: var(--text-xs);
+  color: var(--color-text-faint);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── Mobile Graph (#3) ─────────────────────────────────── */
+@media (max-width: 768px) {
+  .graph-view {
+    position: relative;
+  }
+  .graph-controls {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: auto;
+    width: 100% !important;
+    max-height: 55vh;
+    overflow-y: auto;
+    background: rgba(15, 15, 15, 0.97);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-top: 1px solid var(--color-border);
+    border-right: none;
+    border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+    padding: var(--space-4) var(--space-6);
+    transform: translateY(calc(100% - 48px));
+    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    z-index: 50;
+    box-shadow: 0 -4px 20px rgba(0,0,0,0.4);
+  }
+  .graph-controls.mobile-expanded {
+    transform: translateY(0);
+  }
+  .graph-controls-title {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .graph-controls-title::after {
+    content: "\25B2";
+    font-size: 10px;
+    color: var(--color-text-faint);
+    transition: transform 0.2s;
+  }
+  .graph-controls.mobile-expanded .graph-controls-title::after {
+    transform: rotate(180deg);
+  }
+
+  #graph-svg {
+    width: 100%;
+    height: calc(100dvh - 52px - 48px);
+  }
+
+  .cluster-filter-item {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+  }
+
+  .dream-match-banner {
+    position: relative;
+    top: auto;
+    padding: var(--space-3) var(--space-4);
+    font-size: var(--text-xs);
+    bottom: auto;
+    left: auto;
+    transform: none;
+    border-radius: 0;
+    width: 100%;
+    white-space: normal;
+  }
+
+  .match-results {
+    display: block !important;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: auto;
+    width: 100%;
+    max-height: 50vh;
+    overflow-y: auto;
+    border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+    z-index: 60;
+  }
+
+  .graph-count-badge {
+    bottom: 56px;
+    right: var(--space-4);
+  }
+}

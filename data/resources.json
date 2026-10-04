@@ -1,0 +1,3293 @@
+[
+  {
+    "id": "imageryrehearsalther-001",
+    "resourceType": "Academic paper",
+    "title": "Imagery rehearsal therapy for chronic nightmares in sexual assault survivors with posttraumatic stress disorder: a randomized controlled trial",
+    "authors": [
+      "Barry Krakow, Mark Hollifield, Leslie Johnston, Mary Koss, Richard Schrader, Teddy D. Warner, Denise Tandberg, John Lauriello, Lisa McBride, Lisa Cutchen, Diana Cheng, Sheila Emmons, Anne Germain, Delia Melendrez, Debra Sandoval, Heather Prince"
+    ],
+    "year": "2001",
+    "traditions": [
+      "Imagery Rehearsal Therapy (IRT)"
+    ],
+    "cluster": "Cognitive & Quantitative Psychology",
+    "sourceCategory": "Primary",
+    "url": "",
+    "doi": "https://doi.org/10.1001/jama.286.5.537",
+    "access": "Open access",
+    "annotation": "Seminal randomized controlled trial demonstrating IRT's efficacy in reducing nightmare frequency, improving sleep, and alleviating PTSD symptoms in sexual assault survivors; founding empirical validation by primary developer Krakow et al. No bias flags; high-quality landmark study. PubMed",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "imageryrehearsalther-002",
+    "resourceType": "Academic paper",
+    "title": "Imagery Rehearsal Therapy: Principles and Practice",
+    "authors": [
+      "Barry Krakow",
+      "Antonio Zadra"
+    ],
+    "year": "2010",
+    "traditions": [
+      "Imagery Rehearsal Therapy (IRT)"
+    ],
+    "cluster": "Cognitive & Quantitative Psychology",
+    "sourceCategory": "Primary",
+    "url": "",
+    "doi": "https://doi.org/10.1016/j.jsmc.2010.01.004",
+    "access": "Paywalled",
+    "annotation": "Comprehensive guide to IRT protocol by founding figures, detailing 4-session structure, cognitive restructuring (nightmares as learned disorder), and imagery rehearsal steps; reviews empirical support from RCTs. Primary source for practice; limitation: journal article not full book. Antonio Zadra site",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "imageryrehearsalther-003",
+    "resourceType": "Academic paper",
+    "title": "A Meta-analysis of Imagery Rehearsal for Post-trauma Nightmares: Effects on Nightmare Frequency, Sleep Quality, and Posttraumatic Stress",
+    "authors": [
+      "Melynda D. Casement",
+      "Leslie M. Swanson"
+    ],
+    "year": "2012",
+    "traditions": [
+      "Imagery Rehearsal Therapy (IRT)"
+    ],
+    "cluster": "Cognitive & Quantitative Psychology",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.1016/j.cpr.2012.06.002",
+    "access": "Open access",
+    "annotation": "Meta-analysis of 13 IR studies confirming large effects on nightmares (ES=0.69), sleep (0.68), PTSD (0.72), sustained 6-12 months; highlights CBTI+IR benefits for sleep; empirical update validating IRT efficacy. No major biases; robust synthesis. PMC",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "imageryrehearsalther-004",
+    "resourceType": "Academic paper",
+    "title": "Status of Imagery Rehearsal Therapy and Other Interventions for Nightmare Treatment in PTSD",
+    "authors": [
+      "Christine J. So",
+      "Courtney Bolstad",
+      "Katherine E. Miller"
+    ],
+    "year": "2025",
+    "traditions": [
+      "Imagery Rehearsal Therapy (IRT)"
+    ],
+    "cluster": "Cognitive & Quantitative Psychology",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.1007/s11920-025-01639-z",
+    "access": "Paywalled",
+    "annotation": "Recent review assessing IRT status for PTSD nightmares, comparing interventions; provides current empirical perspective post-2015. Secondary scholarly commentary; potential bias toward favored interventions undisclosed. Springer",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "imageryrehearsalther-005",
+    "resourceType": "Academic paper",
+    "title": "Imagery Rehearsal Based Art Therapy: Treatment of Post-traumatic Nightmares in Art Therapy",
+    "authors": [
+      "Merel Staal",
+      "Suzanne Haeyen"
+    ],
+    "year": "2021",
+    "traditions": [
+      "Imagery Rehearsal Therapy (IRT)"
+    ],
+    "cluster": "Cognitive & Quantitative Psychology",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.3389/fpsyg.2020.628717",
+    "access": "Open access",
+    "annotation": "Develops IR-AT framework integrating art therapy with IRT for better access to non-verbal trauma memories, using lit review and interviews; promising extension for verbal exposure challenges. Limitation: theoretical/qualitative, needs empirical testing. PMC",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "hallvandecastlecodin-001",
+    "resourceType": "Book",
+    "title": "The Content Analysis of Dreams",
+    "authors": [
+      "Calvin S. Hall",
+      "Robert L. Van de Castle"
+    ],
+    "year": "1966",
+    "traditions": [
+      "Hall/Van de Castle Coding System"
+    ],
+    "cluster": "Cognitive & Quantitative Psychology",
+    "sourceCategory": "Primary",
+    "url": "https://books.google.com/books/about/The_Content_Analysis_of_Dreams.html?id=BJJ-AAAAMAAJ",
+    "doi": "",
+    "access": "Print only",
+    "annotation": "Foundational text by the creators defining the Hall/Van de Castle coding system with detailed empirical categories (characters, social interactions, emotions, settings, etc.), norms from 1000 college student dreams, and high intercoder reliability data (60-90% perfect agreement); establishes the objective quantitative tradition for dream content analysis, enabling cross-cultural and longitudinal studies. No notable biases as purely empirical; minor limitation: book out of print but digitized on .edu sites.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "hallvandecastlecodin-002",
+    "resourceType": "Website",
+    "title": "Coding Rules for the Hall/Van de Castle System of Quantitative Dream Content Analysis",
+    "authors": [
+      "Calvin S. Hall",
+      "Robert L. Van de Castle (presented by G. William Domhoff)"
+    ],
+    "year": "2016",
+    "traditions": [
+      "Hall/Van de Castle Coding System"
+    ],
+    "cluster": "Cognitive & Quantitative Psychology",
+    "sourceCategory": "Primary",
+    "url": "https://dreams.ucsc.edu/Coding/",
+    "doi": "",
+    "access": "Open access",
+    "annotation": "Institutional UCSC site hosting the original Hall/Van de Castle coding rules, examples, and norms (digitized since original book out of print); maintained by leading researcher G. William Domhoff, ensures replication fidelity and continuity in dream research tradition. Primary transmission mechanism today; no bias.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "hallvandecastlecodin-003",
+    "resourceType": "Academic paper",
+    "title": "Our dreams, our selves: automatic analysis of dream reports",
+    "authors": [
+      "Alessandro Fogli",
+      "Luca Maria Aiello",
+      "Daniele Quercia"
+    ],
+    "year": "2020",
+    "traditions": [
+      "Hall/Van de Castle Coding System"
+    ],
+    "cluster": "Cognitive & Quantitative Psychology",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.1098/rsos.192080",
+    "access": "Open access",
+    "annotation": "Develops and validates NLP tool automating Hall/Van de Castle categories (e.g., characters, emotions, aggression) on 24,000 DreamBank reports (error 0.24 vs. manual); tests continuity hypothesis across demographics, confirming dreams reflect waking life at unprecedented scale. Post-2015 empirical innovation scaling the tradition; potential limitation: automation approximations.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "hallvandecastlecodin-004",
+    "resourceType": "Academic paper",
+    "title": "Pandemic Nightmares: COVID-19 Lockdown Associated With Increased Aggression in Female University Students' Dreams",
+    "authors": [
+      "Erica Kilius",
+      "Noor H. Abbas",
+      "Leela McKinnon",
+      "David R. Samson"
+    ],
+    "year": "2021",
+    "traditions": [
+      "Hall/Van de Castle Coding System"
+    ],
+    "cluster": "Cognitive & Quantitative Psychology",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.3389/fpsyg.2021.644636",
+    "access": "Open access",
+    "annotation": "Applies HVdC to 71 COVID-lockdown student dreams, revealing elevated aggression (esp. physical, self-negativity in females) vs. norms; supports threat simulation/continuity theories amid pandemic stress. Post-2015 empirical update demonstrating system's sensitivity to real-world events; small sample limitation.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "hallvandecastlecodin-005",
+    "resourceType": "Academic paper",
+    "title": "Representation of the Self in REM and NREM Dreams",
+    "authors": [
+      "Patrick McNamara",
+      "Deirdre McLaren",
+      "Kate Durso"
+    ],
+    "year": "2007",
+    "traditions": [
+      "Hall/Van de Castle Coding System"
+    ],
+    "cluster": "Cognitive & Quantitative Psychology",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.1037/1053-0797.17.2.113",
+    "access": "Open access",
+    "annotation": "Uses HVdC to analyze self-representations in child/adult REM/NREM dreams; finds adults more socially successful, NREM self non-aggressive/befriender vs. REM; explores self complexity by sleep stage/age. Valuable secondary application; pre-2015 but includes empirical norms comparison.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "expectationfulfillme-001",
+    "resourceType": "Book",
+    "title": "Dreaming Reality: How Dreaming Keeps Us Sane or Can Drive Us Mad",
+    "authors": [
+      "Joe Griffin",
+      "Ivan Tyrrell"
+    ],
+    "year": "2004",
+    "traditions": [
+      "Expectation Fulfillment Theory"
+    ],
+    "cluster": "Cognitive & Quantitative Psychology",
+    "sourceCategory": "Primary",
+    "url": "https://www.hgi.org.uk/",
+    "doi": "",
+    "access": "Paywalled",
+    "annotation": "Core presentation of the Expectation Fulfillment Theory by its founder, explaining dreams as metaphorical fulfillment of unexpressed emotional expectations to deactivate arousal and prevent mental disorders like depression. Includes Griffin's experiments predicting own dreams; limitation: publisher is psychotherapy-focused trade press, anecdotal validation.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "expectationfulfillme-002",
+    "resourceType": "Book",
+    "title": "Why We Dream: The Definitive Answer",
+    "authors": [
+      "Joe Griffin",
+      "Ivan Tyrrell"
+    ],
+    "year": "2014",
+    "traditions": [
+      "Expectation Fulfillment Theory"
+    ],
+    "cluster": "Cognitive & Quantitative Psychology",
+    "sourceCategory": "Primary",
+    "url": "https://www.humangivens.com/publications/why-we-dream-the-definitive-answer/",
+    "doi": "",
+    "access": "Paywalled",
+    "annotation": "Updated definitive account with real-life examples, reanalysis of Freud/Jung dreams fitting the model, links to REM research. Claims explains dream forgetting and continuity; bias flag: promotes Human Givens therapy.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "expectationfulfillme-003",
+    "resourceType": "Academic paper",
+    "title": "Introduction to Psychology – 1st Canadian Edition (Ch. 2.2 Psychodynamic and Behavioural Psychology)",
+    "authors": [
+      "Charles Stangor",
+      "Jennifer Walinga"
+    ],
+    "year": "2019",
+    "traditions": [
+      "Expectation Fulfillment Theory"
+    ],
+    "cluster": "Cognitive & Quantitative Psychology",
+    "sourceCategory": "Secondary",
+    "url": "https://ecampusontario.pressbooks.pub/niagaracollegeintrotopsych/chapter/2-2-psychodynamic-and-behavioural-psychology/",
+    "doi": "",
+    "access": "Open access",
+    "annotation": "Describes theory as discharging unexpressed emotional arousals metaphorically to free brain space; contrasts with other theories like threat-simulation. Reliable intro psych textbook summary; limitation: brief without original citation.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "expectationfulfillme-004",
+    "resourceType": "Academic paper",
+    "title": "What about dreams? State of the art and open questions",
+    "authors": [
+      "Luigi De Gennaro",
+      "Michele Gorgoni",
+      "Serena Scarpelli",
+      "Valentina Alfonsi"
+    ],
+    "year": "2022",
+    "traditions": [
+      "Expectation Fulfillment Theory"
+    ],
+    "cluster": "Cognitive & Quantitative Psychology",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.1111/jsr.13609",
+    "access": "Open access",
+    "annotation": "Reviews neuroscientific dream research, empirical findings on dream content continuity with waking emotions, open questions on dream access. Indirectly supports emotional expectation processing premises; high-quality review in Journal of Sleep Research.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "expectationfulfillme-005",
+    "resourceType": "Academic paper",
+    "title": "Comparing personal insight gains due to consideration of a recent dream and consideration of a recent event using the Ullman and Schredl dream group methods",
+    "authors": [
+      "Christopher Edwards, Josie Malinowski, Mark Blagrove, Perrine Ruby, Paul D. Bennett, Shauna L. McGee"
+    ],
+    "year": "2015",
+    "traditions": [
+      "Expectation Fulfillment Theory"
+    ],
+    "cluster": "Cognitive & Quantitative Psychology",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.3389/fpsyg.2015.00831",
+    "access": "Open access",
+    "annotation": "Empirical study (post-2015) on dream work yielding personal insights, supporting therapeutic emotional processing in dreams as per theory. Rigorous methods in Frontiers in Psychology; links to REM emotional theories.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "otbiblicalpropheticd-001",
+    "resourceType": "Academic paper",
+    "title": "Incubation and traces of incubation in the biblical narrative",
+    "authors": [
+      "Shaul Bar"
+    ],
+    "year": "2015",
+    "traditions": [
+      "OT Biblical Prophetic Dreaming"
+    ],
+    "cluster": "Western Religious & Mystical",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.17159/2312-3621/2015/V28N2A3",
+    "access": "Open access",
+    "annotation": "Analyzes incubation dreams (induced prophetic dreams at sacred sites) as a key form of divine revelation in the OT, identifying clear examples like Solomon at Gibeon (1 Kings 3:4-15) and Jacob at Beersheba (Gen 46:1-7), with Balaam as another case; compares to ANE practices where dreams provide guidance and prophecy. No major biases noted; limitation is narrow focus on incubation type rather than all prophetic dreaming.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "otbiblicalpropheticd-002",
+    "resourceType": "Academic paper",
+    "title": "New perspectives on Old Testament oneirocritic texts via the philosophy of dreaming",
+    "authors": [
+      "Jaco Gericke"
+    ],
+    "year": "2019",
+    "traditions": [
+      "OT Biblical Prophetic Dreaming"
+    ],
+    "cluster": "Western Religious & Mystical",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.4102/hts.v75i3.5001",
+    "access": "Open access",
+    "annotation": "Proposes using philosophy of dreaming to uncover implicit folk-philosophical assumptions in OT oneirophanic texts (divine appearances in dreams like Gen 15, 20, 28; 1 Kings 3), analyzing ontology, epistemology, and ethics of dream-reality; supplements traditional exegesis with new lens on prophetic dream mechanisms. Limitation: highly theoretical, less on historical context; no evident bias.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "otbiblicalpropheticd-003",
+    "resourceType": "Book",
+    "title": "A Letter That Has Not Been Read: Dreams in the Hebrew Bible",
+    "authors": [
+      "Shaul Bar"
+    ],
+    "year": "2001",
+    "traditions": [
+      "OT Biblical Prophetic Dreaming"
+    ],
+    "cluster": "Western Religious & Mystical",
+    "sourceCategory": "Secondary",
+    "url": "https://press.huc.edu/letter-read-dreams-hebrew-bible/",
+    "doi": "",
+    "access": "Paywalled",
+    "annotation": "Comprehensive monograph classifying Hebrew Bible dreams as prophetic, symbolic, or incubation types, analyzing literary functions and ANE/Talmudic comparisons; highlights prophetic ambivalence (e.g., valued in Joel/Job, rejected in Jeremiah/Zechariah as deceptive). Limitation: year not precisely confirmed on page; Hebrew Union College is reputable academic press.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "otbiblicalpropheticd-004",
+    "resourceType": "Academic paper",
+    "title": "Female Prophetic Traditions in the Old Testament",
+    "authors": [
+      "Jacqueline Grey"
+    ],
+    "year": "2021",
+    "traditions": [
+      "OT Biblical Prophetic Dreaming"
+    ],
+    "cluster": "Western Religious & Mystical",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.1163/17455251-BJA10013",
+    "access": "Paywalled",
+    "annotation": "Discusses female prophets in OT context including potential prophetic guilds/mothers, using Isaiah's wife (hannevi'ah) as case study amid ANE backdrop; notes women's political/national roles despite gender limits. Relevance to dreaming limited but touches prophetic tradition; peer-reviewed; potential gender studies lens but scholarly.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "otbiblicalpropheticd-005",
+    "resourceType": "Academic paper",
+    "title": "Here Comes this Dreamer: Towards a Dreams/Dreamers Typology in the Hebrew Bible",
+    "authors": [
+      "Anathea Portier-Young"
+    ],
+    "year": "2006",
+    "traditions": [
+      "OT Biblical Prophetic Dreaming"
+    ],
+    "cluster": "Western Religious & Mystical",
+    "sourceCategory": "Secondary",
+    "url": "https://janes.scholasticahq.com/article/2514-here-comes-this-dreamer-genesis-37-19-towards-a-dreams-dreamers-typology-in-the-hebrew-bible.pdf",
+    "doi": "",
+    "access": "Open access",
+    "annotation": "Develops typology of dreams/dreamers in Hebrew Bible, challenging assumed consistency in revelatory significance; surveys Deuteronomistic, prophetic (Jer/Zech ambivalence), Qoheleth views, categorizing symbolic-transparent vs. message dreams in prophetic contexts like Daniel/Joseph. Peer-reviewed; limitation: journal article length restricts depth.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "grecoromanoneirocrit-001",
+    "resourceType": "Primary text",
+    "title": "Oneirocritica",
+    "authors": [
+      "Artemidorus of Daldis"
+    ],
+    "year": "c. 170 CE",
+    "traditions": [
+      "Greco-Roman Oneirocriticism"
+    ],
+    "cluster": "Ancient & Classical Worldviews",
+    "sourceCategory": "Primary",
+    "url": "https://global.oup.com/academic/product/artemidorus-oneirocritica-9780199593477",
+    "doi": "",
+    "access": "Print only",
+    "annotation": "Foundational primary text of Greco-Roman oneirocriticism, providing a comprehensive five-book manual on interpreting dreams based on empirical observations from travels across Greece, Italy, and Asia Minor; distinguishes predictive dreams from insignificant ones and categorizes interpretations by dreamer's context (e.g., gender, status). No known biases as insider text; limitation is reliance on now-lost predecessors, but emphasizes personal experience over conjecture. OUP Harris-McCoy edition",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "grecoromanoneirocrit-002",
+    "resourceType": "Primary text",
+    "title": "Περὶ Ἐνυπνίων (On Dreams)",
+    "authors": [
+      "Synesius of Cyrene"
+    ],
+    "year": "c. 405 CE",
+    "traditions": [
+      "Greco-Roman Oneirocriticism"
+    ],
+    "cluster": "Ancient & Classical Worldviews",
+    "sourceCategory": "Primary",
+    "url": "https://www.ellopos.net/elpenor/greek-texts/ancient-greece/synesius-de-insomniis.asp",
+    "doi": "",
+    "access": "Open access",
+    "annotation": "Key late antique primary text blending Neoplatonic philosophy with practical dream interpretation; argues dreams allow the soul to access divine knowledge via imagination, offering a methodological guide for decoding symbolic visions based on personal experience. Represents evolution of tradition toward psychological/spiritual dimensions; no biases noted, limitation is esoteric style requiring philosophical background. Ellopos.net",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "grecoromanoneirocrit-003",
+    "resourceType": "Book",
+    "title": "Artemidorus' Oneirocritica: Text, Translation, and Commentary",
+    "authors": [
+      "Daniel E. Harris-McCoy (ed./trans.)"
+    ],
+    "year": "2012",
+    "traditions": [
+      "Greco-Roman Oneirocriticism"
+    ],
+    "cluster": "Ancient & Classical Worldviews",
+    "sourceCategory": "Secondary",
+    "url": "https://global.oup.com/academic/product/artemidorus-oneirocritica-9780199593477",
+    "doi": "",
+    "access": "Paywalled",
+    "annotation": "Critical edition with revised Greek text, full English translation, introduction, and commentary emphasizing the work's literary, intellectual, and political context in the Roman Empire; highlights Artemidorus' empirical method akin to medical Empiricists. Essential for modern study; potential academic bias toward aesthetic analysis, but rigorous scholarship. Oxford University Press",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "grecoromanoneirocrit-004",
+    "resourceType": "Book",
+    "title": "The Interpretation of Dreams (Oneirocritica)",
+    "authors": [
+      "Artemidorus (trans. Martin Hammond; intro. Peter Thonemann)"
+    ],
+    "year": "2020",
+    "traditions": [
+      "Greco-Roman Oneirocriticism"
+    ],
+    "cluster": "Ancient & Classical Worldviews",
+    "sourceCategory": "Secondary",
+    "url": "https://global.oup.com/academic/product/the-interpretation-of-dreams-9780198797951",
+    "doi": "",
+    "access": "Paywalled",
+    "annotation": "Accessible translation of Oneirocritica with introduction and notes contextualizing it as a social history revealing ancient attitudes to body, sex, gods, and Roman power; stresses individualized interpretation based on dreamer's life. Highly readable for non-specialists; minor bias in framing as 'pre-Freudian,' but excellent scholarship. Oxford World's Classics",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "grecoromanoneirocrit-005",
+    "resourceType": "Academic paper",
+    "title": "The Body, Experience, and the History of Dream-Science in Artemidorus' Oneirocritica",
+    "authors": [
+      "Calloway B. Scott"
+    ],
+    "year": "2022",
+    "traditions": [
+      "Greco-Roman Oneirocriticism"
+    ],
+    "cluster": "Ancient & Classical Worldviews",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.1515/apeiron-2021-0024",
+    "access": "Paywalled",
+    "annotation": "Analyzes Artemidorus' materialist theory of dreams as 'semiotic movements of the soul,' defending oneirocriticism as empirical techne against philosophical skepticism; positions it in medico-philosophical debates on dream ontology. Insightful on scientific veneer; limitation is narrow focus on one text. De Gruyter",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "activationsynthesish-001",
+    "resourceType": "Academic paper",
+    "title": "The brain as a dream state generator: an activation-synthesis hypothesis of the dream process",
+    "authors": [
+      "J. Allan Hobson",
+      "Robert W. McCarley"
+    ],
+    "year": "1977",
+    "traditions": [
+      "Activation-Synthesis Hypothesis (Hobson & McCarley)"
+    ],
+    "cluster": "Neurobiological & Evolutionary",
+    "sourceCategory": "Primary",
+    "url": "",
+    "doi": "https://doi.org/10.1176/ajp.134.12.1335",
+    "access": "Paywalled",
+    "annotation": "The foundational primary source introducing the Activation-Synthesis Hypothesis, proposing that dreams result from the brain's synthesis of random activations from brainstem during REM sleep rather than symbolic meanings. It provides the core neurobiological model for the tradition, grounded in physiological data from neuronal recordings. No biases noted as originating work; limitation is lack of empirical dream content analysis.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "activationsynthesish-002",
+    "resourceType": "Book",
+    "title": "The Dreaming Brain: How the Brain Creates Both the Sense and the Nonsense of Dreams",
+    "authors": [
+      "J. Allan Hobson"
+    ],
+    "year": "1988",
+    "traditions": [
+      "Activation-Synthesis Hypothesis (Hobson & McCarley)"
+    ],
+    "cluster": "Neurobiological & Evolutionary",
+    "sourceCategory": "Primary",
+    "url": "https://www.basicbooks.com/titles/j-allan-hobson/the-dreaming-brain/9780465017034/",
+    "doi": "",
+    "access": "Print only",
+    "annotation": "Hobson's seminal book elaborates the Activation-Synthesis model with empirical dream analyses and neurophysiological evidence, explaining dream bizarreness as arising from sensorimotor mismatches during REM. As work by a founding figure, it deepens the physiological understanding of dreaming; minor bias toward anti-Freudian stance, but supported by data.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "activationsynthesish-003",
+    "resourceType": "Academic paper",
+    "title": "REM sleep dreams and the activation-synthesis hypothesis",
+    "authors": [
+      "Robert W. McCarley",
+      "J. S. Hoffman"
+    ],
+    "year": "1981",
+    "traditions": [
+      "Activation-Synthesis Hypothesis (Hobson & McCarley)"
+    ],
+    "cluster": "Neurobiological & Evolutionary",
+    "sourceCategory": "Primary",
+    "url": "",
+    "doi": "https://doi.org/10.1176/ajp.138.7.904",
+    "access": "Paywalled",
+    "annotation": "Empirical study quantifying dream features (movement, sensation, bizarreness) in 104 REM dreams, supporting Activation-Synthesis predictions on formal aspects matching REM physiology. By co-founder McCarley, it validates the model with data; limitation is focus on formal rather than content features.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "activationsynthesish-004",
+    "resourceType": "Academic paper",
+    "title": "Waking and dreaming consciousness: Neurobiological and functional considerations",
+    "authors": [
+      "J. Allan Hobson",
+      "Karl J. Friston"
+    ],
+    "year": "2012",
+    "traditions": [
+      "Activation-Synthesis Hypothesis (Hobson & McCarley)"
+    ],
+    "cluster": "Neurobiological & Evolutionary",
+    "sourceCategory": "Primary",
+    "url": "",
+    "doi": "https://doi.org/10.1016/j.pneurobio.2012.05.003",
+    "access": "Paywalled",
+    "annotation": "Reviews neurobiology of sleep-wake-dream states using AIM model (evolution of Activation-Synthesis), integrating Bayesian brain theory to explain dream phenomenology and consciousness shifts. By founding figure Hobson with Friston, it updates the tradition empirically post-2010; potential bias toward neurocomputational synthesis over purely physiological.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "activationsynthesish-005",
+    "resourceType": "Website",
+    "title": "The Problems with Activation-Synthesis Theory",
+    "authors": [
+      "G. William Domhoff"
+    ],
+    "year": "2000",
+    "traditions": [
+      "Activation-Synthesis Hypothesis (Hobson & McCarley)"
+    ],
+    "cluster": "Neurobiological & Evolutionary",
+    "sourceCategory": "Secondary",
+    "url": "https://dreams.ucsc.edu/Library/domhoff_2000e.html",
+    "doi": "",
+    "access": "Open access",
+    "annotation": "Institutional critique detailing empirical challenges to Activation-Synthesis (dream continuity, childhood dreaming scarcity, forebrain lesions), advocating neurocognitive alternatives based on content analysis. Provides balanced secondary perspective from dream research lab; bias toward forebrain/cognitive models, limitation is polemical tone.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "mesopotamianoneiroma-001",
+    "resourceType": "Book",
+    "title": "The Interpretation of Dreams in the Ancient Near East with a Translation of an Assyrian Dream-Book",
+    "authors": [
+      "A. Leo Oppenheim"
+    ],
+    "year": "1956",
+    "traditions": [
+      "Mesopotamian Oneiromancy"
+    ],
+    "cluster": "Ancient & Classical Worldviews",
+    "sourceCategory": "Secondary",
+    "url": "https://ia802907.us.archive.org/6/items/Oppenheim1956AssyrianDreamBook/Oppenheim_1956_Assyrian_Dream_Book.pdf",
+    "doi": "",
+    "access": "Open access",
+    "annotation": "Seminal scholarly analysis and edition of the Assyrian Dream-Book (ZAQĪQU series), including full transliteration, translation of fragments, and contextual discussion of dream types, interpretation practices, and reports in Mesopotamian literature. Provides foundational understanding of oneiromantic tradition; no major biases noted, though predates some recent discoveries. Limitation: fragmentary nature of primary tablets.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "mesopotamianoneiroma-002",
+    "resourceType": "Book",
+    "title": "Mesopotamian Conceptions of Dreams and Dream Rituals",
+    "authors": [
+      "Sally A. L. Butler"
+    ],
+    "year": "1998",
+    "traditions": [
+      "Mesopotamian Oneiromancy"
+    ],
+    "cluster": "Ancient & Classical Worldviews",
+    "sourceCategory": "Secondary",
+    "url": "https://discovery.ucl.ac.uk/id/eprint/10121519/",
+    "doi": "",
+    "access": "Open access",
+    "annotation": "Comprehensive doctoral thesis (published as book) classifying dream types, analyzing rituals (apotropaic, incubation), incantations, and causes of nightmares in Mesopotamian texts; includes editions of key cuneiform texts. Excellent synthesis; minor limitation: based on pre-1990s discoveries.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "mesopotamianoneiroma-003",
+    "resourceType": "Academic paper",
+    "title": "Dreaming and the Ideology of Mantics: Homer and Ancient Near Eastern Oneiromancy",
+    "authors": [
+      "Scott B. Noegel"
+    ],
+    "year": "2000",
+    "traditions": [
+      "Mesopotamian Oneiromancy"
+    ],
+    "cluster": "Ancient & Classical Worldviews",
+    "sourceCategory": "Secondary",
+    "url": "N/A (conference proceedings)",
+    "doi": "",
+    "access": "Paywalled",
+    "annotation": "Examines punning hermeneutic in Mesopotamian dream omens, with dozens of examples from ZAQĪQU, comparing to Egyptian, Talmudic, and Greek traditions; highlights mantic ideology. Strong on philology; limitation: comparative focus may dilute pure Mesopotamian analysis.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "mesopotamianoneiroma-004",
+    "resourceType": "Academic paper",
+    "title": "Dream Omens in Mesopotamia: The Series Zaqīqu/Ziqīqu and Other Related Texts",
+    "authors": [
+      "Elyze Zomer"
+    ],
+    "year": "2018",
+    "traditions": [
+      "Mesopotamian Oneiromancy"
+    ],
+    "cluster": "Ancient & Classical Worldviews",
+    "sourceCategory": "Secondary",
+    "url": "https://www.academia.edu/37746335/",
+    "doi": "",
+    "access": "Paywalled",
+    "annotation": "Reconstructs ZAQĪQU series tablets, edits old/new fragments, analyzes omen arrangement (keywords), incantations/rituals; traces development from 2nd-1st millennium BCE. Key update to Oppenheim; limitation: PhD, not peer-reviewed book.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "mesopotamianoneiroma-005",
+    "resourceType": "Dataset",
+    "title": "Cuneiform Digital Library Initiative (CDLI)",
+    "authors": [
+      "Cuneiform Digital Library Initiative (collective)"
+    ],
+    "year": "ongoing",
+    "traditions": [
+      "Mesopotamian Oneiromancy"
+    ],
+    "cluster": "Ancient & Classical Worldviews",
+    "sourceCategory": "Primary",
+    "url": "https://cdli.mpiwg-berlin.mpg.de/",
+    "doi": "",
+    "access": "Open access",
+    "annotation": "Institutional digital archive of cuneiform tablets including ZAQĪQU fragments and related omen texts; enables direct access to primary inscriptions for philological study. Primary source hub; limitation: requires expertise for interpretation, no full translations.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "mapuchepewma-001",
+    "resourceType": "Academic paper",
+    "title": "Teatro mapuche en Argentina: la memoria onírica del genocidio en Pewma de Miriam Álvarez",
+    "authors": [
+      "Angela Di Matteo"
+    ],
+    "year": "2019",
+    "traditions": [
+      "Mapuche (Pewma)"
+    ],
+    "cluster": "Indigenous & Shamanic Traditions",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.6092/ISSN.2036-0967/10280",
+    "access": "Open access",
+    "annotation": "Analyzes the Mapuche play *Pewma* by Miriam Álvarez (Mapuche playwright) as a vehicle for reactivating genocide memory through dream aesthetics and semantics, highlighting pewma's role in staging state violence and silenced history. Non-Indigenous author provides secondary analysis; primary contribution from Indigenous theater tradition. Limitation: Focuses on artistic representation rather than ethnographic description of pewma practice.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "mapuchepewma-002",
+    "resourceType": "Book",
+    "title": "Thunder Shaman: Making History with Mapuche Spirits in Chile and Patagonia",
+    "authors": [
+      "Ana Mariella Bacigalupo"
+    ],
+    "year": "2016",
+    "traditions": [
+      "Mapuche (Pewma)"
+    ],
+    "cluster": "Indigenous & Shamanic Traditions",
+    "sourceCategory": "Secondary",
+    "url": "https://www.utexaspress.edu/9781477308981",
+    "doi": "",
+    "access": "Paywalled",
+    "annotation": "Ethnographic study of Mapuche thunder shaman Francisca Kolipi, exploring how shamans use multitemporal dreams, visions, and spirit possession to remake history, challenge colonial narratives, and assert spiritual dominance. Discusses dreams as key to shamanic historical consciousness and mythohistory; non-Indigenous author but based on collaboration with Mapuche shaman. Limitation: Emphasis on shamanic biography over general pewma tradition.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "mapuchepewma-003",
+    "resourceType": "Academic paper",
+    "title": "El \\\"pewma\\\" en la poesía mapuche",
+    "authors": [
+      "Mabel García Barrera"
+    ],
+    "year": "2020",
+    "traditions": [
+      "Mapuche (Pewma)"
+    ],
+    "cluster": "Indigenous & Shamanic Traditions",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.35305/revista.v0i16.137",
+    "access": "Open access",
+    "annotation": "Examines pewma (dream) as ancestral Mapuche communication and social practice integrated into contemporary poetry for cultural retraditionalization and identity reaffirmation, serving as a textual bridge between human/supernatural realms alongside rituals and myth. Non-Indigenous author analyzes Indigenous literary use; strong on pewma's cultural role in modern expressions. Limitation: Literary focus, not ritual practice.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "mapuchepewma-004",
+    "resourceType": "Academic paper",
+    "title": "A Journey into Mapuche Memory: Self-translation and Postmemory in Leonila Ancalao's Rokiñ",
+    "authors": [
+      "Unnamed (Canadian Review of Comparative Literature)"
+    ],
+    "year": "2023",
+    "traditions": [
+      "Mapuche (Pewma)"
+    ],
+    "cluster": "Indigenous & Shamanic Traditions",
+    "sourceCategory": "Secondary",
+    "url": "https://journals.library.ualberta.ca/crcl/index.php/crcl/article/view/29969",
+    "doi": "",
+    "access": "Open access",
+    "annotation": "Explores pewma in Mapuche poetry and literature as an alternative discourse for narrating sacred experiences and cultural complexity, emphasizing its role in self-translation, postmemory, and ancestral knowledge transmission in domestic and communal contexts. Referenced in context of Mapuche cultural practices; non-Indigenous analysis but highlights Indigenous authors like Ancalao. Limitation: Indirect via literary analysis.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "mapuchepewma-005",
+    "resourceType": "Primary text",
+    "title": "Mapuche Theater Project: Pewma",
+    "authors": [
+      "Mapuche Theater Project (Miriam Álvarez",
+      "Lorena Cañuqueo",
+      "Carolina Sorín)"
+    ],
+    "year": "2007",
+    "traditions": [
+      "Mapuche (Pewma)"
+    ],
+    "cluster": "Indigenous & Shamanic Traditions",
+    "sourceCategory": "Primary",
+    "url": "https://hemisphericinstitute.org/en/enc07-home/enc07-performances2/item.963-enc07-mapuche-theater-project.html",
+    "doi": "",
+    "access": "Institutional access",
+    "annotation": "Details the Mapuche Theater Project's play *Pewma*, based on revelatory dreams transmitting messages, used to perform genocide trauma and communal memory in contemporary Indigenous activism. Primary artistic source by Mapuche group (Miriam Álvarez et al.); institutional site. Limitation: Performance script, not analytical text on tradition.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "anishinaabeojibwedre-001",
+    "resourceType": "Academic paper",
+    "title": "Anishinaabe Dream Methodology",
+    "authors": [
+      "Amy Shawanda",
+      "Joshua Manitowabi"
+    ],
+    "year": "2023",
+    "traditions": [
+      "Anishinaabe/Ojibwe Dreaming"
+    ],
+    "cluster": "Indigenous & Shamanic Traditions",
+    "sourceCategory": "Primary",
+    "url": "",
+    "doi": "https://doi.org/10.33137/tijih.v1i3.38566",
+    "access": "Open access",
+    "annotation": "Outlines Anishinaabek dream-specific protocols for accessing dreams and guidelines for using Dream Methodology in scholarly work, prioritizing traditional Indigenous knowledge gaining methods. Primary source by likely Indigenous authors. No major limitations noted; highly relevant to the tradition.Turtle Island Journal",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "anishinaabeojibwedre-002",
+    "resourceType": "Article",
+    "title": "Stories, Dreams, and Ceremonies: Anishinaabe ways of learning",
+    "authors": [
+      "Leanne Simpson"
+    ],
+    "year": "2000",
+    "traditions": [
+      "Anishinaabe/Ojibwe Dreaming"
+    ],
+    "cluster": "Indigenous & Shamanic Traditions",
+    "sourceCategory": "Primary",
+    "url": "https://tribalcollegejournal.org/stories-dreams-ceremonies-anishinaabe-ways-learning/",
+    "doi": "",
+    "access": "Open access",
+    "annotation": "Details dreaming as a key method for transmitting spiritual knowledge from the spirit world in Anishinaabe tradition, with elder quotes on seeking and interpreting dreams (ando pawachige n). Author is Anishinaabe; primary ethnographic article. Limitation: part of broader learning ways discussion.Tribal College Journal",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "anishinaabeojibwedre-003",
+    "resourceType": "Academic paper",
+    "title": "Recurrent Visions Among Cognitively Unimpaired Elders of an Ojibwe Tribal Nation",
+    "authors": [
+      "William G. Mantyh",
+      "Adam D. Block",
+      "Madelyn R. Castro",
+      "et al."
+    ],
+    "year": "2023",
+    "traditions": [
+      "Anishinaabe/Ojibwe Dreaming"
+    ],
+    "cluster": "Indigenous & Shamanic Traditions",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.1001/jamanetworkopen.2023.38221",
+    "access": "Open access",
+    "annotation": "Documents recurrent nonthreatening visions of deceased ancestors and spirits among cognitively healthy Ojibwe elders, framed as normal spiritual experiences integral to Ojibwe culture. Secondary analysis by non-Indigenous medical scholars partnering with tribe. Limitation: clinical lens risks misdiagnosis as hallucination; visions akin to dream tradition.JAMA Network Open",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "anishinaabeojibwedre-004",
+    "resourceType": "Book",
+    "title": "Books and Islands in Ojibwe Country",
+    "authors": [
+      "Louise Erdrich"
+    ],
+    "year": "2003",
+    "traditions": [
+      "Anishinaabe/Ojibwe Dreaming"
+    ],
+    "cluster": "Indigenous & Shamanic Traditions",
+    "sourceCategory": "Primary",
+    "url": "https://nationalgeographic.com/books/publication/books-and-islands-in-ojibwe-country",
+    "doi": "",
+    "access": "Paywalled",
+    "annotation": "Memoir exploring Ojibwe sacred rock paintings venerated as mystical teaching and dream guides, with visits to sites for offerings. Primary by prominent Ojibwe author. Limitation: personal narrative rather than systematic analysis.National Geographic",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "anishinaabeojibwedre-005",
+    "resourceType": "Academic paper",
+    "title": "The Child Is Capable: Anishinaabe Pedagogy of Land and Community",
+    "authors": [
+      "Sharla Peltier"
+    ],
+    "year": "2021",
+    "traditions": [
+      "Anishinaabe/Ojibwe Dreaming"
+    ],
+    "cluster": "Indigenous & Shamanic Traditions",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.3389/feduc.2021.689445",
+    "access": "Open access",
+    "annotation": "Uses Anishinaabe storytelling to explore pedagogy including dreams and visions as part of communal learning processes. By Anishinaabe scholar; secondary but culturally grounded. Limitation: dreams secondary to land/community focus.Frontiers in Education",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "freudianpsychoanalys-001",
+    "resourceType": "Primary text",
+    "title": "The Interpretation of Dreams",
+    "authors": [
+      "Sigmund Freud"
+    ],
+    "year": "1900",
+    "traditions": [
+      "Freudian Psychoanalysis"
+    ],
+    "cluster": "Depth & Clinical Psychology",
+    "sourceCategory": "Primary",
+    "url": "https://psychclassics.yorku.ca/Freud/Dreams/dreams.pdf",
+    "doi": "",
+    "access": "Open access",
+    "annotation": "Foundational primary text establishing Freudian dream theory, introducing dreams as the \"royal road to the unconscious,\" wish-fulfillments disguised by processes like condensation and displacement, with detailed analysis of dream mechanisms and examples from Freud's own dreams. Links dreams to neuroses and unconscious processes, revolutionizing psychological understanding of dreaming. No bias; core of the tradition.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "freudianpsychoanalys-002",
+    "resourceType": "Book",
+    "title": "The Interpretation of Dreams",
+    "authors": [
+      "Sigmund Freud (trans. James Strachey)"
+    ],
+    "year": "2010",
+    "traditions": [
+      "Freudian Psychoanalysis"
+    ],
+    "cluster": "Depth & Clinical Psychology",
+    "sourceCategory": "Primary",
+    "url": "https://www.basicbooks.com/titles/sigmund-freud/the-interpretation-of-dreams/9780465019779/",
+    "doi": "",
+    "access": "Paywalled",
+    "annotation": "Canonical edition of Freud's seminal work by reputable trade press (Basic Books), incorporating all revisions over 30 years and Strachey translation, providing the most complete access to the primary dream theory text for modern readers. Essential for understanding manifest/latent content and wish-fulfillment. Limitation: commercial edition, not academic press.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "freudianpsychoanalys-003",
+    "resourceType": "Book",
+    "title": "Freud's Interpretation of Dreams: A Reappraisal",
+    "authors": [
+      "Susan Sugarman"
+    ],
+    "year": "2022",
+    "traditions": [
+      "Freudian Psychoanalysis"
+    ],
+    "cluster": "Depth & Clinical Psychology",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.1017/9781009244138",
+    "access": "Open access",
+    "annotation": "Reappraises Freud's dream book argument, showing its faltering logic while highlighting strengths in his other works; explores remnants of dream theory in Freud's vision of mind. Secondary scholarly analysis clarifying limitations and enduring contributions. Potential bias toward critical re-reading.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "freudianpsychoanalys-004",
+    "resourceType": "Academic paper",
+    "title": "Freud's Dream Interpretation: A Different Perspective Based on the Self-Organization Theory of Dreaming",
+    "authors": [
+      "Wei Zhang",
+      "Benyu Guo"
+    ],
+    "year": "2018",
+    "traditions": [
+      "Freudian Psychoanalysis"
+    ],
+    "cluster": "Depth & Clinical Psychology",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.3389/fpsyg.2018.01553",
+    "access": "Open access",
+    "annotation": "Offers neuroscience-based reinterpretation of Freud's dream materials via self-organization theory, rejecting latent content and dream-work but affirming manifest dreams/emotions for therapeutic insight into psychological states. Updates Freudian tradition with empirical sleep research; limitation: opinion piece challenging core mechanisms.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "freudianpsychoanalys-005",
+    "resourceType": "Academic paper",
+    "title": "Converging theories on dreaming: Between Freud, predictive processing, and psychedelic research",
+    "authors": [
+      "Michael Koslowski",
+      "Marie-Paule de Haas",
+      "Tobias Fischmann"
+    ],
+    "year": "2023",
+    "traditions": [
+      "Freudian Psychoanalysis"
+    ],
+    "cluster": "Depth & Clinical Psychology",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.3389/fnhum.2023.1080177",
+    "access": "Open access",
+    "annotation": "Integrates Freudian theory (homeostasis, instincts, primary process) with predictive processing and Solms' updates, proposing dreams process repressed priors symbolically to reduce emotional prediction errors; links to psychedelics for therapy. Recent empirical update bridging psychoanalysis/neuroscience; proposes tests. Minor limitation: speculative hypotheses.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "daoistdreamtradition-001",
+    "resourceType": "Academic paper",
+    "title": "Some Wondrous Effects of Inner Calm, as Described and Explained in Yu Yan's Zhouyi cantong qi fahui",
+    "authors": [
+      "Stephen Eskildsen"
+    ],
+    "year": "2019",
+    "traditions": [
+      "Daoist Dream Tradition (Internal Alchemy)"
+    ],
+    "cluster": "Eastern Philosophical & Contemplative",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.3390/rel10010031",
+    "access": "Open access",
+    "annotation": "This paper examines 13th-century Daoist scholar Yu Yan's explanations of visions and sensations arising in deep meditative states during neidan (internal alchemy) practice, including dream-like visions generated by inner qi, and why practitioners should disregard them. It sheds light on neidan methods in Nanzong and Quanzhen traditions, revealing oral-transmission details obscured in metaphors. Limitation: Focuses on visions rather than sleep dreams specifically; Western scholarly interpretation.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "daoistdreamtradition-002",
+    "resourceType": "Book",
+    "title": "Internal Alchemy: Self, Society and the Quest for Immortality",
+    "authors": [
+      "Livia Kohn",
+      "Robin R. Wang (eds.)"
+    ],
+    "year": "2025",
+    "traditions": [
+      "Daoist Dream Tradition (Internal Alchemy)"
+    ],
+    "cluster": "Eastern Philosophical & Contemplative",
+    "sourceCategory": "Secondary",
+    "url": "https://uhpress.hawaii.edu/title/internal-alchemy-self-society-and-the-quest-for-immortality/",
+    "doi": "",
+    "access": "Paywalled",
+    "annotation": "Edited volume introducing neidan as dominant Daoist practice since Song dynasty, covering methods, history, key concepts like mind/nature/destiny, specific techniques (spirit emergence, Thunder Rites, duo-cultivation), and modern comparisons. Contributes comprehensive overview bridging theory/practice. No explicit dream practices noted; academic press quality.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "daoistdreamtradition-003",
+    "resourceType": "Primary text",
+    "title": "The Secret of the Golden Flower (Taiyi Jinhua Zongzhi)",
+    "authors": [
+      "Anonymous (17th c.); trans. Richard Wilhelm",
+      "comm. C.G. Jung"
+    ],
+    "year": "1929",
+    "traditions": [
+      "Daoist Dream Tradition (Internal Alchemy)"
+    ],
+    "cluster": "Eastern Philosophical & Contemplative",
+    "sourceCategory": "Primary",
+    "url": "https://languagecollections-blog.lib.cam.ac.uk/2022/09/16/alchemical-connections-in-the-ul-jung-and-eastern-alchemy/",
+    "doi": "",
+    "access": "Print only",
+    "annotation": "Classic neidan text (1688-1692) on meditation for immortality via body as cauldron refining jing-qi-shen; emphasizes turning light around (circulating qi as golden light). Linked to dream-like meditative states via Jung's commentary on individuation/symbolism. Bias: Jungian psychological overlay; core Daoist meditation central to tradition.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "daoistdreamtradition-004",
+    "resourceType": "Academic paper",
+    "title": "Portrayals of Chan Buddhism in the Literature of Internal Alchemy",
+    "authors": [
+      "Joshua Capitanio"
+    ],
+    "year": "2015",
+    "traditions": [
+      "Daoist Dream Tradition (Internal Alchemy)"
+    ],
+    "cluster": "Eastern Philosophical & Contemplative",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.1179/0737769X15Z.00000000022",
+    "access": "Paywalled",
+    "annotation": "Analyzes Song-era neidan works by Zhang Boduan and followers incorporating Chan elements into alchemy, presenting Chan as inferior to Daoist practice. Reveals intertradition dynamics and polemics shaping neidan. Limitation: Focus on literary portrayals, not dream practices directly.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "daoistdreamtradition-005",
+    "resourceType": "Academic paper",
+    "title": "The Subtle Body Ecstasy of Daoist Inner Alchemy",
+    "authors": [
+      "Livia Kohn"
+    ],
+    "year": "2006",
+    "traditions": [
+      "Daoist Dream Tradition (Internal Alchemy)"
+    ],
+    "cluster": "Eastern Philosophical & Contemplative",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.1556/AORIENT.59.2006.3.3",
+    "access": "Paywalled",
+    "annotation": "Explores ecstatic experiences in neidan subtle body cultivation, ecstatic states akin to visionary/dream realms in internal alchemy. Kohn, leading Daoist scholar, elucidates experiential dimensions. Limitation: Older publication; ecstasy vs. literal dreams.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "activesystemconsolid-001",
+    "resourceType": "Academic paper",
+    "title": "System consolidation of memory during sleep",
+    "authors": [
+      "Ines Wilhelm",
+      "Jan Born"
+    ],
+    "year": "2012",
+    "traditions": [
+      "Active System Consolidation"
+    ],
+    "cluster": "Neurobiological & Evolutionary",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.1007/s00426-011-0335-6",
+    "access": "Open access",
+    "annotation": "Seminal paper defining \"active system consolidation\" as the sleep-dependent (primarily SWS) process of reactivating and transferring new memories from temporary hippocampal storage to long-term neocortical stores, emphasizing selectivity and qualitative changes in representations; provides experimental evidence for key implications but does not directly address dreams. No biases noted; foundational secondary scholarship.PubMed",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "activesystemconsolid-002",
+    "resourceType": "Academic paper",
+    "title": "Dreaming and Offline Memory Consolidation",
+    "authors": [
+      "Erin J. Wamsley"
+    ],
+    "year": "2014",
+    "traditions": [
+      "Active System Consolidation"
+    ],
+    "cluster": "Neurobiological & Evolutionary",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.1007/s11910-013-0433-5",
+    "access": "Open access",
+    "annotation": "Synthesizes evidence that dream content reflects offline memory reactivation and consolidation during sleep, linking incorporation of recent learning tasks into dreams (esp. NREM) to enhanced performance; argues dream bizarreness/fragmentation aids integration per systems consolidation models. Correlational evidence; limitation: lacks causal manipulation.PMC",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "activesystemconsolid-003",
+    "resourceType": "Academic paper",
+    "title": "Memory, Sleep and Dreaming: Experiencing Consolidation",
+    "authors": [
+      "Erin J. Wamsley",
+      "Robert Stickgold"
+    ],
+    "year": "2011",
+    "traditions": [
+      "Active System Consolidation"
+    ],
+    "cluster": "Neurobiological & Evolutionary",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.1016/j.jsmc.2010.12.008",
+    "access": "Open access",
+    "annotation": "Reviews how sleep mentation (dreams) provides a window into active consolidation, with task-related dreams (e.g., mazes) predicting 10x memory gains; parallels animal replay data, emphasizing interleaved reactivation across stages. Early empirical support; minor limitation: relies on self-reports.PMC",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "activesystemconsolid-004",
+    "resourceType": "Academic paper",
+    "title": "Autobiographical memory and hyperassociativity in the dreaming brain: implications for memory consolidation in sleep",
+    "authors": [
+      "Caroline L. Horton",
+      "Josie E. Malinowski"
+    ],
+    "year": "2015",
+    "traditions": [
+      "Active System Consolidation"
+    ],
+    "cluster": "Neurobiological & Evolutionary",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.3389/fpsyg.2015.00874",
+    "access": "Open access",
+    "annotation": "Proposes dreams manifest hyperassociative rebinding of autobiographical memory fragments during sleep consolidation, de-contextualizing and integrating salient features into cortical networks; explains dream bizarreness as adaptive for systems-level changes. Theoretical with empirical refs; limitation: model-based, less direct testing.PMC",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "activesystemconsolid-005",
+    "resourceType": "Academic paper",
+    "title": "Bayesian meta-analysis reveals the mechanistic role of slow oscillation-spindle coupling in sleep-dependent memory consolidation",
+    "authors": [
+      "Thea Ng",
+      "Eunsol Noh",
+      "Rebecca M. C. Spencer"
+    ],
+    "year": "2025",
+    "traditions": [
+      "Active System Consolidation"
+    ],
+    "cluster": "Neurobiological & Evolutionary",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.7554/eLife.101992",
+    "access": "Open access",
+    "annotation": "2025 Bayesian meta-analysis (23 studies, 297 effects) establishes precise frontal SO-fast spindle coupling as a core mechanism of active consolidation for memory retention, mediated by type/age/topography; key post-2015 empirical update on physiological basis, though not dream-specific. Robust stats; minor bias risk in publication. eLife",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "cognitivedevelopment-001",
+    "resourceType": "Book",
+    "title": "Children’s Dreaming and the Development of Consciousness",
+    "authors": [
+      "David Foulkes"
+    ],
+    "year": "1999",
+    "traditions": [
+      "Cognitive Developmental Theory (Foulkes)"
+    ],
+    "cluster": "Cognitive & Quantitative Psychology",
+    "sourceCategory": "Primary",
+    "url": "https://www.hup.harvard.edu/books/9780674009714",
+    "doi": "",
+    "access": "Paywalled",
+    "annotation": "Primary source presenting empirical evidence from sleep lab studies showing 'true' narrative dreaming emerges at ages 7-9, linking dream development to cognitive maturation and reflective self-awareness. Seminal synthesis of Foulkes' longitudinal research; limitation: relies on child dream reports which may have recall biases. Harvard University Press",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "cognitivedevelopment-002",
+    "resourceType": "Academic paper",
+    "title": "A Cognitive-Psychological Model of REM Dream Production",
+    "authors": [
+      "David Foulkes"
+    ],
+    "year": "1982",
+    "traditions": [
+      "Cognitive Developmental Theory (Foulkes)"
+    ],
+    "cluster": "Cognitive & Quantitative Psychology",
+    "sourceCategory": "Primary",
+    "url": "",
+    "doi": "https://doi.org/10.1093/sleep/5.2.169",
+    "access": "Paywalled",
+    "annotation": "Primary source proposing psychoneirics model where mid-level cognitive processes shared with speech production generate multimodal perceptual dream simulations. Explains dream structure's organization despite bizarre content; limitation: model predates neuroimaging evidence. Sleep journal",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "cognitivedevelopment-003",
+    "resourceType": "Book",
+    "title": "Dreaming: A Cognitive-psychological Analysis",
+    "authors": [
+      "David Foulkes"
+    ],
+    "year": "1985",
+    "traditions": [
+      "Cognitive Developmental Theory (Foulkes)"
+    ],
+    "cluster": "Cognitive & Quantitative Psychology",
+    "sourceCategory": "Primary",
+    "url": "https://www.routledge.com/Dreaming-A-Cognitive-psychological-Analysis/Foulkes/p/book/9780898595536",
+    "doi": "",
+    "access": "Paywalled",
+    "annotation": "Primary source interpreting empirical dream data through cognitive lens, covering dream onset, content, meanings. Advances cognitive view of dreaming as mental processing; limitation: pre-1990s developmental data refined in later work. Routledge",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "cognitivedevelopment-004",
+    "resourceType": "Academic paper",
+    "title": "The neurocognitive theory of dreams at age 20: An assessment and a comparison with four other theories of dreaming",
+    "authors": [
+      "G. William Domhoff"
+    ],
+    "year": "2019",
+    "traditions": [
+      "Cognitive Developmental Theory (Foulkes)"
+    ],
+    "cluster": "Cognitive & Quantitative Psychology",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.1037/drm0000119",
+    "access": "Paywalled",
+    "annotation": "Secondary source evaluating Foulkes-Domhoff neurocognitive model integrating neural, developmental (child dreaming), content findings vs rivals. Recent empirical update confirming default network basis; limitation: theory-focused, less new data. APA PsycNet",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "cognitivedevelopment-005",
+    "resourceType": "Academic paper",
+    "title": "Are Dreams Social Simulations? Or Are They Enactments of Conceptions and Personal Concerns? An Empirical and Theoretical Comparison of Two Dream Theories",
+    "authors": [
+      "G. William Domhoff",
+      "Adam Schneider"
+    ],
+    "year": "2018",
+    "traditions": [
+      "Cognitive Developmental Theory (Foulkes)"
+    ],
+    "cluster": "Cognitive & Quantitative Psychology",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.1037/drm0000080",
+    "access": "Paywalled",
+    "annotation": "Secondary source contrasting Foulkes' cognitive enactment theory with social simulation theory using quantitative content analysis. Supports developmental-cognitive view; limitation: relies on adult dream corpora, less child focus. APA PsycNet",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "ancientgreekasclepia-001",
+    "resourceType": "Book",
+    "title": "In Praise of Asclepius: Aelius Aristides, Selected Prose Hymns",
+    "authors": [
+      "Donald A. Russell",
+      "Michael Trapp",
+      "et al. (eds.)"
+    ],
+    "year": "2016",
+    "traditions": [
+      "Ancient Greek Asclepian Healing"
+    ],
+    "cluster": "Ancient & Classical Worldviews",
+    "sourceCategory": "Secondary",
+    "url": "https://library.oapen.org/bitstream/id/dd9ccc6d-0611-45f4-b7fa-f27f70d99467/1002549.pdf",
+    "doi": "",
+    "access": "Open access",
+    "annotation": "Presents primary Greek texts and English translations of Aelius Aristides' prose hymns praising Asclepius, with scholarly essays analyzing their context in incubation healing at Pergamum; highlights dreams as initiators of divine contact and healing prescriptions, bridging literary rhetoric and religious practice. No notable biases; strong archaeological and textual integration. Limitation: focuses on late example (2nd c. CE) rather than origins.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "ancientgreekasclepia-002",
+    "resourceType": "Book",
+    "title": "Greek Incubation Rituals in Classical and Hellenistic Times",
+    "authors": [
+      "Hedvig von Ehrenheim"
+    ],
+    "year": "2015",
+    "traditions": [
+      "Ancient Greek Asclepian Healing"
+    ],
+    "cluster": "Ancient & Classical Worldviews",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.4000/books.pulg.15905",
+    "access": "Open access",
+    "annotation": "Analyzes all literary and epigraphic testimonia for Greek incubation rituals in Classical/Hellenistic periods, demonstrating local variations but common structure akin to standard sacrifices; traces evolution from elite oracles to mass healing accessible to all classes. Dispels non-Greek origins; excellent for ritual mechanics. No bias; rigorous source criticism. Limitation: relies heavily on indirect evidence for some sites.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "ancientgreekasclepia-003",
+    "resourceType": "Academic paper",
+    "title": "Asclepius’ Myths and Healing Narratives: Counter-Intuitive Concepts and Cultural Expectations",
+    "authors": [
+      "Olympia Panagiotidou"
+    ],
+    "year": "2016",
+    "traditions": [
+      "Ancient Greek Asclepian Healing"
+    ],
+    "cluster": "Ancient & Classical Worldviews",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.16995/olh.34",
+    "access": "Open access",
+    "annotation": "Uses cognitive science (Boyer’s counter-intuitive concepts) to explain memorability of Asclepius myths and iamata healing narratives; argues superhuman feats in dreams/incubation violated intuitive expectations, making the cult attractive amid Hippocratic rise. Innovative interdisciplinary approach reveals cultural psychology of tradition. Potential bias toward cognitivism; limitation: speculative on mental processes.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "ancientgreekasclepia-004",
+    "resourceType": "Academic paper",
+    "title": "From Exclusive Dream Oracles to Ubiquitous Incubation Dreams: A Change in the Perception of a Divine Healer?",
+    "authors": [
+      "Hedvig von Ehrenheim"
+    ],
+    "year": "2023",
+    "traditions": [
+      "Ancient Greek Asclepian Healing"
+    ],
+    "cluster": "Ancient & Classical Worldviews",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.1163/16000390-20210026",
+    "access": "Paywalled",
+    "annotation": "Traces democratization of dream incubation in Asklepios cult from Archaic elite oracles to Classical mass practice; links to Hippocratic medicine's accessibility shaping healing expectations. Explains rapid cult spread via mentality shift. Solid historical argument; minor limitation: paywall restricts access.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "ancientgreekasclepia-005",
+    "resourceType": "Academic paper",
+    "title": "Greek Incubation Rituals in Classical and Hellenistic Times (Review)",
+    "authors": [
+      "Robin Waterfield"
+    ],
+    "year": "2016",
+    "traditions": [
+      "Ancient Greek Asclepian Healing"
+    ],
+    "cluster": "Ancient & Classical Worldviews",
+    "sourceCategory": "Secondary",
+    "url": "https://bmcr.brynmawr.edu/2016/2016.12.03/",
+    "doi": "",
+    "access": "Institutional access",
+    "annotation": "Detailed Bryn Mawr Classical Review of Ehrenheim's book, synthesizing its analysis of incubation rites, origins, and developments; highlights psychological impact of iamata on expectancies for healing dreams. Valuable expert synthesis; no bias. Limitation: review format, not original research.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "continuityhypothesis-001",
+    "resourceType": "Academic paper",
+    "title": "Invasion of the Concept Snatchers",
+    "authors": [
+      "G. William Domhoff"
+    ],
+    "year": "2017",
+    "traditions": [
+      "Continuity Hypothesis"
+    ],
+    "cluster": "Cognitive & Quantitative Psychology",
+    "sourceCategory": "Secondary",
+    "url": "https://dreams.ucsc.edu/Library/domhoff_2017.html",
+    "doi": "",
+    "access": "Open access",
+    "annotation": "Seminal article tracing the historical origins and theoretical evolution of the Continuity Hypothesis from Calvin Hall's cognitive theory of dreams through empirical findings using blind content analysis of dream series, distinguishing it from mere incorporation of daily events and linking it to waking conceptions and concerns rather than behaviors. Critiques misinterpretations by other researchers and positions it within neurocognitive theory; limitation is its argumentative nature as a review rather than new empirical data, potential author bias as a leading proponent.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "continuityhypothesis-002",
+    "resourceType": "Academic paper",
+    "title": "Dream content and psychological well-being: A longitudinal study of the continuity hypothesis",
+    "authors": [
+      "Nicholas Pesant",
+      "Antonio Zadra"
+    ],
+    "year": "2006",
+    "traditions": [
+      "Continuity Hypothesis"
+    ],
+    "cluster": "Cognitive & Quantitative Psychology",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.1002/jclp.20212",
+    "access": "Paywalled",
+    "annotation": "Provides longitudinal empirical support (6-10 years, N=28) for the continuity hypothesis by showing that lower psychological well-being correlates with more negative dream content (aggression, negative emotions, failures) both concurrently and over time. Contributes robust evidence linking waking emotional states to dream themes; limitation is small sample size, no DOI access issues noted but typical for Wiley.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "continuityhypothesis-003",
+    "resourceType": "Academic paper",
+    "title": "EEG oscillations during sleep and dream recall: state- or trait-like individual differences?",
+    "authors": [
+      "Serena Scarpelli",
+      "Aurora D'Atri",
+      "Maurizio Gorgoni",
+      "Michele Ferrara",
+      "Luigi De Gennaro"
+    ],
+    "year": "2015",
+    "traditions": [
+      "Continuity Hypothesis"
+    ],
+    "cluster": "Cognitive & Quantitative Psychology",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.3389/fpsyg.2015.00605",
+    "access": "Open access",
+    "annotation": "Reviews neurophysiological evidence for continuity between sleep/wake memory processes, linking theta EEG oscillations pre-awakening to dream recall similar to episodic memory retrieval in wakefulness. Supports continuity hypothesis neurobiologically with empirical EEG data; strength in integrating neuroimaging, limitation in distinguishing state vs trait effects.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "continuityhypothesis-004",
+    "resourceType": "Academic paper",
+    "title": "Our dreams, our selves: automatic analysis of dream reports",
+    "authors": [
+      "Alessandro Fogli",
+      "Luca Maria Aiello",
+      "Daniele Quercia"
+    ],
+    "year": "2020",
+    "traditions": [
+      "Continuity Hypothesis"
+    ],
+    "cluster": "Cognitive & Quantitative Psychology",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.1098/rsos.192080",
+    "access": "Open access",
+    "annotation": "Develops and validates an NLP tool based on Hall-Van de Castle scale to analyze 24,000 dream reports, providing large-scale empirical confirmation of continuity hypothesis by showing dream markers (aggression, emotions) mirror real-life factors like gender, age, war trauma, societal violence. Landmark for scale and automation; potential limitation in NLP accuracy (avg error 0.24) and reliance on DreamBank self-reports.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "continuityhypothesis-005",
+    "resourceType": "Academic paper",
+    "title": "What about dreams? State of the art and open questions",
+    "authors": [
+      "Luigi De Gennaro",
+      "Maurizio Gorgoni",
+      "Serena Scarpelli",
+      "Valentina Alfonsi"
+    ],
+    "year": "2022",
+    "traditions": [
+      "Continuity Hypothesis"
+    ],
+    "cluster": "Cognitive & Quantitative Psychology",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.1111/jsr.13609",
+    "access": "Open access",
+    "annotation": "Comprehensive review of dream research state-of-the-art, affirming continuity hypothesis with evidence that waking experiences (via sensory stimulation) modulate dreaming, alongside trait/state factors in recall; highlights limitations like indirect access to dreams. Valuable synthesis post-2015 empirical update; minor limitation in broad scope potentially diluting depth on continuity specifically.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "zhuangzibutterflydre-001",
+    "resourceType": "Primary text",
+    "title": "Zhuangzi (Chapter 2: Qi Wu Lun / Adjustment of Controversies)",
+    "authors": [
+      "Zhuangzi (Zhuang Zhou)"
+    ],
+    "year": "ca. 4th century BCE",
+    "traditions": [
+      "Zhuangzi (Butterfly Dream)"
+    ],
+    "cluster": "Eastern Philosophical & Contemplative",
+    "sourceCategory": "Primary",
+    "url": "https://ctext.org/zhuangzi/adjustment-of-controversies",
+    "doi": "",
+    "access": "Open access",
+    "annotation": "The foundational primary text containing the Butterfly Dream anecdote at the end of the second chapter \"Qi Wu Lun,\" where Zhuangzi upon waking from dreaming he was a butterfly ponders the relativity of dreamer and dream, exemplifying Daoist skepticism toward fixed identities and realities through \"transformation of things\" (wu hua). As the originating narrative by the tradition's founding figure, it defines the dream tradition. Canonical with no bias; accessible digital edition.Chinese Text Project",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "zhuangzibutterflydre-002",
+    "resourceType": "Book",
+    "title": "Chuang Tzu: Basic Writings",
+    "authors": [
+      "Burton Watson (trans.)"
+    ],
+    "year": "1968",
+    "traditions": [
+      "Zhuangzi (Butterfly Dream)"
+    ],
+    "cluster": "Eastern Philosophical & Contemplative",
+    "sourceCategory": "Secondary",
+    "url": "https://cup.columbia.edu/book/chuang-tzu/9780231113696",
+    "doi": "",
+    "access": "Paywalled",
+    "annotation": "Authoritative English translation of the Inner Chapters including the Butterfly Dream, with introduction elucidating Zhuangzi's philosophy of freedom, relativity, and transcendence of distinctions like dream vs. waking. Essential secondary resource from a leading sinologist, published by premier academic press. Limitation: abridged to basic writings.Columbia University Press",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "zhuangzibutterflydre-003",
+    "resourceType": "Book",
+    "title": "Chuang-Tzu: The Inner Chapters",
+    "authors": [
+      "A.C. Graham (trans.)"
+    ],
+    "year": "1981",
+    "traditions": [
+      "Zhuangzi (Butterfly Dream)"
+    ],
+    "cluster": "Eastern Philosophical & Contemplative",
+    "sourceCategory": "Secondary",
+    "url": "https://hackettpublishing.com/the-inner-chapters-9780872205819",
+    "doi": "",
+    "access": "Paywalled",
+    "annotation": "Philologically precise translation and study of Inner Chapters with extensive analysis of Qiwulun and Butterfly Dream's themes of spontaneity, perspectivism, and anti-logic. Graham's work is foundational for scholarly understanding; Hackett is reputable academic publisher. Some debate on textual rearrangement but standard reference.Hackett Publishing",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "zhuangzibutterflydre-004",
+    "resourceType": "Academic paper",
+    "title": "Zhuangzi and His Butterfly Dream: The Etymology of Meng 夢",
+    "authors": [
+      "Jingjing Chen"
+    ],
+    "year": "2020",
+    "traditions": [
+      "Zhuangzi (Butterfly Dream)"
+    ],
+    "cluster": "Eastern Philosophical & Contemplative",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.22459/CSY.2020.00B",
+    "access": "Open access",
+    "annotation": "Analyzes etymology of meng (dream) in Butterfly Dream context, revealing linguistic nuances that deepen comprehension of Zhuangzi's play on reality, illusion, and transformation. Provides scholarly linguistic perspective on the tradition's core ambiguity. Academic press online forum; focused scope is strength, no evident bias.ANU Press",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "zhuangzibutterflydre-005",
+    "resourceType": "Academic paper",
+    "title": "An Annotated Translation of Fang Yizhi's Commentary on Zhuangzi's “Butterfly Dream” Story",
+    "authors": [
+      "John R. Williams"
+    ],
+    "year": "2022",
+    "traditions": [
+      "Zhuangzi (Butterfly Dream)"
+    ],
+    "cluster": "Eastern Philosophical & Contemplative",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.1080/02549948.2022.2131807",
+    "access": "Paywalled",
+    "annotation": "First annotated English translation of Ming dynasty scholar Fang Yizhi's commentary on Butterfly Dream, elucidating historical Daoist exegesis, intertextuality, and layered meanings via bricolage structure. Bridges primary text to later tradition interpretations. Peer-reviewed in Asian Philosophy journal; limitation: single commentary focus.Taylor &amp; Francis",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "hinduupanishadicdrea-001",
+    "resourceType": "Primary text",
+    "title": "Brihadaranyaka Upanishad",
+    "authors": [
+      "Traditional sages (Yajnavalkya et al.)"
+    ],
+    "year": "700 BCE",
+    "traditions": [
+      "Hindu Upanishadic Dream Theory"
+    ],
+    "cluster": "Eastern Philosophical & Contemplative",
+    "sourceCategory": "Primary",
+    "url": "https://global.oup.com/academic/product/the-upanishads-9780199540259",
+    "doi": "",
+    "access": "Open access",
+    "annotation": "Primary text foundational to Hindu dream theory, detailing in Brhadaranyaka Upanishad 4.3 how the self creates dream worlds internally without external senses, transcending death forms; posits self as self-luminous light in dreams. No bias; canonical scripture.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "hinduupanishadicdrea-002",
+    "resourceType": "Primary text",
+    "title": "Mandukya Upanishad",
+    "authors": [
+      "Traditional sages"
+    ],
+    "year": "500 BCE",
+    "traditions": [
+      "Hindu Upanishadic Dream Theory"
+    ],
+    "cluster": "Eastern Philosophical & Contemplative",
+    "sourceCategory": "Primary",
+    "url": "https://global.oup.com/academic/product/the-upanishads-9780199540259",
+    "doi": "",
+    "access": "Open access",
+    "annotation": "Defines dream state (Taijasa) as inward-turned consciousness enjoying subtle objects, part of four states analyzed via AUM; foundational for understanding consciousness levels in Upanishadic philosophy. Canonical; no limitations.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "hinduupanishadicdrea-003",
+    "resourceType": "Academic paper",
+    "title": "‘Swapna’ in the Indian classics: Mythology or science?",
+    "authors": [
+      "Sonali S. Tendulkar",
+      "R. R. Dwivedi"
+    ],
+    "year": "2010",
+    "traditions": [
+      "Hindu Upanishadic Dream Theory"
+    ],
+    "cluster": "Eastern Philosophical & Contemplative",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.4103/0974-8520.72380",
+    "access": "Open access",
+    "annotation": "Analyzes Swapna (dreams) across Upanishads like Mandukya (four states), Brihadaranyaka (self as creator/light), Prashna, Chandogya; argues mythological descriptions have scientific basis in Ayurveda/Darshanas. Secondary scholarship; minor bias toward Ayurvedic validation.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "hinduupanishadicdrea-004",
+    "resourceType": "Academic paper",
+    "title": "The Concept of Dreams and Dreaming: A Hindu Perspective",
+    "authors": [
+      "Boban Eranimos",
+      "Art Funkhouser"
+    ],
+    "year": "2017",
+    "traditions": [
+      "Hindu Upanishadic Dream Theory"
+    ],
+    "cluster": "Eastern Philosophical & Contemplative",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.25215/0404.131",
+    "access": "Open access",
+    "annotation": "Presents Hindu (Upanishadic) view linking dreams to atman, sevenfold classification, tied to Vedas/Upanishads; contrasts Western theories. Secondary; limitation: brief overview, not deep exegesis.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "hinduupanishadicdrea-005",
+    "resourceType": "Academic paper",
+    "title": "The Dream of God: How Do Religion and Science See Lucid Dreaming and Other Conscious States During Sleep?",
+    "authors": [
+      "Sergio A. Mota-Rolim, Kelly Bulkeley, Stephany Campanelli, Bruno Lobão-Soares, Draulio B. de Araujo, Sidarta Ribeiro"
+    ],
+    "year": "2020",
+    "traditions": [
+      "Hindu Upanishadic Dream Theory"
+    ],
+    "cluster": "Eastern Philosophical & Contemplative",
+    "sourceCategory": "Meta",
+    "url": "",
+    "doi": "https://doi.org/10.3389/fpsyg.2020.555731",
+    "access": "Open access",
+    "annotation": "Meta-analysis comparing Upanishadic division of consciousness (waking/dreaming/deep sleep) with science/religions; highlights dreams as path to illusory self-realization, Yoga Nidra. Limitation: broad comparative, not Upanishad-focused.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "threatsimulationtheo-001",
+    "resourceType": "Academic paper",
+    "title": "The reinterpretation of dreams: an evolutionary hypothesis of the function of dreaming",
+    "authors": [
+      "Antti Revonsuo"
+    ],
+    "year": "2000",
+    "traditions": [
+      "Threat Simulation Theory (TST)"
+    ],
+    "cluster": "Neurobiological & Evolutionary",
+    "sourceCategory": "Primary",
+    "url": "",
+    "doi": "https://doi.org/10.1017/S0140525X00004015",
+    "access": "Paywalled",
+    "annotation": "Foundational paper proposing the Threat Simulation Theory (TST), arguing that dreaming evolved to simulate threatening events from waking life for rehearsal of threat perception and avoidance behaviors, enhancing survival in ancestral environments. Draws on empirical dream content analyses showing overrepresentation of threats. As work by the theory's originator, it is primary; no major biases noted beyond theoretical advocacy.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "threatsimulationtheo-002",
+    "resourceType": "Academic paper",
+    "title": "The threat simulation theory in light of recent empirical evidence: a review",
+    "authors": [
+      "Katja Valli",
+      "Antti Revonsuo"
+    ],
+    "year": "2009",
+    "traditions": [
+      "Threat Simulation Theory (TST)"
+    ],
+    "cluster": "Neurobiological & Evolutionary",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.2307/27784372",
+    "access": "Paywalled",
+    "annotation": "Comprehensive review of empirical studies testing TST using the Dream Threat Scale across diverse populations (students, traumatized children, nightmare sufferers), finding strong support for threat overrepresentation in dreams and realistic simulation. By TST co-developer, provides balanced evaluation of strengths/weaknesses; limitation is reliance on self-reported dream content.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "threatsimulationtheo-003",
+    "resourceType": "Academic paper",
+    "title": "Dreaming during the COVID-19 pandemic: Support for the threat simulation function of dreams",
+    "authors": [
+      "Noor H. Abbas",
+      "David R. Samson"
+    ],
+    "year": "2023",
+    "traditions": [
+      "Threat Simulation Theory (TST)"
+    ],
+    "cluster": "Neurobiological & Evolutionary",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.3389/fpsyg.2023.1124772",
+    "access": "Open access",
+    "annotation": "Tests TST during COVID-19 lockdown, finding dreams more negative and featuring more unfamiliar individuals than waking reports, supporting threat bias over social bias hypotheses. Empirical update using Social Content Scale on student dream/wake diaries; timely evidence for TST in real threat context, though small sample limits generalizability.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "threatsimulationtheo-004",
+    "resourceType": "Academic paper",
+    "title": "Presleep Ruminating on Intrusive Thoughts Increased the Possibility of Dreaming of Threatening Events",
+    "authors": [
+      "Jiaxi Wang",
+      "Xiaoling Feng"
+    ],
+    "year": "2022",
+    "traditions": [
+      "Threat Simulation Theory (TST)"
+    ],
+    "cluster": "Neurobiological & Evolutionary",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.3389/fpsyg.2022.809131",
+    "access": "Open access",
+    "annotation": "Empirical study showing presleep rumination on intrusive thoughts predicts more threatening dreams and negative emotions, supporting TST's continuity from waking threats to dream simulation. Uses diary method; contributes mechanistic insight but small sample and self-report reliance are limitations.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "threatsimulationtheo-005",
+    "resourceType": "Academic paper",
+    "title": "Dreaming of being chased reflects waking-life experiences related to negative relationships with others metaphorically",
+    "authors": [
+      "Jiaxi Wang",
+      "Xiaoling Feng"
+    ],
+    "year": "2024",
+    "traditions": [
+      "Threat Simulation Theory (TST)"
+    ],
+    "cluster": "Neurobiological & Evolutionary",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.3389/fpsyg.2024.1413011",
+    "access": "Open access",
+    "annotation": "Demonstrates metaphorical continuity between waking negative interpersonal relationships and 'being chased' dream themes, providing support for TST via empirical correlation analysis. Recent evidence linking specific waking threats to dream content; strength in thematic specificity, though correlational design limits causality claims.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "ancientegyptiandream-001",
+    "resourceType": "Primary text",
+    "title": "Papyrus Chester Beatty 3 (Hieratic Dream Book)",
+    "authors": [
+      "Unknown ancient scribe"
+    ],
+    "year": "ca. 1220 BC",
+    "traditions": [
+      "Ancient Egyptian Dream Tradition"
+    ],
+    "cluster": "Ancient & Classical Worldviews",
+    "sourceCategory": "Primary",
+    "url": "https://www.britishmuseum.org/collection/object/Y_EA10683-2",
+    "doi": "",
+    "access": "Open access",
+    "annotation": "Primary source for the Ramesside Dream Book, the earliest known Egyptian dream interpretation manual from the 19th Dynasty (ca. 1220 BC), listing dreams and their ominous or auspicious meanings categorized by dreamer type (e.g., followers of Horus vs Seth). Provides direct evidence of oneiromancy practices in ancient Egypt, revealing societal hopes, fears, and punning interpretation methods. No known biases as artifact; limited to surviving fragments. British Museum",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "ancientegyptiandream-002",
+    "resourceType": "Book",
+    "title": "Behind Closed Eyes: Dreams and Nightmares in Ancient Egypt",
+    "authors": [
+      "Kasia Szpakowska"
+    ],
+    "year": "2003",
+    "traditions": [
+      "Ancient Egyptian Dream Tradition"
+    ],
+    "cluster": "Ancient & Classical Worldviews",
+    "sourceCategory": "Secondary",
+    "url": "https://www.abebooks.com/9780954384500/Behind-Closed-Eyes-Dreams-Nightmares-0954384504/plp",
+    "doi": "",
+    "access": "Paywalled",
+    "annotation": "Comprehensive scholarly analysis of dreams and nightmares in ancient Egypt from Old Kingdom to New Kingdom, examining their political, religious, magical, literary roles, and private value, based on original texts including the Ramesside Dream Book. Highlights dreams as external liminal phenomena bridging living and divine worlds, with methods to ward off nightmares. From reputable Classical Press of Wales; no major biases noted, though focused on Pharaonic period. Classical Press of Wales",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "ancientegyptiandream-003",
+    "resourceType": "Academic paper",
+    "title": "Enigmatic Dreams in Egypt",
+    "authors": [
+      "Scott B. Noegel"
+    ],
+    "year": "2007",
+    "traditions": [
+      "Ancient Egyptian Dream Tradition"
+    ],
+    "cluster": "Ancient & Classical Worldviews",
+    "sourceCategory": "Secondary",
+    "url": "https://bmcr.brynmawr.edu/2008/2008.03.05/",
+    "doi": "",
+    "access": "Paywalled",
+    "annotation": "Examines enigmatic dreams and punning interpretation techniques in ancient Egyptian tradition, tracing Mesopotamian influences adopted in New Kingdom, with analysis of pharaoh dreams like Tanutamani's serpents symbolizing Upper/Lower Egypt dominion. Demonstrates ritualistic, mantic nature of oneiromancy shared across Near East. Chapter from academic volume; minor limitation in comparative scope. Bryn Mawr Classical Review",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "ancientegyptiandream-004",
+    "resourceType": "Academic paper",
+    "title": "Classifying Dreams, Classifying the World: Ancient Egyptian Oneiromancy and Demotic Dream Books",
+    "authors": [
+      "Unknown (conference paper)"
+    ],
+    "year": "2012",
+    "traditions": [
+      "Ancient Egyptian Dream Tradition"
+    ],
+    "cluster": "Ancient & Classical Worldviews",
+    "sourceCategory": "Secondary",
+    "url": "https://www.academia.edu/3720093/Classifying_Dreams_Classifying_the_World_Ancient_Egyptian_Oneiromancy_and_Demotic_Dream_Books",
+    "doi": "",
+    "access": "Open access",
+    "annotation": "Analyzes demotic dream books' structure, continuity from hieratic Ramesside texts, thematic organization (animals, plants, metals), and encyclopaedic approach, spanning Ptolemaic-Roman periods. Highlights scholarly biases underemphasizing late-period texts and argues for integrated study with earlier sources to understand evolving worldview. Conference proceedings paper; limitation: preliminary on new fragments. Academia.edu",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "ancientegyptiandream-005",
+    "resourceType": "Article",
+    "title": "Dreams of Early Ancient Egypt",
+    "authors": [
+      "Kasia Szpakowska"
+    ],
+    "year": "2022",
+    "traditions": [
+      "Ancient Egyptian Dream Tradition"
+    ],
+    "cluster": "Ancient & Classical Worldviews",
+    "sourceCategory": "Secondary",
+    "url": "https://anetoday.org/szpakowska-dreams-egypt/",
+    "doi": "",
+    "access": "Open access",
+    "annotation": "Synthesis of evidence on dreams (2600-664 BCE): terminology (*resut*), external/divine nature, literary/prophetic uses, rare records (letters to dead, Thutmosis IV stela), punning manuals, nightmare protections (Bes images). Provides accessible overview of evolution, fears, and practices. Institutional/academic society publication; limitation: popularizing tone. ASOR ANE Today",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "mutualdreamingparaps-001",
+    "resourceType": "Academic paper",
+    "title": "Mutual Dreaming",
+    "authors": [
+      "Patrick McNamara",
+      "Luke Dietrich-Egensteiner",
+      "Brian Teed"
+    ],
+    "year": "2017",
+    "traditions": [
+      "Mutual Dreaming / Parapsychology"
+    ],
+    "cluster": "Contemporary, Frontier, & Esoteric",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.1037/drm0000048",
+    "access": "Paywalled",
+    "annotation": "Provides the first descriptive content analysis of 102 reports of mutual dreaming, finding high content similarity (mean ratings >4/5) in dyadic relationships, especially when separated or low intimacy, hypothesizing role in attachment enhancement while bracketing veridical psi claims. Contributes empirical baseline for phenomenon in parapsychology. Limitation: nonrandom sample, no controls for confabulation. Dreaming journal",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "mutualdreamingparaps-002",
+    "resourceType": "Book",
+    "title": "Extrasensory Perception After Sixty Years: A Critical Appraisal of the Research in Extra-Sensory Perception",
+    "authors": [
+      "J.B. Rhine",
+      "J.G. Pratt",
+      "Charles E. Stuart",
+      "Burke M. Smith",
+      "Joseph A. Greenwood"
+    ],
+    "year": "1940",
+    "traditions": [
+      "Mutual Dreaming / Parapsychology"
+    ],
+    "cluster": "Contemporary, Frontier, & Esoteric",
+    "sourceCategory": "Primary",
+    "url": "https://archive.org/details/extrasensoryperc00rhine",
+    "doi": "",
+    "access": "Paywalled",
+    "annotation": "Foundational review by parapsychology pioneers appraising 60 years of ESP research, including dream-relevant Pearce-Pratt and other series demonstrating above-chance hits. Establishes scientific framework for telepathy studies including dreaming. Canonical primary source. Limitation: pre-modern controls. Henry Holt",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "mutualdreamingparaps-003",
+    "resourceType": "Academic paper",
+    "title": "Telepathic Perception in the Dream State: Confirmatory Study Using EEG-EOG Monitoring Techniques",
+    "authors": [
+      "Stanley Krippner",
+      "Montague Ullman"
+    ],
+    "year": "1969",
+    "traditions": [
+      "Mutual Dreaming / Parapsychology"
+    ],
+    "cluster": "Contemporary, Frontier, & Esoteric",
+    "sourceCategory": "Primary",
+    "url": "",
+    "doi": "https://doi.org/10.2466/pms.1969.29.3.915",
+    "access": "Paywalled",
+    "annotation": "Confirmatory Maimonides lab experiment with pre-selected high-performer; blind judges matched dream transcripts to art targets above chance (F=6.43, p&lt;0.001) using EEG/REM monitoring. Landmark evidence for dream telepathy. Primary by key researchers. Single-subject limitation flagged. Perceptual and Motor Skills",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "mutualdreamingparaps-004",
+    "resourceType": "Book",
+    "title": "Dream Telepathy: Experiments in Nocturnal ESP",
+    "authors": [
+      "Montague Ullman",
+      "Stanley Krippner"
+    ],
+    "year": "1973",
+    "traditions": [
+      "Mutual Dreaming / Parapsychology"
+    ],
+    "cluster": "Contemporary, Frontier, & Esoteric",
+    "sourceCategory": "Primary",
+    "url": "https://whitecrowbooks.com/books/dream_telepathy/",
+    "doi": "",
+    "access": "Paywalled",
+    "annotation": "Popular science account of 10-year Maimonides dream telepathy experiments showing verified psi hits via sender-receiver paradigm with REM awakenings and blind judging. Includes transcripts, history, critiques. Primary by experiment leads. Accessible intro with replication challenges noted. White Crow Books",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "mutualdreamingparaps-005",
+    "resourceType": "Academic paper",
+    "title": "An Updated Review of Dream ESP Studies Conducted Since the Maimonides Dream ESP Program",
+    "authors": [
+      "Simon Sherwood",
+      "Chris Roe"
+    ],
+    "year": "2013",
+    "traditions": [
+      "Mutual Dreaming / Parapsychology"
+    ],
+    "cluster": "Contemporary, Frontier, & Esoteric",
+    "sourceCategory": "Secondary",
+    "url": "https://nectar.northampton.ac.uk/id/eprint/5966/",
+    "doi": "",
+    "access": "Institutional access",
+    "annotation": "Updated meta-review of post-Maimonides dream ESP studies (r=0.14, significant) vs original (r=0.33), noting procedural differences like home vs lab sleep. Assesses evidence persistence. Secondary scholarly synthesis. Bias toward psi acceptance. University of Northampton",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "luciddreamingscienti-001",
+    "resourceType": "Academic paper",
+    "title": "Lucid dreaming: Psychophysiological studies of consciousness during REM sleep",
+    "authors": [
+      "Stephen LaBerge"
+    ],
+    "year": "1990",
+    "traditions": [
+      "Lucid Dreaming (Scientific)"
+    ],
+    "cluster": "Contemporary, Frontier, & Esoteric",
+    "sourceCategory": "Primary",
+    "url": "http://www.lucidity.com/LaBerge1990-Lucid_Dreaming=Psychophysiological_Studies_of_Consciousness_during_REM_Sleep.pdf",
+    "doi": "",
+    "access": "Open access",
+    "annotation": "Foundational review by lucid dreaming pioneer Stephen LaBerge summarizing psychophysiological studies verifying lucid dreams occur during REM sleep via eye-signal validation, establishing physiological activation (higher REM density, etc.) and enabling precise dream-wake correlations. Primary source as founding figure; no major biases, though early work.lucidity.com PDF",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "luciddreamingscienti-002",
+    "resourceType": "Academic paper",
+    "title": "Pre-sleep treatment with galantamine stimulates lucid dreaming: A double-blind, placebo-controlled, crossover study",
+    "authors": [
+      "Stephen LaBerge",
+      "Kathryn LaMarca",
+      "Benjamin Baird"
+    ],
+    "year": "2018",
+    "traditions": [
+      "Lucid Dreaming (Scientific)"
+    ],
+    "cluster": "Contemporary, Frontier, & Esoteric",
+    "sourceCategory": "Primary",
+    "url": "",
+    "doi": "https://doi.org/10.1371/journal.pone.0201246",
+    "access": "Open access",
+    "annotation": "Double-blind study (N=121) shows galantamine (4-8mg) boosts lucid dream frequency (27-42%) dose-dependently with MILD, enhancing recall/vividness; key empirical advance in reliable induction for research. Includes founding figure; robust methodology, minor limitation: self-reports.PLoS ONE",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "luciddreamingscienti-003",
+    "resourceType": "Book",
+    "title": "Conscious Mind, Sleeping Brain: Perspectives on Lucid Dreaming",
+    "authors": [
+      "Jayne Gackenbach",
+      "Stephen LaBerge (eds.)"
+    ],
+    "year": "1988",
+    "traditions": [
+      "Lucid Dreaming (Scientific)"
+    ],
+    "cluster": "Contemporary, Frontier, & Esoteric",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.1007/978-1-4757-0423-2",
+    "access": "Paywalled",
+    "annotation": "Edited volume compiling early empirical, historical, and theoretical perspectives on lucid dreaming, featuring LaBerge's contributions; canonical scholarly synthesis from academic press. Secondary with primary elements; comprehensive but dated.Springer",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "luciddreamingscienti-004",
+    "resourceType": "Academic paper",
+    "title": "Lucid Dreaming Occurs in Activated REM Sleep, Not a Mixture of Sleep and Wakefulness",
+    "authors": [
+      "Benjamin Baird",
+      "Giulio Tononi",
+      "Stephen LaBerge"
+    ],
+    "year": "2022",
+    "traditions": [
+      "Lucid Dreaming (Scientific)"
+    ],
+    "cluster": "Contemporary, Frontier, & Esoteric",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.1093/sleep/zsab294",
+    "access": "Paywalled",
+    "annotation": "Recent empirical study analyzes 14 signal-verified lucid dreams, confirming higher REM density/activation but refuting prior 'hybrid sleep-wake' claims after artifact correction; key post-2015 update on neurophysiology. Secondary empirical; strong methods.Sleep journal",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "luciddreamingscienti-005",
+    "resourceType": "Academic paper",
+    "title": "The cognitive neuroscience of lucid dreaming",
+    "authors": [
+      "Benjamin Baird",
+      "Sergio A. Mota-Rolim",
+      "Martin Dresler"
+    ],
+    "year": "2019",
+    "traditions": [
+      "Lucid Dreaming (Scientific)"
+    ],
+    "cluster": "Contemporary, Frontier, & Esoteric",
+    "sourceCategory": "Meta",
+    "url": "",
+    "doi": "https://doi.org/10.1016/j.neubiorev.2019.03.008",
+    "access": "Paywalled",
+    "annotation": "Comprehensive review of neuroscientific evidence (EEG/fMRI/lesions) on lucid dreaming's brain basis (aPFC/parietal activation), highlighting applications in consciousness research; recent synthesis post-2015. Meta-review; thorough, minor publication bias risk.Neuroscience and Biobehavioral Reviews",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "australianaboriginal-001",
+    "resourceType": "Book",
+    "title": "The Dreaming &amp; Other Essays",
+    "authors": [
+      "W. E. H. Stanner"
+    ],
+    "year": "2009",
+    "traditions": [
+      "Australian Aboriginal (The Dreaming)"
+    ],
+    "cluster": "Indigenous & Shamanic Traditions",
+    "sourceCategory": "Secondary",
+    "url": "https://www.blackincbooks.com.au/books/weh-stanner",
+    "doi": "",
+    "access": "Paywalled",
+    "annotation": "This seminal essay collection features Stanner's classic 1958 essay 'The Dreaming,' offering one of the most influential non-Indigenous scholarly interpretations of the Dreaming as a timeless, sacred order transcending ordinary reality, encompassing creation, law, and ongoing spiritual presence in Aboriginal life. It elucidates the Dreaming's role in cosmology, identity, and social order through ethnographic insight. Limitation: non-Indigenous author (flag); potential mid-20th century anthropological biases in terminology and framing.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "australianaboriginal-002",
+    "resourceType": "Book",
+    "title": "Australian Aboriginal Religion",
+    "authors": [
+      "Ronald M. Berndt"
+    ],
+    "year": "1974",
+    "traditions": [
+      "Australian Aboriginal (The Dreaming)"
+    ],
+    "cluster": "Indigenous & Shamanic Traditions",
+    "sourceCategory": "Secondary",
+    "url": "https://catalogue.nla.gov.au/catalog/478077",
+    "doi": "",
+    "access": "Print only",
+    "annotation": "This comprehensive four-volume work systematically documents Aboriginal religious practices, rituals, cosmology, and sacred sites across Australian regions, providing foundational ethnographic data on elements integral to the Dreaming such as creation stories, initiation, and fertility rites. It serves as a key reference for understanding regional variations in Dreaming-related beliefs and ceremonies. Limitation: non-Indigenous author (flag); classic ethnography from 1970s may reflect observational rather than participatory perspectives.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "australianaboriginal-003",
+    "resourceType": "Academic paper",
+    "title": "What does Jukurrpa ('Dreamtime', 'the Dreaming') mean? A semantic and conceptual journey of discovery",
+    "authors": [
+      "Cliff Goddard",
+      "Anna Wierzbicka"
+    ],
+    "year": "2015",
+    "traditions": [
+      "Australian Aboriginal (The Dreaming)"
+    ],
+    "cluster": "Indigenous & Shamanic Traditions",
+    "sourceCategory": "Secondary",
+    "url": "https://openresearch-repository.anu.edu.au/bitstream/1885/75265/1/2015_GoddardWierzbicka_Jukurrpa_AAS.pdf",
+    "doi": "",
+    "access": "Open access",
+    "annotation": "Uses Natural Semantic Metalanguage to provide a precise, cross-culturally translatable explication of Jukurrpa (Dreaming), portraying it as extraordinary ancestral events that shaped land, life forms, laws, and ongoing reality, maintained through stories, dreams, and ceremonies. Offers an innovative linguistic framework for non-Indigenous understanding of this core concept, with versions refined for accuracy against Aboriginal language semantics. Limitation: non-Indigenous authors (flag); highly theoretical, may overlook experiential dimensions.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "australianaboriginal-004",
+    "resourceType": "Academic paper",
+    "title": "Ontological openness on the Lurujarri Dreaming Trail: a methodology for decolonising research",
+    "authors": [
+      "Nia Emmanouil"
+    ],
+    "year": "2017",
+    "traditions": [
+      "Australian Aboriginal (The Dreaming)"
+    ],
+    "cluster": "Indigenous & Shamanic Traditions",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.18793/LCJ2017.22.08",
+    "access": "Open access",
+    "annotation": "Explores the Lurujarri Dreaming Trail as a site for decolonizing research methodology, drawing on Goolarabooloo custodians' practices to emphasize ontological openness, relationality with Country, and cross-cultural walking as pathways to shared knowledge production. Contributes practical insights into how Dreaming tracks embody living law and resist settler-colonial land valuation conflicts. Limitation: non-Indigenous lead author (flag); focused on one specific trail, not general Dreaming.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "australianaboriginal-005",
+    "resourceType": "Academic paper",
+    "title": "Archaeological evidence of an ethnographically documented Australian Aboriginal ritual dated to the last ice age",
+    "authors": [
+      "Bruno David",
+      "Ashleigh J. Rogers",
+      "et al. (incl. Russell Mullett)"
+    ],
+    "year": "2024",
+    "traditions": [
+      "Australian Aboriginal (The Dreaming)"
+    ],
+    "cluster": "Indigenous & Shamanic Traditions",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.1038/s41562-024-01912-w",
+    "access": "Open access",
+    "annotation": "Details archaeological evidence from a 12,000-year-old ritual site linked to contemporary GunaiKurnai practices, confirming the antiquity of specific Dreaming ceremonies involving fire and stone arrangement for rainmaking or increase rites. Bridges empirical science with ethnographic testimony, demonstrating Dreaming traditions' continuity through the Last Ice Age. Includes Indigenous co-authors (Russell Mullett); strengths empirical validation, limitation site-specific.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "islamiconeirocritici-001",
+    "resourceType": "Primary text",
+    "title": "Ibn Seerin's Dictionary of Dreams According to Islamic Inner Traditions",
+    "authors": [
+      "Muhammad Ibn Sirin"
+    ],
+    "year": "8th century",
+    "traditions": [
+      "Islamic Oneirocriticism"
+    ],
+    "cluster": "Western Religious & Mystical",
+    "sourceCategory": "Primary",
+    "url": "https://data.nur.nu/Kutub/English/IbnSirin_dictionary_of_dreams.pdf",
+    "doi": "",
+    "access": "Print only",
+    "annotation": "Foundational primary text attributed to the most famous Islamic dream interpreter, providing an alphabetical dictionary of dream symbols and their meanings based on Islamic inner traditions, drawing from Quran, Hadith, and classical sources. Serves as the canonical reference for the oneirocritical tradition. Limitation: Authenticity debated as no autograph survives; many versions circulated. Ibn Sirin Dictionary",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "islamiconeirocritici-002",
+    "resourceType": "Book",
+    "title": "Dreams and Visions in the World of Islam: A History of Muslim Dreaming and Foreknowing",
+    "authors": [
+      "Elizabeth Sirriyeh"
+    ],
+    "year": "2015",
+    "traditions": [
+      "Islamic Oneirocriticism"
+    ],
+    "cluster": "Western Religious & Mystical",
+    "sourceCategory": "Secondary",
+    "url": "https://www.bloomsbury.com/us/dreams-and-visions-in-the-world-of-islam-9781780761428/",
+    "doi": "",
+    "access": "Paywalled",
+    "annotation": "Comprehensive historical survey of Muslim dreaming and foreknowing from medieval times to present, emphasizing Prophet Muhammad as model interpreter and role in spiritual guidance, politics, and modern militant propaganda. Key secondary scholarly work tracing evolution of oneirocritic practices. No major biases noted; academic tone. Bloomsbury",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "islamiconeirocritici-003",
+    "resourceType": "Book",
+    "title": "Dreaming Across Boundaries: The Interpretation of Dreams in Islamic Lands",
+    "authors": [
+      "Louise Marlow (editor)"
+    ],
+    "year": "2008",
+    "traditions": [
+      "Islamic Oneirocriticism"
+    ],
+    "cluster": "Western Religious & Mystical",
+    "sourceCategory": "Secondary",
+    "url": "https://www.hup.harvard.edu/books/9780674021228",
+    "doi": "",
+    "access": "Paywalled",
+    "annotation": "Collection of essays exploring dream interpretation in diverse Islamicate contexts, from theological debates to Sufi practices and political legitimation, challenging assumptions about dreams as mere social conventions. Edited volume from Harvard series, highlighting cultural diversity in oneirocriticism. Limitation: Focused on pre-modern periods. Harvard University Press",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "islamiconeirocritici-004",
+    "resourceType": "Academic paper",
+    "title": "Dreams of the Holy Dead: Traditional Islamic Oneirocriticism versus Salafi Scepticism",
+    "authors": [
+      "Elizabeth Sirriyeh"
+    ],
+    "year": "2000",
+    "traditions": [
+      "Islamic Oneirocriticism"
+    ],
+    "cluster": "Western Religious & Mystical",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.1093/jss/XLV.1.115",
+    "access": "Open access",
+    "annotation": "Examines dreams of holy dead in traditional Islamic oneirocriticism versus Salafi skepticism, analyzing how visions of saints and prophets legitimize authority against reformist doubts. Peer-reviewed article contributing to understanding doctrinal tensions in dream interpretation. Potential bias: Western academic perspective on Salafi views. Journal of Semitic Studies",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "islamiconeirocritici-005",
+    "resourceType": "Academic paper",
+    "title": "Medieval Islamic scholarship and writings on sleep and dreams",
+    "authors": [
+      "Ahmed S. Bahammam",
+      "Aljohara S. Almeneessier",
+      "S. R. Pandi-Perumal"
+    ],
+    "year": "2018",
+    "traditions": [
+      "Islamic Oneirocriticism"
+    ],
+    "cluster": "Western Religious & Mystical",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.4103/atm.ATM_162_17",
+    "access": "Open access",
+    "annotation": "Reviews medieval Islamic scholarship on sleep and dreams, highlighting Ibn Sirin as premier interpreter and Ibn Khaldun's typology (true/false/satanic dreams), with Quranic foundations. Provides historical overview of oneirocritical science in Islam. Limitation: Brief medical journal review, not exhaustive. PMC",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "jungiandreamtraditio-001",
+    "resourceType": "Book",
+    "title": "Dream Interpretation Ancient and Modern",
+    "authors": [
+      "C. G. Jung"
+    ],
+    "year": "2016",
+    "traditions": [
+      "Jungian Dream Tradition"
+    ],
+    "cluster": "Depth & Clinical Psychology",
+    "sourceCategory": "Primary",
+    "url": "https://press.princeton.edu/books/paperback/9780691173405/dream-interpretation-ancient-and-modern",
+    "doi": "",
+    "access": "Paywalled",
+    "annotation": "Edited transcript of Jung’s Zurich seminar series (1936–1941) shows Jung interpreting dream series in real time and teaching core analytic-psychology dream method (context, amplification, historical parallels). Strong primary window into technique, but presented through later editorial/translation mediation and is not a peer-reviewed critical edition.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "jungiandreamtraditio-002",
+    "resourceType": "Primary text",
+    "title": "On the Method of Dream Interpretation",
+    "authors": [
+      "C. G. Jung; Marie-Louise von Franz (editor)"
+    ],
+    "year": "2008",
+    "traditions": [
+      "Jungian Dream Tradition"
+    ],
+    "cluster": "Depth & Clinical Psychology",
+    "sourceCategory": "Primary",
+    "url": "https://www.degruyter.com/document/doi/10.1515/9781400843084-005/html",
+    "doi": "",
+    "access": "Institutional access",
+    "annotation": "Foundational methodological chapter by Jung laying out his approach to dream interpretation (e.g., compensation, context, and interpretive stance) within his collected works. Essential primary statement of the tradition, but typically accessed via library or paid platforms and can be read out of context if separated from surrounding collected-works material.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "jungiandreamtraditio-003",
+    "resourceType": "Academic paper",
+    "title": "Jung on the Nature and Interpretation of Dreams: A Developmental Delineation with Cognitive Neuroscientific Responses",
+    "authors": [
+      "Caifang Zhu"
+    ],
+    "year": "2013",
+    "traditions": [
+      "Jungian Dream Tradition"
+    ],
+    "cluster": "Depth & Clinical Psychology",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.3390/bs3040662",
+    "access": "Open access",
+    "annotation": "Textual-historical synthesis of Jung’s changing views on dreams across his career, linking key Jung essays to later cognitive/neuroscientific dream research and highlighting internal tensions in Jungian interpretive claims. Secondary and interpretive (author is not a lineage-holder), and it emphasizes intellectual history over clinical training norms within contemporary Jungian institutes.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "jungiandreamtraditio-004",
+    "resourceType": "Academic paper",
+    "title": "Jungian theory of dreaming and contemporary dream research – findings from the research project ‘Structural Dream Analysis’",
+    "authors": [
+      "Christian Roesler"
+    ],
+    "year": "2020",
+    "traditions": [
+      "Jungian Dream Tradition"
+    ],
+    "cluster": "Depth & Clinical Psychology",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.1111/1468-5922.12566",
+    "access": "Institutional access",
+    "annotation": "Empirical/clinical research program presenting “Structural Dream Analysis” (SDA) and reporting repeatable patterns in dream series from Jungian psychotherapies, explicitly testing/operationalizing parts of Jung’s theory (e.g., dream-ego relations and change across treatment). While it strengthens the “scientific update” side of the tradition, it reflects one research group’s method and depends on how representative the sampled Jungian cases are.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "jungiandreamtraditio-005",
+    "resourceType": "Academic paper",
+    "title": "A Discovery of Meaning: The case of C. G. Jung’s house dream",
+    "authors": [
+      "Raya A. Jones"
+    ],
+    "year": "2015",
+    "traditions": [
+      "Jungian Dream Tradition"
+    ],
+    "cluster": "Depth & Clinical Psychology",
+    "sourceCategory": "Secondary",
+    "url": "https://orca.cardiff.ac.uk/id/eprint/78150/1/wrkgpaper-79.pdf",
+    "doi": "",
+    "access": "Open access",
+    "annotation": "University-hosted working paper analyzing Jung’s famous “house dream” as an image and as a reconstructed autobiographical memory, showing how it functioned in the emergence and later reception of the collective unconscious—central to Jungian dream tradition’s origin story. Scholarly but not peer-reviewed journal publication, and it focuses on intellectual-history/biographical interpretation rather than practical dreamwork technique.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "earlychristianpatris-001",
+    "resourceType": "Academic paper",
+    "title": "Doctrinalising Dreams: Patristic Views of the Nature of Dreams and Their Relation to Early Christian Doctrines",
+    "authors": [
+      "Lien-Yueh Wei"
+    ],
+    "year": "2011",
+    "traditions": [
+      "Early Christian/Patristic Dream Tradition"
+    ],
+    "cluster": "Western Religious & Mystical",
+    "sourceCategory": "Secondary",
+    "url": "https://era.ed.ac.uk/handle/1842/5462",
+    "doi": "",
+    "access": "Open access",
+    "annotation": "This doctoral thesis offers the first comprehensive analysis of patristic oneirology, categorizing dreams as human-, demon-, or divinely-inspired and showing how Church Fathers doctrinalized them to advance key Christian teachings on anthropology, demonology, revelation, and more, distinguishing Christian dream ideology from pagan or Jewish traditions. It fills a major scholarly gap by examining dreams in doctrinal context across patristic literature. No bias flags; rigorous academic work.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "earlychristianpatris-002",
+    "resourceType": "Book",
+    "title": "Dreams, Virtue and Divine Knowledge in Early Christian Egypt",
+    "authors": [
+      "Bronwen Neil",
+      "Doru Costache",
+      "Kevin Wagner"
+    ],
+    "year": "2019",
+    "traditions": [
+      "Early Christian/Patristic Dream Tradition"
+    ],
+    "cluster": "Western Religious & Mystical",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.1017/9781108646802",
+    "access": "Paywalled",
+    "annotation": "Traces the Alexandrian philosophical tradition from Philo through Origen, Athanasius, Evagrius, and Synesius, showing how Platonism was integrated with Christian thought to view prophetic dreams as tied to virtue and paths to divine knowledge, influencing Egyptian monasticism and later medieval spirituality. Highlights holistic psychological understandings of dreams for spiritual advancement. Limitation: focuses more on Egyptian/Alexandrian strand than full patristic corpus.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "earlychristianpatris-003",
+    "resourceType": "Academic paper",
+    "title": "Paying attention to dreams in early medieval normative sources (400–900): countering non‐Christian practices or negotiating Christian dreaming?",
+    "authors": [
+      "Jesse Keskiaho"
+    ],
+    "year": "2020",
+    "traditions": [
+      "Early Christian/Patristic Dream Tradition"
+    ],
+    "cluster": "Western Religious & Mystical",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.1111/emed.12391",
+    "access": "Paywalled",
+    "annotation": "Examines prohibitions on dream interpretation in early medieval normative texts (canonicals, penitentials), arguing they negotiated boundaries for Christian dreaming based on patristic concerns (esp. Gregory the Great) rather than opposing pagan practices, thus clarifying the tension between suspicion and acceptance in the tradition. Contributes nuanced view of dream reception post-patristic era rooted in Fathers' ideas. No major biases.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "earlychristianpatris-004",
+    "resourceType": "Book",
+    "title": "Dreams and Visions in the Early Middle Ages: The Reception and Use of Patristic Ideas, 400–900",
+    "authors": [
+      "Jesse Keskiaho"
+    ],
+    "year": "2015",
+    "traditions": [
+      "Early Christian/Patristic Dream Tradition"
+    ],
+    "cluster": "Western Religious & Mystical",
+    "sourceCategory": "Secondary",
+    "url": "https://www.cambridge.org/core/books/dreams-and-visions-in-the-early-middle-ages/9781107022950",
+    "doi": "",
+    "access": "Paywalled",
+    "annotation": "Analyzes reception and application of patristic dream theories (Augustine, Gregory) in early medieval narratives and normative sources, exploring epistemology of visions via Augustine's three visiones and roles of dreams/apparitions in hagiography. Demonstrates continuity of patristic ideas into 400-900 AD, defining legitimate Christian dreaming. Strong on manuscript evidence; minor limitation: early medieval focus.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "earlychristianpatris-005",
+    "resourceType": "Primary text",
+    "title": "Moralia in Job (Book VIII.42-43)",
+    "authors": [
+      "Gregory the Great"
+    ],
+    "year": "591",
+    "traditions": [
+      "Early Christian/Patristic Dream Tradition"
+    ],
+    "cluster": "Western Religious & Mystical",
+    "sourceCategory": "Primary",
+    "url": "https://www.thelatinlibrary.com/gregory.moralia8.html",
+    "doi": "",
+    "access": "Paywalled",
+    "annotation": "Presents Gregory the Great's classification of six dream origins (physical, illusory, revelatory) from Moralia in Job VIII.42-43 and Dialogues IV.50, emphasizing discernment between divine revelation and demonic deception, influencing later Christian dream caution. Key primary insight into patristic epistemology of dreams amid late antique traditions. No biases; foundational text.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "talmudicjewishdreamt-001",
+    "resourceType": "Primary text",
+    "title": "Babylonian Talmud, Tractate Berakhot 55a-57b (Dream Section)",
+    "authors": [
+      "Rabbinic sages (redacted amoraim)"
+    ],
+    "year": "c. 500 CE",
+    "traditions": [
+      "Talmudic Jewish Dream Tradition"
+    ],
+    "cluster": "Western Religious & Mystical",
+    "sourceCategory": "Primary",
+    "url": "https://www.sefaria.org/Berakhot.55a?lang=bi",
+    "doi": "",
+    "access": "Open access",
+    "annotation": "Core primary source defining the Talmudic dream tradition in Berakhot 55a-57b, including key sayings like 'a dream uninterpreted is like a letter unread' and 'all dreams follow the mouth,' extensive dream symbol dictionary, rituals to avert bad dreams via prayer/fasting before priests, and cautionary tales against false interpreters like Bar Hedya. Establishes foundational principles: dreams are 1/60th prophecy, reflect dreamer's heart/thoughts/morality, require interpretation to actualize, with both divine/angelic and demonic origins possible. No bias; direct rabbinic teachings c.500 CE.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "talmudicjewishdreamt-002",
+    "resourceType": "Academic paper",
+    "title": "Insights from the “Dream Book” of the Babylonian Talmud [200–500 CE]",
+    "authors": [
+      "Milton Kramer"
+    ],
+    "year": "2018",
+    "traditions": [
+      "Talmudic Jewish Dream Tradition"
+    ],
+    "cluster": "Western Religious & Mystical",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.1007/s41782-017-0012-y",
+    "access": "Open access",
+    "annotation": "Analyzes Talmud's Berakhot 'Dream Book' as psychologically sophisticated, prophetic/future-oriented (vs Freud past-oriented), over-determined (24+ interpretations possible, all fulfill), dependent on interpretation, reflecting dreamer's psychology/morality; highlights rituals for bad/unremembered dreams, symbolic (esp sexual) content, everyday focus, false interpreter warnings. Precursors to modern theories; no limitations/bias noted, empirical scholarly review.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "talmudicjewishdreamt-003",
+    "resourceType": "Academic paper",
+    "title": "“Every Dream Becomes Valid Only By Its Interpretation”: Dreams, Dream Interpretations And Dream Interpreters In The Babylonian Talmud",
+    "authors": [
+      "Simcha Fishbane"
+    ],
+    "year": "2007",
+    "traditions": [
+      "Talmudic Jewish Dream Tradition"
+    ],
+    "cluster": "Western Religious & Mystical",
+    "sourceCategory": "Secondary",
+    "url": "https://brill.com/view/book/9789004158337/Bej.9789004158337.i-234_012.xml",
+    "doi": "",
+    "access": "Paywalled",
+    "annotation": "Chapter examines dreams, interpretations, and interpreters in Babylonian Talmud as part of deviancy studies, emphasizing how interpretation validates/actualizes dreams per title quote from Berakhot. Provides socio-anthropological analysis of tradition; secondary scholarship from academic press; potential bias toward 'deviancy' framing but rigorous.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "talmudicjewishdreamt-004",
+    "resourceType": "Book",
+    "title": "A Letter That Has Not Been Read: Dreams in the Hebrew Bible",
+    "authors": [
+      "Shaul Bar"
+    ],
+    "year": "2005",
+    "traditions": [
+      "Talmudic Jewish Dream Tradition"
+    ],
+    "cluster": "Western Religious & Mystical",
+    "sourceCategory": "Secondary",
+    "url": "https://press.huc.edu/letter-read-dreams-hebrew-bible/",
+    "doi": "",
+    "access": "Paywalled",
+    "annotation": "Comprehensive survey classifying biblical dreams (prophetic/symbolic/incubation) with ANE comparisons, extends to Talmud: no consensus on divine status, Jerusalem interpreters' guild and short dream book existed, but many Sages skeptical (e.g. Jeremiah echo). Bridges biblical to rabbinic traditions; secondary, no bias flags, limitation: brief Talmud coverage.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "talmudicjewishdreamt-005",
+    "resourceType": "Academic paper",
+    "title": "The Trouble with Dreams",
+    "authors": [
+      "Bronwen Neil"
+    ],
+    "year": "2021",
+    "traditions": [
+      "Talmudic Jewish Dream Tradition"
+    ],
+    "cluster": "Western Religious & Mystical",
+    "sourceCategory": "Meta",
+    "url": "",
+    "doi": "https://doi.org/10.1093/oso/9780198871149.003.0005",
+    "access": "Paywalled",
+    "annotation": "Compares Talmudic (Berakhot) dream views—democratic access to all, no need for professionals—with Byzantine monastic visions and early Islamic hadith, surveying late antique Jewish soul activity/divination in dreams intersecting rabbinic life. Meta cross-tradition; valuable contextualization, limitation: Talmud not sole focus, written by non-Jewish scholar but academically neutral.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "gestaltdreamwork-001",
+    "resourceType": "Book",
+    "title": "Gestalt Therapy Verbatim",
+    "authors": [
+      "Fritz Perls"
+    ],
+    "year": "1969",
+    "traditions": [
+      "Gestalt Dreamwork"
+    ],
+    "cluster": "Depth & Clinical Psychology",
+    "sourceCategory": "Primary",
+    "url": "https://www.gestaltjournal.com/books/gestalt-therapy-verbatim",
+    "doi": "",
+    "access": "Print only",
+    "annotation": "Foundational primary text by Gestalt founder Fritz Perls containing verbatim transcripts of dreamwork sessions where clients role-play dream elements (e.g., becoming objects or characters) to re-own projections, identify personality fragments, and complete unfinished gestalts. Emphasizes experiential non-interpretive approach over Freudian analysis; no major biases, though Perls' style can seem confrontational. Essential for understanding core Gestalt Dreamwork practice.Gestalt Therapy Verbatim",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "gestaltdreamwork-002",
+    "resourceType": "Academic paper",
+    "title": "DreamSenseMemory - a Gestalt-based dream-work approach embracing all our senses",
+    "authors": [
+      "Brigitte Holzinger",
+      "Franziska Nierwetberg",
+      "Larissa Cosentino",
+      "Lucille Mayer"
+    ],
+    "year": "2021",
+    "traditions": [
+      "Gestalt Dreamwork"
+    ],
+    "cluster": "Depth & Clinical Psychology",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.4081/ripppo.2021.529",
+    "access": "Open access",
+    "annotation": "Introduces DreamSenseMemory (DSM), a sensory-enhanced evolution of Gestalt dreamwork using method acting's sense memory to improve recall and integration by re-experiencing dreams multi-sensorially rather than cognitively. Details practical steps like present-tense retelling and role-play; grounded in Gestalt theory of unfinished gestalts. Recent (post-2015) empirical update; limitation: new technique with limited long-term validation studies.PMC Article",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "gestaltdreamwork-003",
+    "resourceType": "Academic paper",
+    "title": "Diving deep: three experiential approaches to working with dreams and nightmares",
+    "authors": [
+      "Leslie Ellis"
+    ],
+    "year": "2023",
+    "traditions": [
+      "Gestalt Dreamwork"
+    ],
+    "cluster": "Depth & Clinical Psychology",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.1080/14779757.2023.2169841",
+    "access": "Open access",
+    "annotation": "Describes Gestalt's 're-entering a dream element' technique as one of three experiential methods (with Focusing and Jungian) for clients to directly engage dreams, fostering felt shifts and growth via curious embodiment. Positions Gestalt approach as somatic and client-led; integrates neuroscience hints. Recent review (2023); minor bias toward experiential over analytic methods, but balanced comparison.Taylor & Francis",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "gestaltdreamwork-004",
+    "resourceType": "Book",
+    "title": "Gestalt Therapy: Excitement and Growth in the Human Personality",
+    "authors": [
+      "Fritz Perls",
+      "Ralph Hefferline",
+      "Paul Goodman"
+    ],
+    "year": "1951",
+    "traditions": [
+      "Gestalt Dreamwork"
+    ],
+    "cluster": "Depth & Clinical Psychology",
+    "sourceCategory": "Primary",
+    "url": "https://www.gestaltjournal.com/books/gestalt-therapy",
+    "doi": "",
+    "access": "Print only",
+    "annotation": "Seminal book by Gestalt founders establishing holistic theory where dreams reveal existential messages for personality integration via awareness of here-and-now projections. Lays theoretical groundwork for dreamwork practices later demonstrated in Perls' verbatim sessions. Canonical text; no biases flagged, though dated language.Gestalt Journal",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "gestaltdreamwork-005",
+    "resourceType": "Academic paper",
+    "title": "Dreamwork in a gestalt therapy context",
+    "authors": [
+      "L. Alban",
+      "W. Groman"
+    ],
+    "year": "1975",
+    "traditions": [
+      "Gestalt Dreamwork"
+    ],
+    "cluster": "Depth & Clinical Psychology",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.1007/BF01358186",
+    "access": "Paywalled",
+    "annotation": "Explores practical application of Gestalt dreamwork techniques in therapeutic context, emphasizing re-enactment over interpretation to grasp dream essence and integrate aspects of self. Secondary analysis building on Perls; contributes clinical examples. Limitation: older paper, access-restricted; assumes familiarity with Gestalt basics.Springer Link",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "tibetandreamyogawang-001",
+    "resourceType": "Book",
+    "title": "The Tibetan Yogas of Dream and Sleep",
+    "authors": [
+      "Tenzin Wangyal Rinpoche"
+    ],
+    "year": "Unknown (year not visible in the accessible PDF)",
+    "traditions": [
+      "Tibetan Dream Yoga (Wangyal Rinpoche)"
+    ],
+    "cluster": "Eastern Philosophical & Contemplative",
+    "sourceCategory": "Primary",
+    "url": "https://selfdefinition.org/tibetan/Tenzin-Wangyal-Rinpoche-The-Tibetan-Yogas-Of-Dream-And-Sleep.pdf",
+    "doi": "",
+    "access": "Open access",
+    "annotation": "A concise, practice-oriented manual by a major contemporary Bön lineage holder who has popularized “Tibetan Dream Yoga” in the West; it presents step-by-step methods for cultivating lucidity, transforming dream content, and integrating dream/sleep practice with Dzogchen liberation aims. Bias/limitation: as a modern instructional manual, it reflects the author’s lineage presentation and is not a critical-historical study.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "tibetandreamyogawang-002",
+    "resourceType": "Academic paper",
+    "title": "The Dream of God: How Do Religion and Science See Lucid Dreaming and Other Conscious States During Sleep?",
+    "authors": [
+      "Bruno Lobão-Soares; Draulio Barros de Araujo; Kelly Bulkeley; Simona Campanelli; Sergio A. Mota-Rolim; Sidarta Ribeiro"
+    ],
+    "year": "2020",
+    "traditions": [
+      "Tibetan Dream Yoga (Wangyal Rinpoche)"
+    ],
+    "cluster": "Eastern Philosophical & Contemplative",
+    "sourceCategory": "Meta",
+    "url": "",
+    "doi": "https://doi.org/10.3389/fpsyg.2020.555731",
+    "access": "Open access",
+    "annotation": "Peer-reviewed review article that situates Tibetan Buddhist dream yoga within a cross-cultural discussion of lucid dreaming and other sleep-consciousness states, summarizing doctrinal claims and relating them to scientific findings. Bias/limitation: broad comparative scope—dream yoga is treated as one tradition among several, so practice details are necessarily high-level.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "tibetandreamyogawang-003",
+    "resourceType": "Academic paper",
+    "title": "Randomized trial of Tibetan yoga in patients with breast cancer undergoing chemotherapy",
+    "authors": [
+      "Alejandro Chaoul; Karen Milbury; Adam Spelman; Karen Basen-Engquist; Matthew Hall; Qingyi Wei; Yu Shih; Banu Arun; Vicente Valero; George Perkins; Gabriel Babiera; Tenzin Wangyal; Richard Engle; Carol A. Harrison; Yisheng Li; Lorenzo Cohen"
+    ],
+    "year": "2017",
+    "traditions": [
+      "Tibetan Dream Yoga (Wangyal Rinpoche)"
+    ],
+    "cluster": "Eastern Philosophical & Contemplative",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.1002/cncr.30938",
+    "access": "Institutional access",
+    "annotation": "An RCT in a major oncology journal evaluating a “Tibetan yoga program” that includes instruction by/with Tenzin Wangyal, providing an evidence base for how Tibetan contemplative movement/breath practices can affect sleep and fatigue outcomes. Bias/limitation: the intervention is a clinical adaptation and is not specifically dream yoga; it is useful mainly for contextualizing modern, secularized deployments of Tibetan yogic methods associated with Wangyal’s teaching milieu.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "tibetandreamyogawang-004",
+    "resourceType": "Academic paper",
+    "title": "Tibetan Buddhist Dream Yoga and the Limits of Western Psychology",
+    "authors": [
+      "Jake H. Davis"
+    ],
+    "year": "2015",
+    "traditions": [
+      "Tibetan Dream Yoga (Wangyal Rinpoche)"
+    ],
+    "cluster": "Eastern Philosophical & Contemplative",
+    "sourceCategory": "Meta",
+    "url": "https://escholarship.org/uc/item/70g9147s",
+    "doi": "",
+    "access": "Open access",
+    "annotation": "Open-access scholarly chapter arguing that lucid dreaming, lucid dreamless sleep, and “lucid death” practices are central to advanced Tibetan Vajrayāna, and analyzing how these practices challenge Western psychological assumptions about mind/body and consciousness. Bias/limitation: written as interpretive scholarship informed by practitioner commitments, so it blends academic argument with experiential claims.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "tibetandreamyogawang-005",
+    "resourceType": "Website",
+    "title": "Contemplative Techniques, Cognitive Lucidity, and Embodiment: Tibetan Dream Yoga",
+    "authors": [
+      "Michael R. Sheehy"
+    ],
+    "year": "2021",
+    "traditions": [
+      "Tibetan Dream Yoga (Wangyal Rinpoche)"
+    ],
+    "cluster": "Eastern Philosophical & Contemplative",
+    "sourceCategory": "Secondary",
+    "url": "https://av.mandala.library.virginia.edu/video/contemplative-techniques-cognitive-lucidity-and-embodiment-tibetan-dream-yoga",
+    "doi": "",
+    "access": "Open access",
+    "annotation": "An institutional (UVA) recorded lecture analyzing concrete dream-yoga procedures from Shangpa Kagyü manuals (Six Dharmas of Niguma) and focusing on embodiment and cognitive lucidity during dreamtime—useful for seeing how “dream yoga” is textually structured beyond modern popular manuals. Bias/limitation: focused on a specific Tibetan tradition (Shangpa) rather than Wangyal’s Bön presentation, so it is complementary rather than directly lineage-specific.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "cognitiveexperientia-001",
+    "resourceType": "Academic paper",
+    "title": "The Hill Cognitive-Experiential Model of Dream Interpretation",
+    "authors": [
+      "Clara E. Hill",
+      "Aaron B. Rochlen"
+    ],
+    "year": "2002",
+    "traditions": [
+      "Cognitive-Experiential Model (Hill)"
+    ],
+    "cluster": "Cognitive & Quantitative Psychology",
+    "sourceCategory": "Primary",
+    "url": "",
+    "doi": "https://doi.org/10.1891/jcop.16.1.75.63705",
+    "access": "Paywalled",
+    "annotation": "Introduces and details the three-stage (exploration, insight, action) Cognitive-Experiential Model of dream interpretation developed by Clara Hill, integrating multiple theoretical orientations; discusses clinical issues and reviews early empirical research supporting its efficacy for gaining insight. Primary source by model founder; no bias flags, foundational limitations include early stage of model development.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "cognitiveexperientia-002",
+    "resourceType": "Book",
+    "title": "Dream Work in Therapy: Facilitating Exploration, Insight, and Action",
+    "authors": [
+      "Clara E. Hill (Editor)"
+    ],
+    "year": "2004",
+    "traditions": [
+      "Cognitive-Experiential Model (Hill)"
+    ],
+    "cluster": "Cognitive & Quantitative Psychology",
+    "sourceCategory": "Primary",
+    "url": "https://www.apa.org/pubs/books/4317015",
+    "doi": "",
+    "access": "Paywalled",
+    "annotation": "Presents the comprehensive theoretical foundation, stage-by-stage clinical guidelines, case examples, and empirical review of research on the Hill Cognitive-Experiential Dream Model, edited by the founder with chapter by Hill & Goates reviewing studies showing gains in insight and session quality. Secondary in parts but primary for model exposition; strong empirical backing, minor limitation is pre-2004 research cutoff.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "cognitiveexperientia-003",
+    "resourceType": "Academic paper",
+    "title": "The application of the Hill cognitive-experiential model of dream interpretation in Hong Kong",
+    "authors": [
+      "Lek Hon Edmond Pong",
+      "C. Yu"
+    ],
+    "year": "2023",
+    "traditions": [
+      "Cognitive-Experiential Model (Hill)"
+    ],
+    "cluster": "Cognitive & Quantitative Psychology",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.1037/drm0000246",
+    "access": "Paywalled",
+    "annotation": "First empirical application of Hill's model to Chinese (Hong Kong) clients, finding client expectations and therapist directiveness predict better outcomes, especially with strong Asian values; contributes cross-cultural validation post-2015. Secondary empirical; limitation: small sample of young adults.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "cognitiveexperientia-004",
+    "resourceType": "Book",
+    "title": "Working with Dreams in Psychotherapy",
+    "authors": [
+      "Clara E. Hill"
+    ],
+    "year": "1996",
+    "traditions": [
+      "Cognitive-Experiential Model (Hill)"
+    ],
+    "cluster": "Cognitive & Quantitative Psychology",
+    "sourceCategory": "Primary",
+    "url": "https://www.guilford.com/books/Working-with-Dreams-in-Psychotherapy/Clara-Hill/9781572300927",
+    "doi": "",
+    "access": "Paywalled",
+    "annotation": "Foundational book explicating the Cognitive-Experiential Model's stages with clinical examples, therapeutic issues, and research review; key primary text by founder for practitioners. No major biases; limitation: based on research up to mid-1990s.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "cognitiveexperientia-005",
+    "resourceType": "Academic paper",
+    "title": "Client involvement in the exploration stage of the Hill cognitive-experiential dream model",
+    "authors": [
+      "Kathryn V. Kline",
+      "Clara E. Hill"
+    ],
+    "year": "2014",
+    "traditions": [
+      "Cognitive-Experiential Model (Hill)"
+    ],
+    "cluster": "Cognitive & Quantitative Psychology",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.1037/a0036392",
+    "access": "Paywalled",
+    "annotation": "Investigates client involvement in exploration stage steps, finding positive correlations and marginal prediction of outcomes by description involvement; refines understanding of model processes. Secondary empirical; limitation: small N=17 cases.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "neurocognitivetheory-001",
+    "resourceType": "Academic paper",
+    "title": "A New Neurocognitive Theory of Dreams",
+    "authors": [
+      "G. William Domhoff"
+    ],
+    "year": "2001",
+    "traditions": [
+      "Neurocognitive Theory of Dreams (Domhoff)"
+    ],
+    "cluster": "Cognitive & Quantitative Psychology",
+    "sourceCategory": "Primary",
+    "url": "https://dreams.ucsc.edu/Library/domhoff_2001a.html",
+    "doi": "",
+    "access": "Open access",
+    "annotation": "This webpage hosts Domhoff's seminal 2001 paper introducing the outlines of the neurocognitive theory of dreams, integrating neuropsychological lesion studies, developmental findings from child sleep labs, and quantitative content analysis to propose dreaming as a cognitive simulation guided by continuity with waking life and repetition of past concerns, dependent on a specific forebrain network. As a primary source by the founding figure hosted on his .edu site, it provides foundational understanding with no apparent bias beyond the theory's empirical focus; limitation is its pre-default network neuroimaging era, though core principles endure.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "neurocognitivetheory-002",
+    "resourceType": "Academic paper",
+    "title": "A new neurocognitive theory of dreams",
+    "authors": [
+      "G. William Domhoff"
+    ],
+    "year": "2001",
+    "traditions": [
+      "Neurocognitive Theory of Dreams (Domhoff)"
+    ],
+    "cluster": "Cognitive & Quantitative Psychology",
+    "sourceCategory": "Primary",
+    "url": "",
+    "doi": "https://doi.org/10.1023/A:1009464416649",
+    "access": "Paywalled",
+    "annotation": "The founding paper formally proposing the neurocognitive theory, synthesizing evidence from brain lesion patients, child development studies, and adult dream content to argue dreaming emerges from a matured forebrain network producing realistic simulations continuous with waking cognition. Primary source by Domhoff establishing the theory's empirical pillars; no bias flags, though relies on 1990s data.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "neurocognitivetheory-003",
+    "resourceType": "Book",
+    "title": "The Neurocognitive Theory of Dreaming: The Where, How, When, What, and Why of Dreams",
+    "authors": [
+      "G. William Domhoff"
+    ],
+    "year": "2022",
+    "traditions": [
+      "Neurocognitive Theory of Dreams (Domhoff)"
+    ],
+    "cluster": "Cognitive & Quantitative Psychology",
+    "sourceCategory": "Primary",
+    "url": "https://direct.mit.edu/books/book/5401/The-Neurocognitive-Theory-of-DreamingThe-Where-How",
+    "doi": "",
+    "access": "Open access",
+    "annotation": "Comprehensive book presenting the mature neurocognitive theory, leveraging post-2010 neuroimaging to link dreaming to default network subsystems supporting imagination and self, explaining content continuity, child development, lack of symbolism/adaptive function, and cultural uses. Primary canonical work by Domhoff synthesizing decades of evidence; strength in interdisciplinary integration, limitation is theory's rejection of adaptive functions may undervalue emerging memory consolidation research.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "neurocognitivetheory-004",
+    "resourceType": "Academic paper",
+    "title": "The neurocognitive theory of dreams at age 20: An assessment and a comparison with four other theories of dreaming",
+    "authors": [
+      "G. William Domhoff"
+    ],
+    "year": "2019",
+    "traditions": [
+      "Neurocognitive Theory of Dreams (Domhoff)"
+    ],
+    "cluster": "Cognitive & Quantitative Psychology",
+    "sourceCategory": "Primary",
+    "url": "",
+    "doi": "https://doi.org/10.1037/drm0000119",
+    "access": "Paywalled",
+    "annotation": "20th anniversary assessment comparing the theory favorably to Freudian, activation-synthesis, memory-consolidation, and threat-simulation theories, highlighting its replicated empirical base, developmental inclusion, and new default network evidence explaining personal concern focus via embodied simulation. Primary update by Domhoff; robust empirical defense, potential limitation in dismissing rivals without fully addressing recent neuroimaging counterevidence.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "neurocognitivetheory-005",
+    "resourceType": "Book",
+    "title": "The Emergence of Dreaming: Mind-Wandering, Embodied Simulation, and the Default Network",
+    "authors": [
+      "G. William Domhoff"
+    ],
+    "year": "2018",
+    "traditions": [
+      "Neurocognitive Theory of Dreams (Domhoff)"
+    ],
+    "cluster": "Cognitive & Quantitative Psychology",
+    "sourceCategory": "Primary",
+    "url": "https://academic.oup.com/book/6296",
+    "doi": "",
+    "access": "Paywalled",
+    "annotation": "Canonical book developing the theory's mind-wandering framework, detailing lab/home dream findings, individual series continuity, child emergence paralleling cognitive growth, and critiquing rivals; integrates early default network insights. Primary by Domhoff from reputable press; foundational for continuity/repetition principles, limitation is partially superseded by 2022 MIT book.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "dreamengineeringtmrd-001",
+    "resourceType": "Academic paper",
+    "title": "Dormio: A targeted dream incubation device",
+    "authors": [
+      "Adam Haar Horowitz",
+      "Tony J. Cunningham",
+      "Pattie Maes",
+      "Robert Stickgold"
+    ],
+    "year": "2020",
+    "traditions": [
+      "Dream Engineering (TMR / Dormio)"
+    ],
+    "cluster": "Contemporary, Frontier, & Esoteric",
+    "sourceCategory": "Primary",
+    "url": "",
+    "doi": "https://doi.org/10.1016/j.concog.2020.102938",
+    "access": "Open access",
+    "annotation": "Introduces the Dormio device and Targeted Dream Incubation (TDI) protocol, extending TMR to directly influence hypnagogic dream content at sleep onset via wearable tech. This founding paper from MIT Media Lab researchers provides the primary methodological foundation for Dream Engineering via TMR/Dormio. No bias flags; empirical validation included.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "dreamengineeringtmrd-002",
+    "resourceType": "Academic paper",
+    "title": "Dream engineering: Simulating worlds through sensory stimulation",
+    "authors": [
+      "Michelle Carr, Adam Haar, Judith Amores, Pedro Lopes, Guillermo Bernal, Tomás Vega, Oscar Rosello, Abhinandan Jain, Pattie Maes"
+    ],
+    "year": "2020",
+    "traditions": [
+      "Dream Engineering (TMR / Dormio)"
+    ],
+    "cluster": "Contemporary, Frontier, & Esoteric",
+    "sourceCategory": "Primary",
+    "url": "",
+    "doi": "https://doi.org/10.1016/j.concog.2020.102955",
+    "access": "Open access",
+    "annotation": "Conceptualizes sensory stimulation (haptic, thermal, vestibular, olfactory, auditory) for simulating worlds in dreams, positioning it as a key framework for dream engineering. Builds directly on Dormio/TDI work by core MIT team members. Limitation: more theoretical than empirical.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "dreamengineeringtmrd-003",
+    "resourceType": "Academic paper",
+    "title": "Targeted dream incubation at a distance: the development of a remote and sensor-free tool for incubating hypnagogic dreams and mind-wandering",
+    "authors": [
+      "Lucas Bellaiche, Adam Haar Horowitz, Mason McClay, Ryan Bottary, Dan Denis, Christina Chen, Pattie Maes, Paul Seli"
+    ],
+    "year": "2024",
+    "traditions": [
+      "Dream Engineering (TMR / Dormio)"
+    ],
+    "cluster": "Contemporary, Frontier, & Esoteric",
+    "sourceCategory": "Primary",
+    "url": "",
+    "doi": "https://doi.org/10.3389/frsle.2024.1258345",
+    "access": "Open access",
+    "annotation": "Develops Dormio Light, a remote sensor-free iteration for scalable TDI, validating cueing efficacy remotely and exploring hypnagogia-mind wandering links. Recent empirical update (post-2015) advancing TMR/Dormio accessibility. No limitations noted.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "dreamengineeringtmrd-004",
+    "resourceType": "Academic paper",
+    "title": "Influencing dreams through sensory stimulation: A systematic review",
+    "authors": [
+      "Leila Salvesen",
+      "Elena Capriglia",
+      "Martin Dresler",
+      "Giulio Bernardi"
+    ],
+    "year": "2024",
+    "traditions": [
+      "Dream Engineering (TMR / Dormio)"
+    ],
+    "cluster": "Contemporary, Frontier, & Esoteric",
+    "sourceCategory": "Meta",
+    "url": "",
+    "doi": "https://doi.org/10.1016/j.smrv.2024.101908",
+    "access": "Open access",
+    "annotation": "Systematic review of sensory stimulation (including auditory TMR/TDI) effects on dream content, synthesizing evidence across modalities with ~0-80% incorporation rates. Provides meta-perspective on mechanisms, highlighting heterogeneity and need for standardized methods. Potential publication bias toward positive results.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "dreamengineeringtmrd-005",
+    "resourceType": "Academic paper",
+    "title": "An update on recent advances in targeted memory reactivation during sleep",
+    "authors": [
+      "Julia Carbone",
+      "Susanne Diekelmann"
+    ],
+    "year": "2024",
+    "traditions": [
+      "Dream Engineering (TMR / Dormio)"
+    ],
+    "cluster": "Contemporary, Frontier, & Esoteric",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.1038/s41539-024-00244-8",
+    "access": "Open access",
+    "annotation": "Reviews TMR advances, including dream content influence during REM/NREM, with applications to mental health/education; contextualizes Dormio/TDI within broader TMR evolution. Recent (post-2015) empirical synthesis by sleep researchers. Limitation: focuses more on memory than phenomenological dream engineering.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "iroquoisononharoia-001",
+    "resourceType": "Academic paper",
+    "title": "Dreams and the Wishes of the Soul: A Type of Psychoanalytic Theory among the Seventeenth Century Iroquois",
+    "authors": [
+      "Anthony F. C. Wallace"
+    ],
+    "year": "1958",
+    "traditions": [
+      "Iroquois (Ononharoia)"
+    ],
+    "cluster": "Indigenous & Shamanic Traditions",
+    "sourceCategory": "Secondary",
+    "url": "",
+    "doi": "https://doi.org/10.1525/aa.1958.60.2.02a00030",
+    "access": "Paywalled",
+    "annotation": "Classic analysis of 17th-century Iroquois dream theory, positing dreams as expressions of the soul's secret wishes (*ondinnonk*), fulfilled through rituals like the Ononharoia feast; draws on Jesuit accounts for psychoanalytic-style interpretation. Secondary scholarship by non-Indigenous author; potential Western bias in framing as 'psychoanalytic,' but foundational for understanding pre-contact dream practices. Limitation: dated methodology.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "iroquoisononharoia-002",
+    "resourceType": "Book",
+    "title": "The Death and Rebirth of the Seneca",
+    "authors": [
+      "Anthony F. C. Wallace"
+    ],
+    "year": "1970",
+    "traditions": [
+      "Iroquois (Ononharoia)"
+    ],
+    "cluster": "Indigenous & Shamanic Traditions",
+    "sourceCategory": "Secondary",
+    "url": "https://www.penguinrandomhouse.com/books/197748/the-death-and-rebirth-of-the-seneca-by-anthony-f-c-wallace/",
+    "doi": "",
+    "access": "Paywalled",
+    "annotation": "Comprehensive ethnohistory of Seneca (Iroquois) society, including traditional dream practices and their role in the revitalization movement led by prophet Handsome Lake, whose visions formed the Gaiwiio code. Secondary by non-Indigenous scholar; highly regarded canonical work from Knopf, analyzes dreams in cultural collapse and renewal. Flag: psychoanalytic lens on Indigenous religion.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "iroquoisononharoia-003",
+    "resourceType": "Academic paper",
+    "title": "THE DREAM-VISION EXPERIENCE OF THE IROQUOIS: ITS RELIGIOUS MEANING",
+    "authors": [
+      "Donald Patrick St. John"
+    ],
+    "year": "1981",
+    "traditions": [
+      "Iroquois (Ononharoia)"
+    ],
+    "cluster": "Indigenous & Shamanic Traditions",
+    "sourceCategory": "Secondary",
+    "url": "https://research.library.fordham.edu/dissertations/AAI8123469/",
+    "doi": "",
+    "access": "Open access",
+    "annotation": "Dissertation tracing dream-vision's central role in Iroquois religion from 1600s Jesuit contact era through Handsome Lake's prophetic visions and modern Longhouse Religion; reconstructs archaic cosmology, critiques reductionist psych analyses. Secondary non-Indigenous scholarship from .edu repository; strong historical synthesis using primary Jesuit/Quaker sources. Limitation: theological framing.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "iroquoisononharoia-004",
+    "resourceType": "Primary text",
+    "title": "The Code of Handsome Lake, the Seneca Prophet",
+    "authors": [
+      "Handsome Lake (prophet); Arthur C. Parker (ed.); William Bluesky (trans.)"
+    ],
+    "year": "1913",
+    "traditions": [
+      "Iroquois (Ononharoia)"
+    ],
+    "cluster": "Indigenous & Shamanic Traditions",
+    "sourceCategory": "Primary",
+    "url": "https://ehrafworldcultures.yale.edu/cultures/nm09/documents/026",
+    "doi": "",
+    "access": "Institutional access",
+    "annotation": "Translation of Handsome Lake's visionary revelations forming the Gaiwiio ('Good Word'), integrating traditional Iroquois dream-based spirituality with moral reforms; basis of Longhouse religion. Primary text (prophet's teachings via tradition/lineage holders), edited by Indigenous Seneca scholar Arthur C. Parker; flag: mediated through non-Indigenous HRAF but core is insider tradition.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "iroquoisononharoia-005",
+    "resourceType": "Article",
+    "title": "Falling “Into a Dreame”",
+    "authors": [
+      "Ann Marie Plane"
+    ],
+    "year": "2000",
+    "traditions": [
+      "Iroquois (Ononharoia)"
+    ],
+    "cluster": "Indigenous & Shamanic Traditions",
+    "sourceCategory": "Secondary",
+    "url": "https://www.colonialsociety.org/node/1395",
+    "doi": "",
+    "access": "Open access",
+    "annotation": "Institutional article referencing Wallace's analysis of Ononharoia ('Feast of Fools') as dream enactment ritual where participants act out dreams for guessing/satisfaction, linking to Iroquoian soul-wish theory. Secondary (scholarly commentary); non-Indigenous author; contributes contextual historical tie-in. Limitation: brief reference amid broader New England native dream study.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "multipleseeannotatio-001",
+    "resourceType": "Book",
+    "title": "Dreaming in the World's Religions: A Comparative History",
+    "authors": [
+      "Kelly Bulkeley"
+    ],
+    "year": "2008",
+    "traditions": [
+      "Multiple — see annotation"
+    ],
+    "cluster": "Meta",
+    "sourceCategory": "Meta",
+    "url": "https://nyupress.org/9780814799574/dreaming-in-the-worlds-religions/",
+    "doi": "",
+    "access": "Paywalled",
+    "annotation": "Comprehensive cross-cultural survey of dreaming across Christianity, Islam, Judaism, Buddhism, Hinduism, and Indigenous traditions. Essential comparative framework spanning most clusters in the atlas. Bulkeley is a leading dream scholar with both religious studies and cognitive science training. Limitation: breadth sometimes sacrifices depth on individual traditions.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "multipleseeannotatio-002",
+    "resourceType": "Book",
+    "title": "Big Dreams: The Science of Dreaming and the Origins of Religion",
+    "authors": [
+      "Kelly Bulkeley"
+    ],
+    "year": "2016",
+    "traditions": [
+      "Multiple — see annotation"
+    ],
+    "cluster": "Meta",
+    "sourceCategory": "Meta",
+    "url": "https://global.oup.com/academic/product/big-dreams-9780199351558",
+    "doi": "",
+    "access": "Paywalled",
+    "annotation": "Bridges empirical dream science with religious/cultural dream traditions, arguing that 'big dreams' (highly memorable, emotionally intense) are cross-culturally universal and may underlie religious experience. Spans neurobiological, evolutionary, and religious/mystical clusters. Oxford University Press.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "multipleseeannotatio-003",
+    "resourceType": "Book",
+    "title": "The Scientific Study of Dreams: Neural Networks, Cognitive Development, and Content Analysis",
+    "authors": [
+      "G. William Domhoff"
+    ],
+    "year": "2003",
+    "traditions": [
+      "Multiple — see annotation"
+    ],
+    "cluster": "Meta",
+    "sourceCategory": "Meta",
+    "url": "https://www.apa.org/pubs/books/4316040",
+    "doi": "",
+    "access": "Paywalled",
+    "annotation": "Integrates neuroscience, developmental psychology, and quantitative content analysis into a unified framework. Essential for understanding how the cognitive/quantitative cluster relates to neurobiological findings. Domhoff synthesizes Hall/Van de Castle, Foulkes, and Hobson traditions. APA Books.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "multipleseeannotatio-004",
+    "resourceType": "Book",
+    "title": "Dreaming: An Introduction to the Science of Sleep",
+    "authors": [
+      "J. Allan Hobson"
+    ],
+    "year": "2004",
+    "traditions": [
+      "Multiple — see annotation"
+    ],
+    "cluster": "Meta",
+    "sourceCategory": "Meta",
+    "url": "https://global.oup.com/academic/product/dreaming-9780192806482",
+    "doi": "",
+    "access": "Paywalled",
+    "annotation": "Accessible overview by the founder of Activation-Synthesis that also surveys psychoanalytic, cognitive, and evolutionary perspectives. Useful as a gateway text that compares scientific and clinical traditions. Oxford University Press. Bias: Hobson's anti-Freudian stance colors the comparison.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "multipleseeannotatio-005",
+    "resourceType": "Academic paper",
+    "title": "Dreaming and Insight",
+    "authors": [
+      "Mark Blagrove",
+      "Josie Malinowski",
+      "Caroline Horton"
+    ],
+    "year": "2013",
+    "traditions": [
+      "Multiple — see annotation"
+    ],
+    "cluster": "Meta",
+    "sourceCategory": "Meta",
+    "url": "",
+    "doi": "https://doi.org/10.3389/fpsyg.2013.00979",
+    "access": "Open access",
+    "annotation": "Cross-tradition review examining how dreams facilitate insight across clinical (Jungian, Gestalt, Hill), empirical (continuity hypothesis), and neuroscientific frameworks. Bridges depth psychology and cognitive science perspectives on dream meaning-making.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "multipleseeannotatio-006",
+    "resourceType": "Book",
+    "title": "Dreaming: Anthropological and Psychological Interpretations",
+    "authors": [
+      "Barbara Tedlock (editor)"
+    ],
+    "year": "1992",
+    "traditions": [
+      "Multiple — see annotation"
+    ],
+    "cluster": "Meta",
+    "sourceCategory": "Meta",
+    "url": "https://www.cambridge.org/core/books/dreaming/48E3F28E1B0EB7CC2785D2E3F14A97B4",
+    "doi": "",
+    "access": "Paywalled",
+    "annotation": "Foundational anthropological collection with chapters on Maya, Amazonian, African, and other Indigenous dream traditions alongside psychological frameworks. Essential for connecting Indigenous/shamanic cluster to Western clinical interpretations. Cambridge University Press.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "multipleseeannotatio-007",
+    "resourceType": "Academic paper",
+    "title": "Dreaming in Cross-Cultural Perspective: A Conceptual Framework",
+    "authors": [
+      "Waud Kracke"
+    ],
+    "year": "1992",
+    "traditions": [
+      "Multiple — see annotation"
+    ],
+    "cluster": "Meta",
+    "sourceCategory": "Meta",
+    "url": "",
+    "doi": "https://doi.org/10.1037/h0079363",
+    "access": "Paywalled",
+    "annotation": "Proposes a framework for comparing dream theories across cultures, drawing on fieldwork with Amazonian Parintintin and Western psychoanalytic traditions. Bridges Indigenous and clinical perspectives. Kracke was a pioneer in psychoanalytic anthropology of dreams.",
+    "qualityFlag": "Unverified"
+  },
+  {
+    "id": "multipleseeannotatio-008",
+    "resourceType": "Book",
+    "title": "Children's Dreaming and the Development of Consciousness",
+    "authors": [
+      "David Foulkes"
+    ],
+    "year": "1999",
+    "traditions": [
+      "Multiple — see annotation"
+    ],
+    "cluster": "Meta",
+    "sourceCategory": "Meta",
+    "url": "https://www.hup.harvard.edu/books/9780674009714",
+    "doi": "",
+    "access": "Paywalled",
+    "annotation": "While primarily about cognitive development, Foulkes' work has cross-tradition implications: it challenges all traditions that assume children dream like adults (including most Indigenous and religious traditions). Harvard University Press. Forces reconsideration of universal dream claims.",
+    "qualityFlag": "Unverified"
+  }
+]

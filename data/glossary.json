@@ -1,0 +1,621 @@
+[
+  {
+    "id": "dream",
+    "term": "Dream",
+    "section": "Cross-tradition core",
+    "definition": "Mental experience during sleep involving imagery, narrative, emotion, or sensation. Broader usage in some traditions extends to waking visions, daydreams, or any altered-state experience.",
+    "traditions": [
+      "All"
+    ],
+    "notes": "Disputed: scientific traditions restrict to sleep mentation; Indigenous/contemplative may use broader meaning. Definition is itself a site of theoretical disagreement \u2014 do not assume one definition fits all."
+  },
+  {
+    "id": "oneirology",
+    "term": "Oneirology",
+    "section": "Cross-tradition core",
+    "definition": "The scientific or scholarly study of dreams. From Greek oneiros (dream) + logos (study).",
+    "traditions": [
+      "All"
+    ],
+    "notes": "Neutral meta-term; useful for referring to the field as a whole regardless of tradition."
+  },
+  {
+    "id": "lucid-dreaming",
+    "term": "Lucid dreaming",
+    "section": "Cross-tradition core",
+    "definition": "A state in which the dreamer is aware that they are dreaming, often with varying degrees of voluntary control over dream content.",
+    "traditions": [
+      "Tibetan Dream Yoga",
+      "Neurocognitive (Domhoff)",
+      "Activation-Synthesis"
+    ],
+    "notes": "Treatment differs radically: Dream Yoga treats it as a spiritual practice/vehicle for liberation; neuroscience treats it as a measurable cognitive state (frontal reactivation during REM); pop culture treats it as skill/entertainment."
+  },
+  {
+    "id": "nightmare",
+    "term": "Nightmare",
+    "section": "Cross-tradition core",
+    "definition": "A distressing dream, typically involving fear, threat, or danger, often causing awakening. Clinical definition requires significant distress or sleep disruption.",
+    "traditions": [
+      "All"
+    ],
+    "notes": "Cross-cultural variation in causation: Western clinical = emotional dysregulation; Anishinaabe = possible spirit communication; Tibetan = karma/obstacle manifestation. Treatment ranges from therapy (IRT) to ritual response."
+  },
+  {
+    "id": "night-terror-sleep-terror",
+    "term": "Night terror (sleep terror)",
+    "section": "Cross-tradition core",
+    "definition": "A NREM parasomnia (typically Stage 3) characterized by sudden arousal, intense fear, vocalization, and autonomic activation, with little or no dream recall. Distinct from nightmares.",
+    "traditions": [
+      "Scientific (Domhoff",
+      "Activation-Synthesis)"
+    ],
+    "notes": "Often conflated with nightmare in lay use \u2014 important to distinguish."
+  },
+  {
+    "id": "prophetic-dream",
+    "term": "Prophetic dream",
+    "section": "Cross-tradition core",
+    "definition": "A dream believed to foretell future events. Present across many traditions; mechanisms proposed range from divine revelation to unconscious inference.",
+    "traditions": [
+      "Anishinaabe",
+      "Jungian (prospective function)",
+      "historical/religious traditions"
+    ],
+    "notes": "Scientific traditions largely reject literal prophetic content; Jungian tradition allows a \"prospective\" function (dream anticipates psychic development)."
+  },
+  {
+    "id": "incubation",
+    "term": "Incubation",
+    "section": "Cross-tradition core",
+    "definition": "Deliberate practice of seeking a dream with specific content or guidance, often through ritual preparation (fasting, prayer, sleeping in sacred site).",
+    "traditions": [
+      "Anishinaabe (vision quests)",
+      "historical Greek (Asclepian temples)",
+      "Tibetan (preparation practices)"
+    ],
+    "notes": "Used across many unrelated traditions \u2014 a good cross-tradition comparison point."
+  },
+  {
+    "id": "hypnagogia-hypnopompia",
+    "term": "Hypnagogia / Hypnopompia",
+    "section": "Cross-tradition core",
+    "definition": "Hypnagogia: the transitional state between wakefulness and sleep, often involving vivid imagery, sounds, or sensations. Hypnopompia: the equivalent on waking.",
+    "traditions": [
+      "Neurocognitive",
+      "Activation-Synthesis",
+      "contemplative traditions"
+    ],
+    "notes": "Not strictly \"dreaming\" but relevant to understanding the spectrum of sleep mentation."
+  },
+  {
+    "id": "rem-sleep",
+    "term": "REM sleep",
+    "section": "Methods & science",
+    "definition": "Rapid Eye Movement sleep \u2014 a stage characterized by active brain patterns similar to waking, muscle atonia, and vivid dreaming. Discovered by Aserinsky & Kleitman (1953).",
+    "traditions": [
+      "Activation-Synthesis",
+      "Neurocognitive (Domhoff)"
+    ],
+    "notes": "Most vivid dreaming occurs in REM but dreaming also occurs in NREM. The REM=dreaming equation is an oversimplification."
+  },
+  {
+    "id": "nrem-sleep",
+    "term": "NREM sleep",
+    "section": "Methods & science",
+    "definition": "Non-Rapid Eye Movement sleep, encompassing stages N1, N2, and N3 (slow-wave/deep sleep). Dreaming does occur in NREM, typically less vivid and more thought-like.",
+    "traditions": [
+      "Activation-Synthesis",
+      "Neurocognitive (Domhoff)"
+    ],
+    "notes": "Important corrective: not all dreaming is REM dreaming."
+  },
+  {
+    "id": "default-mode-network-dmn",
+    "term": "Default Mode Network (DMN)",
+    "section": "Methods & science",
+    "definition": "A set of brain regions (medial prefrontal cortex, posterior cingulate, angular gyrus, hippocampus) active during rest, mind-wandering, and dreaming. Domhoff's neurocognitive theory centers dreaming in DMN activation.",
+    "traditions": [
+      "Neurocognitive (Domhoff)"
+    ],
+    "notes": "Key concept for understanding the neurocognitive account \u2014 the DMN \"generates\" dream-like simulation even during waking (daydreaming)."
+  },
+  {
+    "id": "hall-van-de-castle-coding-system",
+    "term": "Hall-Van de Castle coding system",
+    "section": "Methods & science",
+    "definition": "A standardized content-analysis system for dream reports developed by Calvin Hall and Robert Van de Castle (1966). Codes characters, interactions, emotions, settings, and objects for quantitative analysis.",
+    "traditions": [
+      "Neurocognitive (Domhoff)"
+    ],
+    "notes": "The empirical backbone of Domhoff's content analysis program. Major limitation: relies entirely on verbal dream reports; does not access the dream experience directly."
+  },
+  {
+    "id": "polysomnography-psg",
+    "term": "Polysomnography (PSG)",
+    "section": "Methods & science",
+    "definition": "A multi-channel sleep recording measuring EEG, EOG, EMG, respiratory effort, and other physiological signals. Standard method in sleep lab research.",
+    "traditions": [
+      "Activation-Synthesis",
+      "Neurocognitive"
+    ],
+    "notes": "Gold standard for sleep staging but tells you about physiology, not phenomenology."
+  },
+  {
+    "id": "pgo-waves",
+    "term": "PGO waves",
+    "section": "Methods & science",
+    "definition": "Ponto-Geniculo-Occipital waves \u2014 brainstem electrical bursts that propagate to the visual cortex during REM sleep. Central to Hobson & McCarley's activation-synthesis model as the \"random activation\" driving dream imagery.",
+    "traditions": [
+      "Activation-Synthesis"
+    ],
+    "notes": "Term specific to Hobson's model; rarely used in other frameworks."
+  },
+  {
+    "id": "aim-model",
+    "term": "AIM model",
+    "section": "Methods & science",
+    "definition": "Activation-Input-Modulation model (Hobson, 2000) \u2014 a 3D model of brain-mind states along activation level, input source, and neuromodulatory ratio (aminergic/cholinergic). An extension of activation-synthesis.",
+    "traditions": [
+      "Activation-Synthesis"
+    ],
+    "notes": "Represents a softening of the original epiphenomenal position; still largely biologically reductive."
+  },
+  {
+    "id": "archetype",
+    "term": "Archetype",
+    "section": "Tradition-specific: Jungian",
+    "definition": "Universal, inherited patterns or images residing in the collective unconscious (e.g., the Shadow, Anima/Animus, the Self, the Wise Old Man). Archetypes are not images but tendencies to produce images.",
+    "traditions": [
+      "Jungian"
+    ],
+    "notes": "Controversial: no empirical evidence for a literal \"collective unconscious.\" Scientifically treated as a cultural/psychological metaphor. Risk of over-universalizing \u2014 seeing one's own cultural images as universal."
+  },
+  {
+    "id": "shadow",
+    "term": "Shadow",
+    "section": "Tradition-specific: Jungian",
+    "definition": "The repressed or unacknowledged aspects of the psyche \u2014 the \"dark side\" of the personality. Often projected onto others or expressed in dreams.",
+    "traditions": [
+      "Jungian"
+    ],
+    "notes": "Has cross-cultural resonance but the specific Jungian theoretical apparatus is culturally situated (Western, Protestant-influenced)."
+  },
+  {
+    "id": "individuation",
+    "term": "Individuation",
+    "section": "Tradition-specific: Jungian",
+    "definition": "Jung's term for the lifelong psychological process of integrating conscious and unconscious aspects of the self toward wholeness. Dreams are central vehicles of this process.",
+    "traditions": [
+      "Jungian"
+    ],
+    "notes": "Boader concept than clinical therapy \u2014 has quasi-spiritual connotations Jung himself acknowledged."
+  },
+  {
+    "id": "active-imagination",
+    "term": "Active imagination",
+    "section": "Tradition-specific: Jungian",
+    "definition": "A Jungian practice of consciously engaging with dream figures, images, or complexes in waking imagination \u2014 a bridge between decode and shape modes.",
+    "traditions": [
+      "Jungian"
+    ],
+    "notes": "Represents the \"Shape\" edge of the Jungian tradition; analogous in some ways to Tibetan visualization practices."
+  },
+  {
+    "id": "bardo",
+    "term": "Bardo",
+    "section": "Tradition-specific: Tibetan",
+    "definition": "Literally \"intermediate state\" or \"gap.\" In Tibetan Buddhist/Bon cosmology, refers to transitional states including the bardo of dying, dharmata, and becoming. Dream yoga prepares the practitioner for navigating bardo states.",
+    "traditions": [
+      "Tibetan Dream Yoga"
+    ],
+    "notes": "Do not flatten to a simple \"afterlife\" concept. Multiple bardos are described; the dream bardo is one among several."
+  },
+  {
+    "id": "rigpa",
+    "term": "Rigpa",
+    "section": "Tradition-specific: Tibetan",
+    "definition": "The Tibetan term for the nature of mind \u2014 pure awareness, luminous and unobstructed. The ultimate goal of dream yoga is to recognize and rest in rigpa during the dream state.",
+    "traditions": [
+      "Tibetan Dream Yoga"
+    ],
+    "notes": "Highly technical term within Dzogchen/Bon lineages. Non-practitioner use risks misrepresentation. Wangyal Rinpoche's accessible texts are the best entry point for outsiders."
+  },
+  {
+    "id": "clear-light-od-gsal",
+    "term": "Clear light (od gsal)",
+    "section": "Tradition-specific: Tibetan",
+    "definition": "The most subtle level of consciousness, associated with deep sleep, death, and the moment of enlightenment. Dream yoga aims to maintain awareness through transitions into clear light states.",
+    "traditions": [
+      "Tibetan Dream Yoga"
+    ],
+    "notes": "Distinct from \"luminosity\" in a loose sense. Technical term \u2014 flag when used loosely in comparative contexts."
+  },
+  {
+    "id": "illusory-body-sgyu-lus",
+    "term": "Illusory body (sgyu lus)",
+    "section": "Tradition-specific: Tibetan",
+    "definition": "In Tibetan tantric practice, the subtle body recognized as the basis of dream appearances. Training in illusory body practice is a companion practice to dream yoga.",
+    "traditions": [
+      "Tibetan Dream Yoga"
+    ],
+    "notes": "Used in both Bon and Vajrayana Buddhist contexts with some variation in meaning. Not to be confused with \"astral body\" in Western occult usage."
+  },
+  {
+    "id": "manidoog-manidou-manitou",
+    "term": "Manidoog / Manidou (Manitou)",
+    "section": "Tradition-specific: Anishinaabe",
+    "definition": "Spiritual powers or beings (other-than-human persons) in Anishinaabe cosmology. Dreams are a primary channel of communication with manidoog.",
+    "traditions": [
+      "Anishinaabe/Ojibwe"
+    ],
+    "notes": "CAUTION: Term has been widely misappropriated and trivialized in popular culture (\"Great Spirit\" flattening). Use only when citing Anishinaabe-authored sources directly."
+  },
+  {
+    "id": "other-than-human-persons",
+    "term": "Other-than-human persons",
+    "section": "Tradition-specific: Anishinaabe",
+    "definition": "Hallowell's analytical term (later adopted by Anishinaabe scholars) for beings \u2014 animals, spirits, stones, winds \u2014 who are recognized as persons with agency, intentionality, and relational standing.",
+    "traditions": [
+      "Anishinaabe/Ojibwe"
+    ],
+    "notes": "Key concept for understanding why dreams matter: they are not projections but communications from actual persons (in this ontology). Source: Hallowell (outsider) \u2014 verify against Anishinaabe-authored elaborations."
+  },
+  {
+    "id": "dream-helper-pawagan",
+    "term": "Dream helper / pawagan",
+    "section": "Tradition-specific: Anishinaabe",
+    "definition": "A spirit being encountered in dreams (often in childhood or through a vision fast/quest) who becomes a lifelong source of guidance, power, and protection for the dreamer.",
+    "traditions": [
+      "Anishinaabe/Ojibwe"
+    ],
+    "notes": "Relates to the vision quest and puberty fasting practices. Flag: Hallowell's descriptions are the primary scholarly source \u2014 apply positionality critique."
+  },
+  {
+    "id": "embodied-simulation",
+    "term": "Embodied simulation",
+    "section": "Tradition-specific: Neurocognitive",
+    "definition": "Domhoff's characterization of dreaming as a form of simulation that engages sensorimotor and emotional systems, not just abstract cognition \u2014 rooted in the brain's default network activity.",
+    "traditions": [
+      "Neurocognitive (Domhoff)"
+    ],
+    "notes": "Distinguishes Domhoff's account from pure \"narrative\" or symbolic theories. Aligns loosely with threat simulation and social simulation theories but without strong adaptive claims."
+  },
+  {
+    "id": "content-analysis-dreams",
+    "term": "Content analysis (dreams)",
+    "section": "Tradition-specific: Neurocognitive",
+    "definition": "The systematic, quantitative coding of dream report content using standardized categories (Hall-Van de Castle or derivatives). Allows large-scale comparison across individuals, cultures, and time.",
+    "traditions": [
+      "Neurocognitive (Domhoff)"
+    ],
+    "notes": "Strength: scalable, replicable. Weakness: treats the verbal report as a transparent window on the dream \u2014 phenomenological validity is assumed, not demonstrated."
+  },
+  {
+    "id": "targeted-memory-reactivation-tmr",
+    "term": "Targeted Memory Reactivation (TMR)",
+    "section": "Tradition-specific: Dream Engineering",
+    "definition": "A technique that re-presents learning-associated cues (sounds, smells) during sleep to strengthen memory consolidation.",
+    "traditions": [
+      "Dream Engineering"
+    ],
+    "notes": "The foundational method of dream engineering; distinct from targeted dream incubation (TDI) which aims to influence dream content rather than memory."
+  },
+  {
+    "id": "targeted-dream-incubation-tdi",
+    "term": "Targeted Dream Incubation (TDI)",
+    "section": "Tradition-specific: Dream Engineering",
+    "definition": "A technique that delivers specific prompts during hypnagogia or sleep to guide dream content toward a target topic.",
+    "traditions": [
+      "Dream Engineering"
+    ],
+    "notes": "Developed primarily by the MIT Dormio project; currently most reliable at hypnagogia not deeper sleep stages."
+  },
+  {
+    "id": "dormio",
+    "term": "Dormio",
+    "section": "Tradition-specific: Dream Engineering",
+    "definition": "A wearable device developed at MIT Media Lab that tracks sleep onset and delivers audio prompts during hypnagogia.",
+    "traditions": [
+      "Dream Engineering"
+    ],
+    "notes": "The proof-of-concept device for TDI; demonstrates that dream content can be influenced by external cues."
+  },
+  {
+    "id": "sleep-staging",
+    "term": "Sleep staging",
+    "section": "Methods & science",
+    "definition": "The process of classifying sleep into stages (N1, N2, N3, REM) using EEG and other physiological signals.",
+    "traditions": [
+      "Dream Engineering",
+      "Activation-Synthesis"
+    ],
+    "notes": "Critical for dream engineering: interventions must be timed to specific stages. Also foundational for activation-synthesis."
+  },
+  {
+    "id": "hot-seat-empty-chair",
+    "term": "Hot seat / Empty chair",
+    "section": "Tradition-specific: Gestalt",
+    "definition": "A therapeutic technique where the client speaks as (not about) different dream elements, switching positions to voice each part.",
+    "traditions": [
+      "Gestalt Dreamwork"
+    ],
+    "notes": "The primary method of Gestalt dreamwork; creates the performative re-identification that distinguishes Gestalt from interpretive traditions."
+  },
+  {
+    "id": "projection-gestalt-sense",
+    "term": "Projection (Gestalt sense)",
+    "section": "Tradition-specific: Gestalt",
+    "definition": "In Gestalt, the attribution of disowned parts of self to external objects, people, or dream elements.",
+    "traditions": [
+      "Gestalt Dreamwork"
+    ],
+    "notes": "Distinct from Freudian projection; in Gestalt every dream element is a projection of the dreamer's own experience."
+  },
+  {
+    "id": "re-identification",
+    "term": "Re-identification",
+    "section": "Tradition-specific: Gestalt",
+    "definition": "The process of recognizing and re-owning projected parts of self encountered as dream elements.",
+    "traditions": [
+      "Gestalt Dreamwork"
+    ],
+    "notes": "The therapeutic goal of Gestalt dreamwork; not interpretation but experiential recognition."
+  },
+  {
+    "id": "ruya-true-dream",
+    "term": "Ru'ya (true dream)",
+    "section": "Tradition-specific: Islamic",
+    "definition": "A true dream sent by God; one of three Islamic dream categories; considered a form of divine communication.",
+    "traditions": [
+      "Islamic Oneirocriticism"
+    ],
+    "notes": "Distinguished from hulm (confused/self-generated dream) and satanic dream. Hadith: true dreams are 1/46th of prophecy."
+  },
+  {
+    "id": "hulm-confused-dream",
+    "term": "Hulm (confused dream)",
+    "section": "Tradition-specific: Islamic",
+    "definition": "A meaningless jumbled dream generated by the self; one of three Islamic dream categories; to be ignored.",
+    "traditions": [
+      "Islamic Oneirocriticism"
+    ],
+    "notes": "Functions as a structural pressure valve absorbing everything neither divine nor satanic."
+  },
+  {
+    "id": "muabbir-dream-interpreter",
+    "term": "Mu'abbir (dream interpreter)",
+    "section": "Tradition-specific: Islamic",
+    "definition": "A trained Islamic dream interpreter with theological knowledge; a scholarly role with significant authority.",
+    "traditions": [
+      "Islamic Oneirocriticism"
+    ],
+    "notes": "The heaviest interpreter role in any tradition surveyed; more authority than Jungian analyst, more constrained by theology."
+  },
+  {
+    "id": "oneirocriticism",
+    "term": "Oneirocriticism",
+    "section": "Cross-tradition core",
+    "definition": "The formal practice or art of dream interpretation; from Greek oneirokritikos.",
+    "traditions": [
+      "Islamic",
+      "Classical Greek (Artemidorus)"
+    ],
+    "notes": "Used across multiple traditions but with very different methods and authority structures."
+  },
+  {
+    "id": "wu-hua-transformation-of-things",
+    "term": "Wu hua (transformation of things)",
+    "section": "Tradition-specific: Zhuangzi",
+    "definition": "Zhuangzi's concept that all things undergo ceaseless transformation; the dream/waking boundary is one such transformation.",
+    "traditions": [
+      "Zhuangzi (Butterfly Dream)"
+    ],
+    "notes": "The philosophical context of the butterfly parable; not a practice but an insight into the nature of change."
+  },
+  {
+    "id": "qi-wu-lun",
+    "term": "Qi Wu Lun",
+    "section": "Tradition-specific: Zhuangzi",
+    "definition": "Chapter 2 of the Zhuangzi text; title variously translated as Discussion on Making All Things Equal or On the Equality of Things.",
+    "traditions": [
+      "Zhuangzi (Butterfly Dream)"
+    ],
+    "notes": "The chapter containing the butterfly dream parable; a foundational text in Chinese philosophy."
+  },
+  {
+    "id": "imagery-rehearsal",
+    "term": "Imagery rehearsal",
+    "section": "Tradition-specific: IRT",
+    "definition": "The core IRT technique: patient creates a changed version of a recurrent nightmare and rehearses it mentally during waking hours.",
+    "traditions": [
+      "Imagery Rehearsal Therapy"
+    ],
+    "notes": "Not dream incubation (no attempt to become lucid); the rehearsal is entirely waking-based and cognitive-behavioral."
+  },
+  {
+    "id": "rescripting",
+    "term": "Rescripting",
+    "section": "Tradition-specific: IRT",
+    "definition": "The act of rewriting a nightmare narrative with changed elements chosen by the patient.",
+    "traditions": [
+      "Imagery Rehearsal Therapy"
+    ],
+    "notes": "The patient has full authorial control; the therapist does not suggest content. Distinct from exposure therapy which confronts the original content."
+  },
+  {
+    "id": "pseudepigraphic",
+    "term": "Pseudepigraphic",
+    "section": "Methods & science",
+    "definition": "A text falsely attributed to a famous author to increase its authority.",
+    "traditions": [
+      "Islamic Oneirocriticism"
+    ],
+    "notes": "Many dream manuals attributed to Ibn Sirin are likely pseudepigraphic; important source-criticism flag."
+  },
+  {
+    "id": "svapna",
+    "term": "Svapna",
+    "section": "Tradition-specific",
+    "definition": "Hindu (Upanishadic)",
+    "traditions": [
+      "The dream state in Hindu philosophy",
+      "one of four states of consciousness in Mandukya Upanishad (along with Jagrat/waking",
+      "Sushupti/deep sleep",
+      "and Turiya/pure consciousness)"
+    ],
+    "notes": "Hindu Upanishadic"
+  },
+  {
+    "id": "jagrat",
+    "term": "Jagrat",
+    "section": "Tradition-specific",
+    "definition": "Hindu (Upanishadic)",
+    "traditions": [
+      "The waking state",
+      "first of four states of consciousness in Mandukya Upanishad"
+    ],
+    "notes": "Hindu Upanishadic"
+  },
+  {
+    "id": "turiya",
+    "term": "Turiya",
+    "section": "Tradition-specific",
+    "definition": "Hindu (Upanishadic)",
+    "traditions": [
+      "The fourth state of consciousness beyond waking",
+      "dreaming",
+      "and deep sleep",
+      "pure awareness"
+    ],
+    "notes": "Hindu Upanishadic; Tibetan Dream Yoga (cf. rigpa)"
+  },
+  {
+    "id": "hun",
+    "term": "Hun",
+    "section": "Tradition-specific",
+    "definition": "Daoist",
+    "traditions": [
+      "The ethereal soul in Chinese philosophy",
+      "believed to wander during dreams"
+    ],
+    "notes": "Daoist Internal Alchemy"
+  },
+  {
+    "id": "latent-content",
+    "term": "Latent content",
+    "section": "Tradition-specific",
+    "definition": "Freudian",
+    "traditions": [
+      "The hidden",
+      "unconscious meaning behind a dream's surface narrative",
+      "the true wish being expressed"
+    ],
+    "notes": "Freudian Psychoanalysis"
+  },
+  {
+    "id": "manifest-content",
+    "term": "Manifest content",
+    "section": "Tradition-specific",
+    "definition": "Freudian",
+    "traditions": [
+      "The dream as remembered and reported",
+      "the surface narrative that disguises latent content"
+    ],
+    "notes": "Freudian Psychoanalysis"
+  },
+  {
+    "id": "free-association",
+    "term": "Free association",
+    "section": "Methods & science",
+    "definition": "Freudian/Clinical",
+    "traditions": [
+      "Technique where dreamer reports whatever comes to mind in connection with dream elements",
+      "Freud's primary interpretive method"
+    ],
+    "notes": "Freudian; adapted in various clinical traditions"
+  },
+  {
+    "id": "condensation",
+    "term": "Condensation",
+    "section": "Tradition-specific",
+    "definition": "Freudian",
+    "traditions": [
+      "Dreamwork mechanism where multiple thoughts/images are compressed into a single dream element"
+    ],
+    "notes": "Freudian Psychoanalysis"
+  },
+  {
+    "id": "threat-simulation",
+    "term": "Threat simulation",
+    "section": "Methods & science",
+    "definition": "Evolutionary psychology",
+    "traditions": [
+      "Revonsuo's theory that dreams evolved to simulate threatening events for survival rehearsal"
+    ],
+    "notes": "Threat Simulation Theory"
+  },
+  {
+    "id": "oneiros-vs.-enhypnion",
+    "term": "Oneiros vs. enhypnion",
+    "section": "Tradition-specific",
+    "definition": "Greco-Roman",
+    "traditions": [
+      "Artemidorus's distinction between prophetic dreams (oneiros) that predict the future and non-prophetic dreams (enhypnion) caused by bodily states"
+    ],
+    "notes": "Greco-Roman Oneirocriticism"
+  },
+  {
+    "id": "abaton",
+    "term": "Abaton",
+    "section": "Tradition-specific",
+    "definition": "Ancient Greek (Asclepian)",
+    "traditions": [
+      "The sacred sleeping chamber in Asclepieion healing sanctuaries where patients slept to receive healing dreams from Asclepius"
+    ],
+    "notes": "Ancient Greek Asclepian Healing"
+  },
+  {
+    "id": "ononharoia",
+    "term": "Ononharoia",
+    "section": "Tradition-specific",
+    "definition": "Iroquois (Haudenosaunee)",
+    "traditions": [
+      "The Midwinter Dream Festival",
+      "a communal ritual where dreams are shared and the community is obligated to fulfill the soul's desires expressed in dreams"
+    ],
+    "notes": "Iroquois"
+  },
+  {
+    "id": "pewma",
+    "term": "Pewma",
+    "section": "Tradition-specific",
+    "definition": "Mapuche",
+    "traditions": [
+      "Dream in Mapuche tradition",
+      "the primary epistemological tool for machi (shamans) and community members"
+    ],
+    "notes": "Mapuche"
+  },
+  {
+    "id": "hatavat-chalom",
+    "term": "Hatavat Chalom",
+    "section": "Tradition-specific",
+    "definition": "Talmudic Jewish",
+    "traditions": [
+      "Ritual for transforming a bad dream into a good one",
+      "performed before three friends who declare the dream is good"
+    ],
+    "notes": "Talmudic Jewish"
+  },
+  {
+    "id": "apotropaic-ritual",
+    "term": "Apotropaic ritual",
+    "section": "Cross-tradition core",
+    "definition": "Used across multiple traditions",
+    "traditions": [
+      "Ritual action to ward off or neutralize the negative effects of a bad dream"
+    ],
+    "notes": "Mesopotamian; Egyptian; Talmudic Jewish; many folk traditions"
+  }
+]
