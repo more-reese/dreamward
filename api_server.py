@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Dreamward API — LLM comparison summaries and dream interpretation.
-Rate-limited (10 requests per IP per hour) and uses Haiku for cost efficiency.
+Rate-limited (10 requests per IP per hour, shared by both AI endpoints)
+and uses Haiku for cost efficiency.
 """
 import json
 import re
@@ -31,9 +32,19 @@ app.add_middleware(
 client = Anthropic()
 
 # --- Rate limiting: 10 requests per IP per hour, in-memory ---
+# Interpret and Compare share one budget. A visitor cannot reset the
+# cap by switching endpoints, and a rejected request does not call the model.
 RATE_LIMIT = 10  # max requests per window
 RATE_WINDOW = 3600  # 1 hour in seconds
 _request_log: dict[str, list[float]] = defaultdict(list)
+
+
+def _client_ip(request: Request) -> str:
+    """Visitor address. Prefer the first X-Forwarded-For hop (Railway)."""
+    forwarded = request.headers.get("X-Forwarded-For", "")
+    if forwarded:
+        return forwarded.split(",")[0].strip()
+    return request.client.host if request.client else "unknown"
 
 
 def _check_rate_limit(client_ip: str) -> None:
@@ -46,7 +57,7 @@ def _check_rate_limit(client_ip: str) -> None:
     if len(_request_log[client_ip]) >= RATE_LIMIT:
         raise HTTPException(
             status_code=429,
-            detail="Rate limit exceeded. You've made 10 requests this hour. Please try again later.",
+            detail=f"Rate limit exceeded. You've made {RATE_LIMIT} requests this hour. Please try again later.",
         )
     _request_log[client_ip].append(now)
 
@@ -60,11 +71,8 @@ class CompareRequest(BaseModel):
 
 
 @app.post("/api/compare-summary")
-def compare_summary(req: CompareRequest):
-    # Rate limit based on client IP (passed by Railway/proxy)
-    client_ip = ""
-    # In production, Railway sets X-Forwarded-For
-    client_ip = req.__dict__  # placeholder, real IP comes from request
+def compare_summary(req: CompareRequest, request: Request):
+    _check_rate_limit(_client_ip(request))
     names = [t.get("name", "Unknown") for t in req.traditions]
 
     # Build a rich prompt with all tradition data
@@ -103,12 +111,7 @@ Be specific, use the actual data provided, and avoid generic statements. Write i
 
 @app.post("/api/interpret-dream")
 async def interpret_dream(request: Request):
-    # Rate limit
-    client_ip = request.client.host if request.client else "unknown"
-    forwarded = request.headers.get("X-Forwarded-For", "")
-    if forwarded:
-        client_ip = forwarded.split(",")[0].strip()
-    _check_rate_limit(client_ip)
+    _check_rate_limit(_client_ip(request))
 
     body = await request.json()
     dream_text = body.get("dream_text", "")

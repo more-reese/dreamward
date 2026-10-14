@@ -396,6 +396,24 @@ function escapeHtml(str) {
 window.escHtml = escapeHtml;
 window.escapeHtml = escapeHtml;
 
+// Copy shown when either AI endpoint returns 429 (shared 10/hour budget).
+const AI_RATE_LIMIT_FALLBACK = "You've reached the limit of 10 AI requests this hour. Please try again later.";
+
+async function aiLimitMessage(response) {
+  if (!response || response.status !== 429) return '';
+  try {
+    const body = await response.json();
+    if (body && typeof body.detail === 'string' && body.detail.trim()) {
+      return body.detail.trim();
+    }
+  } catch (err) {
+    // Non-JSON 429 still deserves a plain-language message.
+  }
+  return AI_RATE_LIMIT_FALLBACK;
+}
+
+window.aiLimitMessage = aiLimitMessage;
+
 function truncate(str, n) {
   if (!str) return '';
   return str.length > n ? str.slice(0, n) + '…' : str;

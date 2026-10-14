@@ -346,6 +346,11 @@ async function generateInterpretation(traditionId) {
             signal: AbortSignal.timeout(45000)
         });
 
+        if (response.status === 429) {
+            const error = new Error(await window.aiLimitMessage(response));
+            error.rateLimited = true;
+            throw error;
+        }
         if (!response.ok) throw new Error('Server responded ' + response.status);
         const data = await response.json();
         const tradResources = getTopResourcesForTradition(trad, 3);
@@ -363,7 +368,9 @@ async function generateInterpretation(traditionId) {
         const isTimeout = err.name === 'TimeoutError' || err.name === 'AbortError';
         AppState.interpretResults[traditionId] = {
             loading: false,
-            error: isTimeout
+            error: err.rateLimited
+                ? err.message
+                : isTimeout
                 ? 'The interpretation is taking longer than expected. Please try again.'
                 : 'Unable to generate interpretation. ' + (err.message || ''),
             narrative: null, symbols: null, themes: null, questions: null, resources: null
