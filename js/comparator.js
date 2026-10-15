@@ -182,6 +182,11 @@ async function generateAiSummary() {
       signal: AbortSignal.timeout(30000),
     });
 
+    if (response.status === 429) {
+      const error = new Error(await window.aiLimitMessage(response));
+      error.rateLimited = true;
+      throw error;
+    }
     if (!response.ok) throw new Error(`Server responded ${response.status}`);
 
     const data = await response.json();
@@ -208,9 +213,11 @@ async function generateAiSummary() {
     `;
   } catch (err) {
     const isTimeout = err.name === 'TimeoutError' || err.name === 'AbortError';
-    const errorMsg = isTimeout
+    const errorMsg = err.rateLimited
+      ? window.escHtml(err.message)
+      : isTimeout
       ? 'The analysis is taking longer than expected. The server may be under heavy load — please try again in a moment.'
-      : `Unable to generate summary. ${err.message || 'An unexpected error occurred.'}`;
+      : `Unable to generate summary. ${window.escHtml(err.message || 'An unexpected error occurred.')}`;
     panel.innerHTML = `
       <div class="compare-ai-result compare-ai-error">
         <p style="font-size:var(--text-sm);color:var(--color-text-faint);">

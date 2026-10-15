@@ -68,6 +68,8 @@ The API server runs on port 8000 and provides two endpoints:
 - `POST /api/interpret-dream` — interprets a dream through a specific tradition's lens
 - `POST /api/compare-summary` — generates a comparative analysis of 2–3 traditions
 
+Both endpoints share one limit of 10 requests per visitor IP per hour. The next request in that hour returns HTTP 429 and does not call the model.
+
 ## Technical
 
 - Vanilla HTML/CSS/JS — no build step required
